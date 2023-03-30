@@ -1,0 +1,29 @@
+body {
+    text-align: center;
+    background: rgb(94, 85, 179);
+    min-height: 95vh;
+    margin: 0;
+    padding: 0;
+    font-family: "Myriad pro", "Helvetica Neue", sans-serif;
+    font-size: 24px
+}
+
+.dropdown-menu {
+    margin-top: 20vh;
+    min-width: 15em;
+    position: relative;
+    display: inline-block;
+    margin-right: 1em;
+    min-height: 3em;
+    max-height: 3em;
+    overflow: hidden;
+    top: 0.5em;
+    text-align: left;
+    white-space: nowrap;
+    color: rgb(216, 4, 4);
+    outline: none;
+    background-color: rgb(0, 136, 255);
+    border: 0.06em solid transparent;
+    border-radius: 10px;
+    cursor: pointer;
+}
