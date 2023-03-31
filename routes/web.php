@@ -18,7 +18,7 @@ Route::get('/1', function () {
 });
 
 Route::get('/2', function () {
-    return view('Pilih Alternatif');
+    return view('Mencari Alternatif');
 });
 
 Route::get('/3', function () {
