@@ -9,7 +9,7 @@
 </head>
 <body>
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <a class="navbar-brand" href="#">Your Brand</a>
+        <img src="/image/logo.png" alt="" width="100px" height="50px">
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -19,7 +19,7 @@
               <a class="nav-link" href="#">Dashboard</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Pilihan Alternatif</a>
+              <a class="nav-link" href="#">Mencari Alternatif</a>
             </li>
           </ul>
         </div>

@@ -9,7 +9,7 @@
 </head>
 <body>
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <a class="navbar-brand" href="#">Your Brand</a>
+        <img src="/image/logo.png" alt="" width="100px" height="50px">
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -19,15 +19,17 @@
               <a class="nav-link" href="#">Dashboard</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Pilihan Alternatif</a>
+              <a class="nav-link" href="#">Mencari Alternatif</a>
             </li>
           </ul>
         </div>
       </nav>
 <div>
     <div style="text-align: center">
-        <h1 style="font-size: 80px; margin: 20px">SMART KOS</h1>
-        <H4 style="font-size: 30px">SISTEM PENDUKUNG KEPUTUSAN <br> PEMILIHAN KOS AREA INSTITUT TEKNOLOGI KALIMANTAN <br> DENGAN MENGGUNAKAN METODE SMART </H4>
+        <div class="my-5 fit-content">>
+            <img src="/image/logo.png" width="700px" height="300px">
+        </div>
+            <H4 style="font-size: 30px">SISTEM PENDUKUNG KEPUTUSAN <br> PEMILIHAN KOS AREA INSTITUT TEKNOLOGI KALIMANTAN <br> DENGAN MENGGUNAKAN METODE SMART </H4>
     </div>
 </div>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js" integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N" crossorigin="anonymous"></script>
