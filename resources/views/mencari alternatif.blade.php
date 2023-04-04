@@ -82,6 +82,18 @@
         <option value="8">Kloset Duduk, Kering, Bersih, Ventilasi, Blower</option>
     </select>
 
+    <select class="form-select mb-3" aria-label="Default select example">
+        <option selected style="font-style: italic">Keamanan</option>
+        <option value="1">Tanpa Keamanan</option>
+        <option value="2">Penjaga Kos</option>
+        <option value="3">Pagar</option>
+        <option value="4">Pagar, Penjaga Kos</option>
+        <option value="5">Penjaga Kos, CCTV Parkiran/Luar</option>
+        <option value="6">Penjaga Kos, CCTV Parkiran/Luar, CCTV ruangan Umum</option>
+        <option value="7">Pagar, Penjaga Kos, CCTV Parkiran/Luar</option>
+        <option value="8">Pagar, Penjaga Kos, CCTV Parkiran/Luar, CCTV Ruangan umum</option>
+    </select>
+
     <div class="justify-content-end d-flex">
         <input type="submit" class="btn btn-dark" value="Simpan">
     </div>
