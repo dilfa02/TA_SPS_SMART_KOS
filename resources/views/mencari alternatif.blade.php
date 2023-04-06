@@ -28,9 +28,74 @@
     </div>
 </nav>
 
-<div style="margin: 15px" class="mb-5">
-    <h3>Rincian Kriteria.</h3>
-    <p>Pilihlah rincian kriteria - kriteria yang anda inginkan di bawah ini:</p>
+<div style="margin: 15px">
+    <h4 style="font-style: bold">Memilih Kriteria.</h4>
+    <p>Pilihlah 3 kriteria di bawah ini yang anda butuhkan ketika ingin mencari kos:</p>
+</div>
+
+<div class="px-5 mb-5">
+<div class="input-group mb-3">
+    <label class="input-group-text" for="inputGroupSelect01">Pilihan 1</label>
+    <select class="form-select" id="inputGroupSelect01">
+        <option selected>Choose...</option>
+        <option value="1">Kondisi Kamar</option>
+        <option value="2">Harga</option>
+        <option value="3">Fasilitas Kamar</option>
+        <option value="4">Kondisi Kamar Mandi</option>
+        <option value="5">Keamanan</option>
+        <option value="6">Jarak</option>
+        <option value="7">Lingkungan</option>
+        <option value="8">Fasilitas Umum</option>
+        <option value="9">Luas Kamar</option>
+        <option value="10">Parkiran</option>
+    </select>
+</div>
+
+<div class="input-group mb-3">
+    <label class="input-group-text" for="inputGroupSelect01">Pilihan 2</label>
+    <select class="form-select" id="inputGroupSelect01">
+        <option selected>Choose...</option>
+        <option value="1">Kondisi Kamar</option>
+        <option value="2">Harga</option>
+        <option value="3">Fasilitas Kamar</option>
+        <option value="4">Kondisi Kamar Mandi</option>
+        <option value="5">Keamanan</option>
+        <option value="6">Jarak</option>
+        <option value="7">Lingkungan</option>
+        <option value="8">Fasilitas Umum</option>
+        <option value="9">Luas Kamar</option>
+        <option value="10">Parkiran</option>
+    </select>
+</div>
+
+<div class="input-group mb-3">
+    <label class="input-group-text" for="inputGroupSelect01">Pilihan 3</label>
+    <select class="form-select" id="inputGroupSelect01">
+        <option selected>Choose...</option>
+        <option value="1">Kondisi Kamar</option>
+        <option value="2">Harga</option>
+        <option value="3">Fasilitas Kamar</option>
+        <option value="4">Kondisi Kamar Mandi</option>
+        <option value="5">Keamanan</option>
+        <option value="6">Jarak</option>
+        <option value="7">Lingkungan</option>
+        <option value="8">Fasilitas Umum</option>
+        <option value="9">Luas Kamar</option>
+        <option value="10">Parkiran</option>
+    </select>
+</div>
+
+<div class="justify-content-end d-flex">
+    <input type="submit" class="btn btn-dark" value="Simpan">
+</div>
+</div>
+
+
+
+
+<div style="margin: 15px">
+    <h4 style="font-style: bold">Rincian Kriteria.</h4>
+    <p>Pilihlah rincian kriteria - kriteria di bawah ini yang anda inginkan:</p>
 </div>
 
 <form action="{{route('simpan')}}">
@@ -97,10 +162,15 @@
     </select>
 
     <div class="justify-content-end d-flex">
-        <input type="submit" class="btn btn-dark" value="Simpan">
+        <input type="submit" class="btn btn-dark" value="Proses">
     </div>
     </div>
 </form>
+
+<div class="ms-3">
+    <h6>Note:</h6>
+    <p>Hasil rekomendasi kos yang akan tampil berdasarkan rincian kriteria yang anda pilih</p>
+</div>
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js" integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N" crossorigin="anonymous"></script>
 </body>
