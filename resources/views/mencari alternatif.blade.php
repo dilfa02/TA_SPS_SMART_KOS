@@ -10,28 +10,30 @@
 
 <body>
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-  <img src="/image/logo.png" alt="" width="100px" height="50px">
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-  <div class="collapse navbar-collapse" id="navbarNav">
+    <a href="{{route('dashboard')}}">
+        <img src="/image/logo.png" alt="" width="100px" height="50px">
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
     <ul class="navbar-nav ml-auto">
-      <li class="nav-item active">
-        <a class="nav-link" href="#">Dashboard</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Mencari Alternatif</a>
-      </li>
+        <li class="nav-item active">
+            <a class="nav-link" href="{{route('dashboard')}}">Dashboard</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="{{route('alternatif')}}">Mencari Alternatif</a>
+        </li>
     </ul>
-  </div>
+    </div>
 </nav>
 
-<div style="margin: 15px">
+<div style="margin: 15px" class="mb-5">
     <h3>Rincian Kriteria.</h3>
     <p>Pilihlah rincian kriteria - kriteria yang anda inginkan di bawah ini:</p>
 </div>
 
-<form action="">
+<form action="{{route('simpan')}}">
     @csrf
     <div class="px-5">
     <select class="form-select mb-3" aria-label="Default select example">

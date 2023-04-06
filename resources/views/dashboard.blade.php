@@ -9,24 +9,26 @@
 </head>
 <body>
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <img src="/image/logo.png" alt="" width="100px" height="50px">
+        <a href="{{route('dashboard')}}">
+            <img src="/image/logo.png" alt="" width="100px" height="50px">
+        </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item active">
-              <a class="nav-link" href="#">Dashboard</a>
+              <a class="nav-link" href="{{route('dashboard')}}">Dashboard</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Mencari Alternatif</a>
+              <a class="nav-link" href="{{route('alternatif')}}">Mencari Alternatif</a>
             </li>
           </ul>
         </div>
       </nav>
 <div>
     <div style="text-align: center">
-        <div class="my-5 fit-content">>
+        <div class="my-5 fit-content">
             <img src="/image/logo.png" width="700px" height="300px">
         </div>
             <H4 style="font-size: 30px">SISTEM PENDUKUNG KEPUTUSAN <br> PEMILIHAN KOS AREA INSTITUT TEKNOLOGI KALIMANTAN <br> DENGAN MENGGUNAKAN METODE SMART </H4>
