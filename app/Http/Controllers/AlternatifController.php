@@ -22,14 +22,21 @@ class AlternatifController extends Controller
 
     public function hasil(Request $request)
     {
+        $kondisikamar = $request->kondisikamar;
+        $harga = $request->harga;
+        $fasilitaskamar = $request->fasilitaskamar;
+        $kondisikamarmandi = $request->kondisikamarmandi;
         $keamanan = $request->keamanan;
+        $jarak = $request->jarak;
         $lingkungan = $request->lingkungan;
-        $kebersihan = $request->kebersihan;
+        $fasilitasumum = $request->fasilitasumum;
+        $luaskamar = $request->luaskamar;
+        $parkiran = $request->parkiran;
 
         // Tulis rumus SPK-nya disini baru kirim hasilnya ke view hasil.blade.php melalui compact
         // Misalnya rumusnya tuh :
-        dd($keamanan, $lingkungan, $kebersihan);
-        $hasil = $keamanan + $lingkungan + $kebersihan;
+        dd($kondisikamar, $harga, $fasilitaskamar, $kondisikamarmandi, $keamanan, $jarak, $lingkungan, $fasilitasumum, $luaskamar, $parkiran);
+        $hasil = $kondisikamar + $harga + $fasilitaskamar + $kondisikamarmandi + $keamanan + $jarak + $lingkungan + $fasilitasumum + $luaskamar + $parkiran;
 
         return view('hasil', compact('hasil'));
     }
