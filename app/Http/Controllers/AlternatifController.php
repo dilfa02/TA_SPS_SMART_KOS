@@ -35,6 +35,7 @@ class AlternatifController extends Controller
 
         // Tulis rumus SPK-nya disini baru kirim hasilnya ke view hasil.blade.php melalui compact
         // Misalnya rumusnya tuh :
+        
         dd($kondisikamar, $harga, $fasilitaskamar, $kondisikamarmandi, $keamanan, $jarak, $lingkungan, $fasilitasumum, $luaskamar, $parkiran);
         $hasil = $kondisikamar + $harga + $fasilitaskamar + $kondisikamarmandi + $keamanan + $jarak + $lingkungan + $fasilitasumum + $luaskamar + $parkiran;
 
