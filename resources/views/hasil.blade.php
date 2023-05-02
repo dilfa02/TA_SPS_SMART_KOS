@@ -37,39 +37,39 @@
                     Filter
                 </button>
                 <ul class="dropdown-menu">
-                    <li><a class="dropdown-item" href="#">Laki-Laki</a></li>
-                    <li><a class="dropdown-item" href="#">Perempuan</a></li>
+                    <form action="{{ route('filter') }}" method="POST">
+                        @csrf
+                        <input type="hidden" name="koss" value="{{$koss}}">
+                        <li><button type='submit' class="dropdown-item" href="">Laki-Laki</button></li>
+                    </form>
+                        <li><a class="dropdown-item" href="#">Perempuan</a></li>
                 </ul>
             </div>
         </div>
 
         <div class="mb-5">
-            <table class="table text-center">
-            <thead>
-                <tr>
-                    <th scope="col">Rank</th>
-                    <th scope="col">Alternatif</th>
-                    <th scope="col">Score</th>
-                </tr>
-            </thead>
-            <tbody class="table-group-divider">
-                <tr>
-                    <th scope="row">1</th>
-                    <td>Kos 1</td>
-                    <td>0,1122</td>
-                </tr>
-                <tr>
-                    <th scope="row">2</th>
-                    <td>Kos 2</td>
-                    <td>0,2333</td>
-                </tr>
-                <tr>
-                    <th scope="row">3</th>
-                    <td>Kos 3</td>
-                    <td>0,2443</td>
-                </tr>
-            </tbody>
-            </table>
+            @if(count($koss))
+                <table class="table text-center">
+                <thead>
+                    <tr>
+                        <th scope="col">Rank</th>
+                        <th scope="col">Alternatif</th>
+                        <th scope="col">Score</th>
+                    </tr>
+                </thead>
+                <tbody class="table-group-divider">
+                    @foreach ($koss as $kos)
+                    <tr>
+                        <th scope="row">{{$loop->iteration}}</th>
+                        <td>{{$kos->alternatif}}</td>
+                        <td>{{$kos->hasil}}</td>
+                    </tr>
+                    @endforeach
+                </tbody>
+                </table>
+            @else
+                <h4 style="text-align: center">Data Yang Anda Cari Belum Ada, Silahkan Pilih Rincian Kriteria Yang lain</h4>
+            @endif
         </div>
     </div>
 

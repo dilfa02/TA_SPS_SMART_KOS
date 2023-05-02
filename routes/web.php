@@ -28,6 +28,8 @@ Route::get('/2', [AlternatifController::class, 'tampil'])->name('alternatif');
 
 Route::post('/hasil', [AlternatifController::class, 'hasil'])->name('hasil');
 
+Route::post('/filter', [AlternatifController::class, 'filter'])->name('filter');
+
 
 
 
