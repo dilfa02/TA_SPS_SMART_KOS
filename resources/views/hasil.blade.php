@@ -37,12 +37,29 @@
                     Filter
                 </button>
                 <ul class="dropdown-menu">
-                    <form action="{{ route('filter') }}" method="POST">
+                    <form action="{{ route('filter', 's') }}" method="POST">
                         @csrf
-                        <input type="hidden" name="koss" value="{{$koss}}">
+                        @foreach ($ids as $id)
+                        <input type="hidden" name="ids[]" value="{{$id}}">
+                        @endforeach
+                        <li><button type='submit' class="dropdown-item" href="">Semua</button></li>
+                    </form>
+
+                    <form action="{{ route('filter', 'l') }}" method="POST">
+                        @csrf
+                        @foreach ($ids as $id)
+                        <input type="hidden" name="ids[]" value="{{$id}}">
+                        @endforeach
                         <li><button type='submit' class="dropdown-item" href="">Laki-Laki</button></li>
                     </form>
-                        <li><a class="dropdown-item" href="#">Perempuan</a></li>
+
+                    <form action="{{ route('filter', 'p') }}" method="POST">
+                        @csrf
+                        @foreach ($ids as $id)
+                        <input type="hidden" name="ids[]" value="{{$id}}">
+                        @endforeach
+                        <li><button type='submit' class="dropdown-item" href="">Perempuan</button></li>
+                    </form>
                 </ul>
             </div>
         </div>
@@ -68,7 +85,7 @@
                 </tbody>
                 </table>
             @else
-                <h4 style="text-align: center">Data Yang Anda Cari Belum Ada, Silahkan Pilih Rincian Kriteria Yang lain</h4>
+                <h4 class="text-center py-5">Data Yang Anda Cari Belum Ada, Silahkan Pilih Rincian Kriteria Yang lain</h4>
             @endif
         </div>
     </div>
