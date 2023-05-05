@@ -34,7 +34,7 @@
         </div>
     </nav>
 
-    <h3 class="text-start pt-4">Kos Laki - Laki</h3>
+    <h3 class="text-start pt-4 px-3">Kos Laki - Laki</h3>
 
     <div class="accordion" id="accordionPanelsStayOpenExample">
         <div class="accordion-item">
@@ -45,7 +45,7 @@
                     Jawas
                 </button>
             </h2>
-            <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse">
+            <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show">
                 <div class="accordion-body">
                     <strong>Kondisi Kamar:</strong> Kering, Ventilasi, Jendela, Paparan Sinar Matahari<br>
                     <strong>Harga:</strong> Rp 1.200.000<br>
@@ -56,7 +56,7 @@
                     <strong>Lingkungan:</strong> Sunyi, Dekat Pertokoan, Dekat Warung Makan<br>
                     <strong>Fasilitas Umum:</strong> Dapur, Peralatan Dapur, Listrik, Air, Kulkas, Jemuran, WC Umum, Wifi, Ruang Tamu<br>
                     <strong>Luas Kamar:</strong> 12 M^2<br>
-                    <strong>Parkiran:</strong> 7-10 Motor & 1 Mobil
+                    <strong>Parkiran:</strong> 7 - 10 Motor & 1 Mobil
                 </div>
             </div>
         </div>
@@ -493,7 +493,7 @@
             </div>
         </div>
 
-        <h3 class="text-start pt-5">Kos Perempuan</h3>
+        <h3 class="text-start pt-5 px-3">Kos Perempuan</h3>
 
         <div class="accordion-item">
             <h2 class="accordion-header">
@@ -731,6 +731,534 @@
                     <strong>Fasilitas Umum:</strong> Dapur, Peralatan Dapur, Listrik, Air, Kulkas, Jemuran, Wifi, Ruang Tamu<br>
                     <strong>Luas Kamar:</strong> 15 M^2<br>
                     <strong>Parkiran:</strong> 4 - 7 Motor
+                </div>
+            </div>
+        </div>
+
+        <div class="accordion-item">
+            <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#panelsStayOpen-collapseThirty" aria-expanded="false"
+                    aria-controls="panelsStayOpen-collapseThirty">
+                    D'carjoe A2
+                </button>
+            </h2>
+            <div id="panelsStayOpen-collapseThirty" class="accordion-collapse collapse">
+                <div class="accordion-body">
+                    <strong>Kondisi Kamar:</strong>Kering, Jendela, Paparan Sinar Matahari<br>
+                    <strong>Harga:</strong> Rp 1.200.000<br>
+                    <strong>Fasilitas Kamar:</strong> Kasur, Lemari, Meja, Kursi, Kipas Angin<br>
+                    <strong>Kondisi Kamar Mandi:</strong> Kloset Duduk, Kering, Bersih, Blower<br>
+                    <strong>Keamanan:</strong> Penjaga Kos<br>
+                    <strong>Jarak:</strong> 2,1 KM<br>
+                    <strong>Lingkungan:</strong> Ramai, Dekat Pertokoan, Dekat Warung Makan, Dekat SPBU, Dekat Supermarket<br>
+                    <strong>Fasilitas Umum:</strong> Dapur, Peralatan Dapur, Listrik, Air, Kulkas, Jemuran, WC Umum, Wifi, Ruang Tamu<br>
+                    <strong>Luas Kamar:</strong> 9 M^2<br>
+                    <strong>Parkiran:</strong> 4 - 7 Motor
+                </div>
+            </div>
+        </div>
+
+        <div class="accordion-item">
+            <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#panelsStayOpen-collapseThirtyOne" aria-expanded="false"
+                    aria-controls="panelsStayOpen-collapseThirtyOne">
+                    Raflesia (Type 1)
+                </button>
+            </h2>
+            <div id="panelsStayOpen-collapseThirtyOne" class="accordion-collapse collapse">
+                <div class="accordion-body">
+                    <strong>Kondisi Kamar:</strong>Kering, Jendela<br>
+                    <strong>Harga:</strong> Rp 900.000<br>
+                    <strong>Fasilitas Kamar:</strong> Kasur, Lemari, Meja, Kursi, AC<br>
+                    <strong>Kondisi Kamar Mandi:</strong> Kloset Jongkok, Kering, Bersih, Ventilasi<br>
+                    <strong>Keamanan:</strong> Pagar, Penjaga Kos, CCTV Parkiran/Luar, CCTV Ruangan Umum<br>
+                    <strong>Jarak:</strong> 1,9 KM<br>
+                    <strong>Lingkungan:</strong> Sunyi, Dekat Pertokoan, Dekat Warung Makan<br>
+                    <strong>Fasilitas Umum:</strong> Dapur, Peralatan Dapur, Listrik, Air, Kulkas, Jemuran, WC Umum, Wifi, Ruang Tamu<br>
+                    <strong>Luas Kamar:</strong> 9 M^2<br>
+                    <strong>Parkiran:</strong> > 10 Motor & > 1 Mobil
+                </div>
+            </div>
+        </div>
+
+        <div class="accordion-item">
+            <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#panelsStayOpen-collapseThirtyTwo" aria-expanded="false"
+                    aria-controls="panelsStayOpen-collapseThirtyTwo">
+                    Raflesia (Type 2)
+                </button>
+            </h2>
+            <div id="panelsStayOpen-collapseThirtyTwo" class="accordion-collapse collapse">
+                <div class="accordion-body">
+                    <strong>Kondisi Kamar:</strong>Kering, Ventilasi, Jendela<br>
+                    <strong>Harga:</strong> Rp 800.000<br>
+                    <strong>Fasilitas Kamar:</strong> Kasur, Lemari, Meja, Kursi, Kipas Angin<br>
+                    <strong>Kondisi Kamar Mandi:</strong> Kloset Jongkok, Kering, Bersih, Ventilasi<br>
+                    <strong>Keamanan:</strong> Pagar, Penjaga Kos, CCTV Parkiran/Luar, CCTV Ruangan Umum<br>
+                    <strong>Jarak:</strong> 1,9 KM<br>
+                    <strong>Lingkungan:</strong> Sunyi, Dekat Pertokoan, Dekat Warung Makan<br>
+                    <strong>Fasilitas Umum:</strong> Dapur, Peralatan Dapur, Listrik, Air, Kulkas, Jemuran, WC Umum, Wifi, Ruang Tamu<br>
+                    <strong>Luas Kamar:</strong> 9 M^2<br>
+                    <strong>Parkiran:</strong> > 10 Motor & > 1 Mobil
+                </div>
+            </div>
+        </div>
+
+        <div class="accordion-item">
+            <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#panelsStayOpen-collapseThirtyThree" aria-expanded="false"
+                    aria-controls="panelsStayOpen-collapseThirtyThree">
+                    Pink (Type 2)
+                </button>
+            </h2>
+            <div id="panelsStayOpen-collapseThirtyThree" class="accordion-collapse collapse">
+                <div class="accordion-body">
+                    <strong>Kondisi Kamar:</strong>Kering, Ventilasi, Jendela<br>
+                    <strong>Harga:</strong> Rp 900.000<br>
+                    <strong>Fasilitas Kamar:</strong> WC Dalam, Kasur, Lemari, Meja, Kursi, Kipas Angin<br>
+                    <strong>Kondisi Kamar Mandi:</strong> Kloset Jongkok, Kering, Bersih, Ventilasi<br>
+                    <strong>Keamanan:</strong> Pagar, Penjaga Kos, CCTV Parkiran/Luar<br>
+                    <strong>Jarak:</strong> 1,7 KM<br>
+                    <strong>Lingkungan:</strong> Sunyi, Dekat Pertokoan, Dekat Warung Makan<br>
+                    <strong>Fasilitas Umum:</strong> Dapur, Peralatan Dapur, Listrik, Air, Kulkas, Jemuran, WC Umum, Wifi<br>
+                    <strong>Luas Kamar:</strong> 9 M^2<br>
+                    <strong>Parkiran:</strong> 4 - 7 Motor
+                </div>
+            </div>
+        </div>
+
+        <div class="accordion-item">
+            <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#panelsStayOpen-collapseThirtyFour" aria-expanded="false"
+                    aria-controls="panelsStayOpen-collapseThirtyFour">
+                    Pink (Type 1)
+                </button>
+            </h2>
+            <div id="panelsStayOpen-collapseThirtyFour" class="accordion-collapse collapse">
+                <div class="accordion-body">
+                    <strong>Kondisi Kamar:</strong>Kering, Jendela, Blower<br>
+                    <strong>Harga:</strong> Rp 1.000.000<br>
+                    <strong>Fasilitas Kamar:</strong> WC Dalam, Kasur, Lemari, Meja, Kursi, AC<br>
+                    <strong>Kondisi Kamar Mandi:</strong> Kloset Jongkok, Kering, Bersih, Ventilasi<br>
+                    <strong>Keamanan:</strong> Pagar, Penjaga Kos, CCTV Parkiran/Luar<br>
+                    <strong>Jarak:</strong> 1,7 KM<br>
+                    <strong>Lingkungan:</strong> Sunyi, Dekat Pertokoan, Dekat Warung Makan<br>
+                    <strong>Fasilitas Umum:</strong> Dapur, Peralatan Dapur, Listrik, Air, Kulkas, Jemuran, WC Umum, Wifi<br>
+                    <strong>Luas Kamar:</strong> 9 M^2<br>
+                    <strong>Parkiran:</strong> 4 - 7 Motor
+                </div>
+            </div>
+        </div>
+
+        <div class="accordion-item">
+            <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#panelsStayOpen-collapseThirtyFive" aria-expanded="false"
+                    aria-controls="panelsStayOpen-collapseThirtyFive">
+                    Audy
+                </button>
+            </h2>
+            <div id="panelsStayOpen-collapseThirtyFive" class="accordion-collapse collapse">
+                <div class="accordion-body">
+                    <strong>Kondisi Kamar:</strong>Kering, Ventilasi, Jendela, Paparan Sinar Matahari<br>
+                    <strong>Harga:</strong> Rp 1.025.000<br>
+                    <strong>Fasilitas Kamar:</strong> WC Dalam, Kasur, Lemari, Meja<br>
+                    <strong>Kondisi Kamar Mandi:</strong> Kloset Duduk, Kering, Bersih, Ventilasi<br>
+                    <strong>Keamanan:</strong> Pagar, Penjaga Kos<br>
+                    <strong>Jarak:</strong> 1,4 KM<br>
+                    <strong>Lingkungan:</strong> Ramai, Dekat Pertokoan, Dekat Warung Makan<br>
+                    <strong>Fasilitas Umum:</strong> Dapur, Peralatan Dapur, Listrik, Air, Kulkas, Jemuran, Wifi, Ruang Tamu<br>
+                    <strong>Luas Kamar:</strong> 6,9 M^2<br>
+                    <strong>Parkiran:</strong> > 10 Motor
+                </div>
+            </div>
+        </div>
+
+        <div class="accordion-item">
+            <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#panelsStayOpen-collapseThirtySix" aria-expanded="false"
+                    aria-controls="panelsStayOpen-collapseThirtySix">
+                    D'carjoe B1
+                </button>
+            </h2>
+            <div id="panelsStayOpen-collapseThirtySix" class="accordion-collapse collapse">
+                <div class="accordion-body">
+                    <strong>Kondisi Kamar:</strong>Kering, Jendela, Paparan Sinar Matahari<br>
+                    <strong>Harga:</strong> Rp 700.000<br>
+                    <strong>Fasilitas Kamar:</strong> Kasur, Lemari, Meja, Kipas Angin<br>
+                    <strong>Kondisi Kamar Mandi:</strong> Kloset Duduk, Kering, Bersih, Blower<br>
+                    <strong>Keamanan:</strong> Penjaga Kos<br>
+                    <strong>Jarak:</strong> 2,1 KM<br>
+                    <strong>Lingkungan:</strong> Ramai, Dekat Pertokoan, Dekat Warung Makan, Dekat SPBU, Dekat Supermarket<br>
+                    <strong>Fasilitas Umum:</strong> Dapur, Peralatan Dapur, Listrik, Air, Kulkas, Jemuran, WC Umum, Wifi, Ruang Tamu<br>
+                    <strong>Luas Kamar:</strong> 9 M^2<br>
+                    <strong>Parkiran:</strong> 4 - 7 Motor
+                </div>
+            </div>
+        </div>
+
+        <div class="accordion-item">
+            <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#panelsStayOpen-collapseThirtySeven" aria-expanded="false"
+                    aria-controls="panelsStayOpen-collapseThirtySeven">
+                    Hira
+                </button>
+            </h2>
+            <div id="panelsStayOpen-collapseThirtySeven" class="accordion-collapse collapse">
+                <div class="accordion-body">
+                    <strong>Kondisi Kamar:</strong>Kering, Ventilasi, Jendela, Paparan Sinar Matahari<br>
+                    <strong>Harga:</strong> Rp 800.000<br>
+                    <strong>Fasilitas Kamar:</strong> Kasur, Lemari, Meja<br>
+                    <strong>Kondisi Kamar Mandi:</strong> Kloset Jongkok, Kering, Bersih, Ventilasi<br>
+                    <strong>Keamanan:</strong> Pagar, Penjaga Kos, CCTV Parkiran/Luar<br>
+                    <strong>Jarak:</strong> 1,6 KM<br>
+                    <strong>Lingkungan:</strong> Sunyi, Dekat Pertokoan, Dekat Warung Makan<br>
+                    <strong>Fasilitas Umum:</strong> Dapur, Peralatan Dapur, Listrik, Air, Kulkas, Jemuran, WC Umum, Wifi, Ruang Tamu<br>
+                    <strong>Luas Kamar:</strong> 9 M^2<br>
+                    <strong>Parkiran:</strong> > 10 Motor
+                </div>
+            </div>
+        </div>
+
+        <div class="accordion-item">
+            <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#panelsStayOpen-collapseThirtyEight" aria-expanded="false"
+                    aria-controls="panelsStayOpen-collapseThirtyEight">
+                    Putri ITK
+                </button>
+            </h2>
+            <div id="panelsStayOpen-collapseThirtyEight" class="accordion-collapse collapse">
+                <div class="accordion-body">
+                    <strong>Kondisi Kamar:</strong>Kering, Ventilasi, Jendela, Paparan Sinar Matahari<br>
+                    <strong>Harga:</strong> Rp 800.000<br>
+                    <strong>Fasilitas Kamar:</strong> Kasur, Lemari, Meja, Kipas Angin<br>
+                    <strong>Kondisi Kamar Mandi:</strong> Kloset Jongkok, Kering, Bersih, Ventilasi<br>
+                    <strong>Keamanan:</strong> Tanpa Keamanan<br>
+                    <strong>Jarak:</strong> 2,7 KM<br>
+                    <strong>Lingkungan:</strong> Sunyi, Dekat Pertokoan, Dekat Warung Makan, Dekat SPBU, Dekat Supermarket<br>
+                    <strong>Fasilitas Umum:</strong> Dapur, Peralatan Dapur, Listrik, Air, Kulkas, Jemuran, WC Umum, Wifi, Ruang Tamu<br>
+                    <strong>Luas Kamar:</strong> 9 M^2<br>
+                    <strong>Parkiran:</strong> 4 - 7 Motor
+                </div>
+            </div>
+        </div>
+
+        <div class="accordion-item">
+            <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#panelsStayOpen-collapseThirtyNine" aria-expanded="false"
+                    aria-controls="panelsStayOpen-collapseThirtyNine">
+                    Gue
+                </button>
+            </h2>
+            <div id="panelsStayOpen-collapseThirtyNine" class="accordion-collapse collapse">
+                <div class="accordion-body">
+                    <strong>Kondisi Kamar:</strong>Kering, Ventilasi, Jendela, Paparan Sinar Matahari<br>
+                    <strong>Harga:</strong> Rp 900.000<br>
+                    <strong>Fasilitas Kamar:</strong> Kasur, Lemari, Meja, Kipas Angin<br>
+                    <strong>Kondisi Kamar Mandi:</strong> Kloset Duduk, Kering, Bersih, Ventilasi<br>
+                    <strong>Keamanan:</strong> Pagar<br>
+                    <strong>Jarak:</strong> 1,4 KM<br>
+                    <strong>Lingkungan:</strong> Ramai, Dekat Pertokoan, Dekat Warung Makan<br>
+                    <strong>Fasilitas Umum:</strong> Dapur, Peralatan Dapur, Listrik, Air, Jemuran, Wifi, Ruang Tamu<br>
+                    <strong>Luas Kamar:</strong> 10,5 M^2<br>
+                    <strong>Parkiran:</strong> 4 - 7 Motor
+                </div>
+            </div>
+        </div>
+
+        <div class="accordion-item">
+            <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#panelsStayOpen-collapseForty" aria-expanded="false"
+                    aria-controls="panelsStayOpen-collapseForty">
+                    Threefa
+                </button>
+            </h2>
+            <div id="panelsStayOpen-collapseForty" class="accordion-collapse collapse">
+                <div class="accordion-body">
+                    <strong>Kondisi Kamar:</strong>Kering, Ventilasi, Jendela, Paparan Sinar Matahari<br>
+                    <strong>Harga:</strong> Rp 750.000<br>
+                    <strong>Fasilitas Kamar:</strong> Kasur, Lemari, Meja, Kipas Angin<br>
+                    <strong>Kondisi Kamar Mandi:</strong> Kloset Jongkok, Kering, Bersih<br>
+                    <strong>Keamanan:</strong> Pagar, Penjaga Kos<br>
+                    <strong>Jarak:</strong> 1,7 KM<br>
+                    <strong>Lingkungan:</strong> Sunyi, Dekat Pertokoan, Dekat Warung Makan<br>
+                    <strong>Fasilitas Umum:</strong> Dapur, Peralatan Dapur, Listrik, Air, Kulkas, Jemuran, WC Umum, Wifi, Ruang Tamu<br>
+                    <strong>Luas Kamar:</strong> 9 M^2<br>
+                    <strong>Parkiran:</strong> 7 - 10 Motor & 1 Mobil
+                </div>
+            </div>
+        </div>
+
+        <div class="accordion-item">
+            <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#panelsStayOpen-collapseFortyOne" aria-expanded="false"
+                    aria-controls="panelsStayOpen-collapseFortyOne">
+                    Hera
+                </button>
+            </h2>
+            <div id="panelsStayOpen-collapseFortyOne" class="accordion-collapse collapse">
+                <div class="accordion-body">
+                    <strong>Kondisi Kamar:</strong>Kering, Ventilasi, Jendela<br>
+                    <strong>Harga:</strong> Rp 850.000<br>
+                    <strong>Fasilitas Kamar:</strong> Kasur, Lemari, Meja, Kipas Angin<br>
+                    <strong>Kondisi Kamar Mandi:</strong> Kloset Jongkok, Kering, Bersih, Ventilasi<br>
+                    <strong>Keamanan:</strong> Penjaga Kos<br>
+                    <strong>Jarak:</strong> 3,1 KM<br>
+                    <strong>Lingkungan:</strong> Sunyi, Dekat Pertokoan, Dekat Warung Makan<br>
+                    <strong>Fasilitas Umum:</strong> Dapur, Peralatan Dapur, Listrik, Air, Kulkas, Jemuran, WC Umum, Wifi, Ruang Tamu<br>
+                    <strong>Luas Kamar:</strong> 8,1 M^2<br>
+                    <strong>Parkiran:</strong> 2 - 4 Motor
+                </div>
+            </div>
+        </div>
+
+        <div class="accordion-item">
+            <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#panelsStayOpen-collapseFortyTwo" aria-expanded="false"
+                    aria-controls="panelsStayOpen-collapseFortyTwo">
+                    Sidrap 1
+                </button>
+            </h2>
+            <div id="panelsStayOpen-collapseFortyTwo" class="accordion-collapse collapse">
+                <div class="accordion-body">
+                    <strong>Kondisi Kamar:</strong>Kering, Ventilasi, Jendela, Paparan Sinar Matahari<br>
+                    <strong>Harga:</strong> Rp 800.000<br>
+                    <strong>Fasilitas Kamar:</strong> Kasur, Lemari, Meja, Kipas Angin<br>
+                    <strong>Kondisi Kamar Mandi:</strong> Kloset Jongkok, Lembab, Bersih, Ventilasi<br>
+                    <strong>Keamanan:</strong> Pagar, Penjaga Kos, CCTV Parkiran/Luar, CCTV Ruangan Umum<br>
+                    <strong>Jarak:</strong> 1 KM<br>
+                    <strong>Lingkungan:</strong> Sunyi, Dekat Pertokoan, Dekat Warung Makan<br>
+                    <strong>Fasilitas Umum:</strong> Dapur, Peralatan Dapur, Listrik, Air, Kulkas, Jemuran, WC Umum, Wifi<br>
+                    <strong>Luas Kamar:</strong> 7,5 M^2<br>
+                    <strong>Parkiran:</strong> 7 - 10 Motor & 1 Mobil
+                </div>
+            </div>
+        </div>
+
+        <div class="accordion-item">
+            <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#panelsStayOpen-collapseFortyThree" aria-expanded="false"
+                    aria-controls="panelsStayOpen-collapseFortyThree">
+                    Dua Putra
+                </button>
+            </h2>
+            <div id="panelsStayOpen-collapseFortyThree" class="accordion-collapse collapse">
+                <div class="accordion-body">
+                    <strong>Kondisi Kamar:</strong>Kering, Ventilasi, Jendela<br>
+                    <strong>Harga:</strong> Rp 800.000<br>
+                    <strong>Fasilitas Kamar:</strong> Kasur, Lemari, Meja<br>
+                    <strong>Kondisi Kamar Mandi:</strong> Kloset Jongkok, Lembab, Bersih, Ventilasi<br>
+                    <strong>Keamanan:</strong> Pagar, Penjaga Kos, CCTV Parkiran/Luar<br>
+                    <strong>Jarak:</strong> 2,4 KM<br>
+                    <strong>Lingkungan:</strong> Ramai, Dekat Pertokoan, Dekat Warung Makan, Dekat SPBU, Dekat Supermarket<br>
+                    <strong>Fasilitas Umum:</strong> Dapur, Peralatan Dapur, Listrik, Air, Kulkas, Jemuran, WC Umum, Wifi, Ruang Tamu<br>
+                    <strong>Luas Kamar:</strong> 7,6 M^2<br>
+                    <strong>Parkiran:</strong> 7 - 10 Motor & 1 Mobil
+                </div>
+            </div>
+        </div>
+
+        <div class="accordion-item">
+            <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#panelsStayOpen-collapseFortyFour" aria-expanded="false"
+                    aria-controls="panelsStayOpen-collapseFortyFour">
+                    Anugrah
+                </button>
+            </h2>
+            <div id="panelsStayOpen-collapseFortyFour" class="accordion-collapse collapse">
+                <div class="accordion-body">
+                    <strong>Kondisi Kamar:</strong>Kering, Jendela, Paparan Sinar Matahari<br>
+                    <strong>Harga:</strong> Rp 850.000<br>
+                    <strong>Fasilitas Kamar:</strong> WC Dalam, Kasur, Lemari, Meja<br>
+                    <strong>Kondisi Kamar Mandi:</strong> Kloset Jongkok, Kering, Bersih, Ventilasi<br>
+                    <strong>Keamanan:</strong> Pagar<br>
+                    <strong>Jarak:</strong> 1,4 KM<br>
+                    <strong>Lingkungan:</strong> Ramai, Dekat Pertokoan, Dekat Warung Makan<br>
+                    <strong>Fasilitas Umum:</strong> Dapur, Peralatan Dapur, Listrik, Air, Kulkas, Jemuran, WC Umum, Wifi, Ruang Tamu<br>
+                    <strong>Luas Kamar:</strong> 7 M^2<br>
+                    <strong>Parkiran:</strong> 4 - 7 Motor
+                </div>
+            </div>
+        </div>
+
+        <div class="accordion-item">
+            <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#panelsStayOpen-collapseFortyFive" aria-expanded="false"
+                    aria-controls="panelsStayOpen-collapseFortyFive">
+                    Dea
+                </button>
+            </h2>
+            <div id="panelsStayOpen-collapseFortyFive" class="accordion-collapse collapse">
+                <div class="accordion-body">
+                    <strong>Kondisi Kamar:</strong>Kering, Ventilasi, Jendela, Paparan Sinar Matahari<br>
+                    <strong>Harga:</strong> Rp 950.000<br>
+                    <strong>Fasilitas Kamar:</strong> WC Dalam, Kasur, Lemari, Meja<br>
+                    <strong>Kondisi Kamar Mandi:</strong> Kloset Jongkok, Kering, Bersih, Ventilasi<br>
+                    <strong>Keamanan:</strong> Penjaga Kos, CCTV Parkiran/Luar<br>
+                    <strong>Jarak:</strong> 1,7 KM<br>
+                    <strong>Lingkungan:</strong> Sunyi, Dekat Pertokoan, Dekat Warung Makan<br>
+                    <strong>Fasilitas Umum:</strong> Dapur, Listrik, Air, Jemuran, Wifi<br>
+                    <strong>Luas Kamar:</strong> 12 M^2<br>
+                    <strong>Parkiran:</strong> 4 - 7 Motor
+                </div>
+            </div>
+        </div>
+
+        <div class="accordion-item">
+            <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#panelsStayOpen-collapseFortySix" aria-expanded="false"
+                    aria-controls="panelsStayOpen-collapseFortySix">
+                    Bugenvil
+                </button>
+            </h2>
+            <div id="panelsStayOpen-collapseFortySix" class="accordion-collapse collapse">
+                <div class="accordion-body">
+                    <strong>Kondisi Kamar:</strong>Lembab, Ventilasi, Jendela<br>
+                    <strong>Harga:</strong> Rp 900.000<br>
+                    <strong>Fasilitas Kamar:</strong> WC Dalam, Kasur, Lemari, Meja, Kursi, Kipas Angin<br>
+                    <strong>Kondisi Kamar Mandi:</strong> Kloset Jongkok, Lembab, Bersih, Ventilasi<br>
+                    <strong>Keamanan:</strong> Pagar, Penjaga Kos, CCTV Parkiran/Luar<br>
+                    <strong>Jarak:</strong> 1,6 KM<br>
+                    <strong>Lingkungan:</strong> Sunyi, Dekat Pertokoan, Dekat Warung Makan<br>
+                    <strong>Fasilitas Umum:</strong> Dapur, Peralatan Dapur, Listrik, Air, Kulkas, Jemuran, Wifi<br>
+                    <strong>Luas Kamar:</strong> 7,4 M^2<br>
+                    <strong>Parkiran:</strong> > 10 Motor
+                </div>
+            </div>
+        </div>
+
+        <div class="accordion-item">
+            <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#panelsStayOpen-collapseFortySeven" aria-expanded="false"
+                    aria-controls="panelsStayOpen-collapseFortySeven">
+                    Warbun
+                </button>
+            </h2>
+            <div id="panelsStayOpen-collapseFortySeven" class="accordion-collapse collapse">
+                <div class="accordion-body">
+                    <strong>Kondisi Kamar:</strong>Kering, Ventilasi, Jendela, Paparan sinar Matahari<br>
+                    <strong>Harga:</strong> Rp 900.000<br>
+                    <strong>Fasilitas Kamar:</strong> Kasur, Lemari, Meja<br>
+                    <strong>Kondisi Kamar Mandi:</strong> Kloset Jongkok, Kering, Bersih, Ventilasi<br>
+                    <strong>Keamanan:</strong> Penjaga Kos<br>
+                    <strong>Jarak:</strong> 1,4 KM<br>
+                    <strong>Lingkungan:</strong> Ramai, Dekat Pertokoan, Dekat Warung Makan<br>
+                    <strong>Fasilitas Umum:</strong> Dapur, Peralatan Dapur, Listrik, Air, Kulkas, Jemuran, WC Umum, Wifi<br>
+                    <strong>Luas Kamar:</strong> 7,5 M^2<br>
+                    <strong>Parkiran:</strong> 4 - 7 Motor
+                </div>
+            </div>
+        </div>
+
+        <div class="accordion-item">
+            <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#panelsStayOpen-collapseFortyEight" aria-expanded="false"
+                    aria-controls="panelsStayOpen-collapseFortyEight">
+                    Warung Abang jhon
+                </button>
+            </h2>
+            <div id="panelsStayOpen-collapseFortyEight" class="accordion-collapse collapse">
+                <div class="accordion-body">
+                    <strong>Kondisi Kamar:</strong>Kering, Jendela, Paparan sinar Matahari<br>
+                    <strong>Harga:</strong> Rp 800.000<br>
+                    <strong>Fasilitas Kamar:</strong> Kasur, Lemari, Meja<br>
+                    <strong>Kondisi Kamar Mandi:</strong> Kloset Jongkok, Kering, Bersih, Ventilasi<br>
+                    <strong>Keamanan:</strong> Pagar, Penjaga Kos<br>
+                    <strong>Jarak:</strong> 1,4 KM<br>
+                    <strong>Lingkungan:</strong> Ramai, Dekat Pertokoan, Dekat Warung Makan<br>
+                    <strong>Fasilitas Umum:</strong> Dapur, Peralatan Dapur, Listrik, Air, Kulkas, Jemuran, WC Umum, Wifi, Ruang Tamu<br>
+                    <strong>Luas Kamar:</strong> 6 M^2<br>
+                    <strong>Parkiran:</strong> 2 - 4 Motor
+                </div>
+            </div>
+        </div>
+
+        <div class="accordion-item">
+            <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#panelsStayOpen-collapseFortyNine" aria-expanded="false"
+                    aria-controls="panelsStayOpen-collapseFortyNine">
+                    Azriel
+                </button>
+            </h2>
+            <div id="panelsStayOpen-collapseFortyNine" class="accordion-collapse collapse">
+                <div class="accordion-body">
+                    <strong>Kondisi Kamar:</strong>Lembab, Ventilasi, Jendela, Paparan sinar Matahari<br>
+                    <strong>Harga:</strong> Rp 850.000<br>
+                    <strong>Fasilitas Kamar:</strong> WC Dalam, Kasur, Lemari, Meja<br>
+                    <strong>Kondisi Kamar Mandi:</strong> Kloset Jongkok, Lembab, Bersih, Ventilasi<br>
+                    <strong>Keamanan:</strong> Pagar, Penjaga Kos<br>
+                    <strong>Jarak:</strong> 1,6 KM<br>
+                    <strong>Lingkungan:</strong> Sunyi, Dekat Pertokoan, Dekat Warung Makan<br>
+                    <strong>Fasilitas Umum:</strong> Dapur, Listrik, Air, Kulkas, Jemuran, WC Umum, Wifi<br>
+                    <strong>Luas Kamar:</strong> 9,9 M^2<br>
+                    <strong>Parkiran:</strong> 7 - 10 Motor & 1 Mobil
+                </div>
+            </div>
+        </div>
+
+        <div class="accordion-item">
+            <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#panelsStayOpen-collapseFifty" aria-expanded="false"
+                    aria-controls="panelsStayOpen-collapseFifty">
+                    Wiwit Jayantina
+                </button>
+            </h2>
+            <div id="panelsStayOpen-collapseFifty" class="accordion-collapse collapse">
+                <div class="accordion-body">
+                    <strong>Kondisi Kamar:</strong>Kering, Ventilasi, Jendela, Paparan sinar Matahari<br>
+                    <strong>Harga:</strong> Rp 550.000<br>
+                    <strong>Fasilitas Kamar:</strong> Kasur, Lemari, Meja<br>
+                    <strong>Kondisi Kamar Mandi:</strong> Kloset Jongkok, Kering, Bersih<br>
+                    <strong>Keamanan:</strong> Tanpa Keamanan<br>
+                    <strong>Jarak:</strong> 1,2 KM<br>
+                    <strong>Lingkungan:</strong> Sunyi, Dekat Pertokoan, Dekat Warung Makan<br>
+                    <strong>Fasilitas Umum:</strong> Dapur, Peralatan Dapur, Listrik, Air, Kulkas, Jemuran, Wifi, Ruang Tamu<br>
+                    <strong>Luas Kamar:</strong> 5 M^2<br>
+                    <strong>Parkiran:</strong> 1 - 2 Motor
+                </div>
+            </div>
+        </div>
+
+        <div class="accordion-item">
+            <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#panelsStayOpen-collapseFiftyOne" aria-expanded="false"
+                    aria-controls="panelsStayOpen-collapseFiftyOne">
+                    Biru
+                </button>
+            </h2>
+            <div id="panelsStayOpen-collapseFiftyOne" class="accordion-collapse collapse">
+                <div class="accordion-body">
+                    <strong>Kondisi Kamar:</strong>Lembab, Ventilasi, Jendela<br>
+                    <strong>Harga:</strong> Rp 500.000<br>
+                    <strong>Fasilitas Kamar:</strong> Kasur, Lemari, Meja<br>
+                    <strong>Kondisi Kamar Mandi:</strong> Kloset Jongkok, Lembab, Kotor, Ventilasi<br>
+                    <strong>Keamanan:</strong> Pagar<br>
+                    <strong>Jarak:</strong> 1,2 KM<br>
+                    <strong>Lingkungan:</strong> Sunyi, Dekat Pertokoan, Dekat Warung Makan<br>
+                    <strong>Fasilitas Umum:</strong> Dapur, Peralatan Dapur, Listrik, Air, Jemuran, Wifi, Ruang Tamu<br>
+                    <strong>Luas Kamar:</strong> 6,2 M^2<br>
+                    <strong>Parkiran:</strong> > 10 Motor & > 1 Mobil
                 </div>
             </div>
         </div>
