@@ -27,13 +27,16 @@
                 <li class="nav-item">
                     <a class="nav-link" href="{{ route('alternatif') }}">Mencari Alternatif</a>
                 </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="{{ route('datakos') }}">Data Kos</a>
+                </li>
             </ul>
         </div>
     </nav>
 
     <div style="margin: 15px">
         <h4 style="font-style: bold">Memilih Kriteria.</h4>
-        <p>Pilihlah 3 kriteria di bawah ini yang anda butuhkan ketika ingin mencari kos:</p>
+        <p>Pilihlah kriteria di bawah ini yang anda butuhkan ketika ingin mencari kos:</p>
     </div>
 
     <form action="{{ route('pilih_alternatif') }}" method="POST">
@@ -100,7 +103,7 @@
 
     <div style="margin: 15px">
         <h4 style="font-style: bold">Rincian Kriteria.</h4>
-        <p>Pilihlah rincian kriteria - kriteria di bawah ini yang anda inginkan berdasarkan 3 kriteria yang anda pilih di atas:</p>
+        <p>Pilihlah rincian - rincian kriteria di bawah ini yang anda inginkan berdasarkan kriteria yang telah anda pilih di atas:</p>
     </div>
 
 @if (!!$pilihan1)
@@ -245,8 +248,9 @@
 @endif
 
     <div class="ms-3">
-        <h6>Note:</h6>
-        <p style="font-style: italic">Hasil rekomendasi kos pada halaman hasil akan tampil berdasarkan rincian kriteria yang anda pilih</p>
+        <h6 class="pt-5">Note:</h6>
+        <p style="font-style: italic">#Semakin sedikit kriteria yang anda pilih akan semakin banyak pilihan alternatif yang akan tampil pada halaman hasil rekomendasi</p>
+        <p style="font-style: italic">#Hasil rekomendasi kos pada halaman hasil akan tampil berdasarkan rincian kriteria yang anda pilih</p>
     </div>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js"

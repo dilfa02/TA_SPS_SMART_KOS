@@ -24,6 +24,9 @@
             <li class="nav-item">
               <a class="nav-link" href="{{route('alternatif')}}">Mencari Alternatif</a>
             </li>
+            <li class="nav-item">
+                <a class="nav-link" href="{{ route('datakos') }}">Data Kos</a>
+            </li>
           </ul>
         </div>
     </nav>
@@ -92,7 +95,8 @@
 
     <div class="ms-3">
         <h6>Note:</h6>
-        <p>Alternatif yang menghasilkan nilai score tertinggi akan menjadi ranking pertama atau dapat disebut alternatif serta rekomendasi terbaik.</p>
+        <p>#Alternatif yang menghasilkan nilai score tertinggi akan menjadi ranking pertama atau dapat disebut alternatif serta rekomendasi terbaik.</p>
+        <p>#Jika anda ingin melihat data real dari alternatif yang anda pilih, silahkan masuk pada halaman data kos</p>
     </div>
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js" integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N" crossorigin="anonymous"></script>

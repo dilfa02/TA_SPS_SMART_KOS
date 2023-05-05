@@ -97,5 +97,3 @@ class AlternatifController extends Controller
 
 
 }
-
-

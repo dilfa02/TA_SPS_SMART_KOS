@@ -23,6 +23,9 @@
             <li class="nav-item">
               <a class="nav-link" href="{{route('alternatif')}}">Mencari Alternatif</a>
             </li>
+            <li class="nav-item">
+                <a class="nav-link" href="{{ route('datakos') }}">Data Kos</a>
+            </li>
           </ul>
         </div>
       </nav>
