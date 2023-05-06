@@ -34,7 +34,8 @@
         </div>
     </nav>
 
-    <h3 class="text-start pt-4 px-3">Kos Laki - Laki</h3>
+    <p class="text-start pt-5 px-3">Data di bawah ini terbagi menjadi 2 jenis kos (Laki-Laki & Perempuan). Urutan ke-2 jenis kos tersebut berdasarkan ranking atau rekomendasi kos terbaik.</p>
+    <h3 class="text-center pt-2 px-3">Kos Laki - Laki</h3>
 
     <div class="accordion" id="accordionPanelsStayOpenExample">
         <div class="accordion-item">
@@ -493,7 +494,7 @@
             </div>
         </div>
 
-        <h3 class="text-start pt-5 px-3">Kos Perempuan</h3>
+        <h3 class="text-center pt-5 px-3">Kos Perempuan</h3>
 
         <div class="accordion-item">
             <h2 class="accordion-header">
