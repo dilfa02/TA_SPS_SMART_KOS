@@ -56,7 +56,7 @@
                     <strong>Lingkungan:</strong> Sunyi, Dekat Pertokoan, Dekat Warung Makan<br>
                     <strong>Fasilitas Umum:</strong> Dapur, Peralatan Dapur, Listrik, Air, Kulkas, Jemuran, WC Umum, Wifi, Ruang Tamu<br>
                     <strong>Luas Kamar:</strong> 12 M^2<br>
-                    <strong>Parkiran:</strong> 7 - 10 Motor & 1 Mobil
+                    <strong>Parkiran:</strong> 7 - 10 Motor & 1 - 2 Mobil
                 </div>
             </div>
         </div>
@@ -104,7 +104,7 @@
                     <strong>Lingkungan:</strong> Sunyi, Dekat Pertokoan, Dekat Warung Makan<br>
                     <strong>Fasilitas Umum:</strong> Dapur, Peralatan Dapur, Listrik, Air, Kulkas, Jemuran, Wifi, Ruang Tamu<br>
                     <strong>Luas Kamar:</strong> 9,9 M^2<br>
-                    <strong>Parkiran:</strong> 7 - 10 Motor & 1 Mobil
+                    <strong>Parkiran:</strong> 7 - 10 Motor & 1 - 2 Mobil
                 </div>
             </div>
         </div>
@@ -152,7 +152,7 @@
                     <strong>Lingkungan:</strong> Ramai, Dekat Pertokoan, Dekat Warung Makan, Dekat SPBU, Dekat Supermarket<br>
                     <strong>Fasilitas Umum:</strong> Dapur, Peralatan Dapur, Listrik, Air, Kulkas, Jemuran, WC Umum, Wifi, Ruang Tamu<br>
                     <strong>Luas Kamar:</strong> 9 M^2<br>
-                    <strong>Parkiran:</strong> 5 - 7 Motor
+                    <strong>Parkiran:</strong> 4 - 7 Motor
                 </div>
             </div>
         </div>
@@ -176,7 +176,7 @@
                     <strong>Lingkungan:</strong> Sunyi, Dekat Pertokoan, Dekat Warung Makan<br>
                     <strong>Fasilitas Umum:</strong> Dapur, Peralatan Dapur, Listrik, Air, Kulkas, Jemuran, Wifi, Ruang Tamu<br>
                     <strong>Luas Kamar:</strong> 9,9 M^2<br>
-                    <strong>Parkiran:</strong> 7 - 10 Motor & 1 Mobil
+                    <strong>Parkiran:</strong> 7 - 10 Motor & 1 - 2 Mobil
                 </div>
             </div>
         </div>
@@ -248,7 +248,7 @@
                     <strong>Lingkungan:</strong> Sunyi, Dekat Pertokoan, Dekat Warung Makan<br>
                     <strong>Fasilitas Umum:</strong> Dapur, Peralatan Dapur, Listrik, Air, Kulkas, Jemuran, WC Umum, Wifi<br>
                     <strong>Luas Kamar:</strong> 12 M^2<br>
-                    <strong>Parkiran:</strong> > 10 Motor & > 1 Mobil
+                    <strong>Parkiran:</strong> 10 < MTR ≤ 25 & 1 ≤ MBL ≤ 5
                 </div>
             </div>
         </div>
@@ -296,7 +296,7 @@
                     <strong>Lingkungan:</strong> Sunyi, Dekat Pertokoan, Dekat Warung Makan<br>
                     <strong>Fasilitas Umum:</strong> Dapur, Peralatan Dapur, Listrik, Air, Kulkas, Jemuran, Wifi, Ruang Tamu<br>
                     <strong>Luas Kamar:</strong> 9,9 M^2<br>
-                    <strong>Parkiran:</strong> 7 - 10 Motor & 1 Mobil
+                    <strong>Parkiran:</strong> 7 - 10 Motor & 1 - 2 Mobil
                 </div>
             </div>
         </div>
@@ -392,7 +392,7 @@
                     <strong>Lingkungan:</strong> Ramai, Dekat Pertokoan, Dekat Warung Makan<br>
                     <strong>Fasilitas Umum:</strong> Dapur, Peralatan Dapur, Listrik, Air, Kulkas, Jemuran, WC Umum, Wifi, Ruang Tamu<br>
                     <strong>Luas Kamar:</strong> 12 M^2<br>
-                    <strong>Parkiran:</strong> 7 - 10 Motor & 1 Mobil
+                    <strong>Parkiran:</strong> 7 - 10 Motor & 1 - 2 Mobil
                 </div>
             </div>
         </div>
@@ -706,7 +706,7 @@
                     <strong>Lingkungan:</strong> Sunyi, Dekat Pertokoan, Dekat Warung Makan<br>
                     <strong>Fasilitas Umum:</strong> Dapur, Peralatan Dapur, Listrik, Air, Kulkas, Jemuran, WC Umum, Wifi, Ruang Tamu<br>
                     <strong>Luas Kamar:</strong> 5,3 M^2<br>
-                    <strong>Parkiran:</strong> 7 - 10 Motor & 1 Mobil
+                    <strong>Parkiran:</strong> 7 - 10 Motor & 1 - 2 Mobil
                 </div>
             </div>
         </div>
@@ -778,7 +778,7 @@
                     <strong>Lingkungan:</strong> Sunyi, Dekat Pertokoan, Dekat Warung Makan<br>
                     <strong>Fasilitas Umum:</strong> Dapur, Peralatan Dapur, Listrik, Air, Kulkas, Jemuran, WC Umum, Wifi, Ruang Tamu<br>
                     <strong>Luas Kamar:</strong> 9 M^2<br>
-                    <strong>Parkiran:</strong> > 10 Motor & > 1 Mobil
+                    <strong>Parkiran:</strong> 10 < MTR ≤ 25 & 1 ≤ MBL ≤ 5
                 </div>
             </div>
         </div>
@@ -802,7 +802,7 @@
                     <strong>Lingkungan:</strong> Sunyi, Dekat Pertokoan, Dekat Warung Makan<br>
                     <strong>Fasilitas Umum:</strong> Dapur, Peralatan Dapur, Listrik, Air, Kulkas, Jemuran, WC Umum, Wifi, Ruang Tamu<br>
                     <strong>Luas Kamar:</strong> 9 M^2<br>
-                    <strong>Parkiran:</strong> > 10 Motor & > 1 Mobil
+                    <strong>Parkiran:</strong> 10 < MTR ≤ 25 & 1 ≤ MBL ≤ 5
                 </div>
             </div>
         </div>
@@ -994,7 +994,7 @@
                     <strong>Lingkungan:</strong> Sunyi, Dekat Pertokoan, Dekat Warung Makan<br>
                     <strong>Fasilitas Umum:</strong> Dapur, Peralatan Dapur, Listrik, Air, Kulkas, Jemuran, WC Umum, Wifi, Ruang Tamu<br>
                     <strong>Luas Kamar:</strong> 9 M^2<br>
-                    <strong>Parkiran:</strong> 7 - 10 Motor & 1 Mobil
+                    <strong>Parkiran:</strong> 7 - 10 Motor & 1 - 2 Mobil
                 </div>
             </div>
         </div>
@@ -1042,7 +1042,7 @@
                     <strong>Lingkungan:</strong> Sunyi, Dekat Pertokoan, Dekat Warung Makan<br>
                     <strong>Fasilitas Umum:</strong> Dapur, Peralatan Dapur, Listrik, Air, Kulkas, Jemuran, WC Umum, Wifi<br>
                     <strong>Luas Kamar:</strong> 7,5 M^2<br>
-                    <strong>Parkiran:</strong> 7 - 10 Motor & 1 Mobil
+                    <strong>Parkiran:</strong> 7 - 10 Motor & 1 - 2 Mobil
                 </div>
             </div>
         </div>
@@ -1066,7 +1066,7 @@
                     <strong>Lingkungan:</strong> Ramai, Dekat Pertokoan, Dekat Warung Makan, Dekat SPBU, Dekat Supermarket<br>
                     <strong>Fasilitas Umum:</strong> Dapur, Peralatan Dapur, Listrik, Air, Kulkas, Jemuran, WC Umum, Wifi, Ruang Tamu<br>
                     <strong>Luas Kamar:</strong> 7,6 M^2<br>
-                    <strong>Parkiran:</strong> 7 - 10 Motor & 1 Mobil
+                    <strong>Parkiran:</strong> 7 - 10 Motor & 1 - 2 Mobil
                 </div>
             </div>
         </div>
@@ -1210,7 +1210,7 @@
                     <strong>Lingkungan:</strong> Sunyi, Dekat Pertokoan, Dekat Warung Makan<br>
                     <strong>Fasilitas Umum:</strong> Dapur, Listrik, Air, Kulkas, Jemuran, WC Umum, Wifi<br>
                     <strong>Luas Kamar:</strong> 9,9 M^2<br>
-                    <strong>Parkiran:</strong> 7 - 10 Motor & 1 Mobil
+                    <strong>Parkiran:</strong> 7 - 10 Motor & 1 - 2 Mobil
                 </div>
             </div>
         </div>
@@ -1258,7 +1258,7 @@
                     <strong>Lingkungan:</strong> Sunyi, Dekat Pertokoan, Dekat Warung Makan<br>
                     <strong>Fasilitas Umum:</strong> Dapur, Peralatan Dapur, Listrik, Air, Jemuran, Wifi, Ruang Tamu<br>
                     <strong>Luas Kamar:</strong> 6,2 M^2<br>
-                    <strong>Parkiran:</strong> > 10 Motor & > 1 Mobil
+                    <strong>Parkiran:</strong> 10 < MTR ≤ 25 & 1 ≤ MBL ≤ 5
                 </div>
             </div>
         </div>
