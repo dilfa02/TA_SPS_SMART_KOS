@@ -27,21 +27,19 @@
                 <li class="nav-item">
                     <a class="nav-link" href="{{ route('alternatif') }}">Mencari Alternatif</a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="{{ route('datakos') }}">Melihat Data Real Kos</a>
-                </li>
             </ul>
         </div>
     </nav>
-
-    <div style="margin: 15px">
-        <h4 style="font-style: bold">Memilih Kriteria.</h4>
-        <p>Pilihlah kriteria di bawah ini yang anda butuhkan ketika ingin mencari kos:</p>
+    
+<div class="container justify-content-center w-50">
+    <div>
+        <h2 class="pt-5 text-center"><b>Ingin Mencari Alternatif Kos?</b></h2>
+        <p class="pt-2">Dapatkan kos yang anda inginkan dengan memilih kriteria di bawah ini:</p>
     </div>
 
     <form action="{{ route('pilih_alternatif') }}" method="POST">
         @csrf
-        <div class="px-5 mb-5">
+        <div>
             <div class="input-group mb-3">
                 <label class="input-group-text" for="inputGroupSelect01">Pilihan 1</label>
                 <select class="form-select" id="inputGroupSelect01" name="pilihan1">
@@ -94,23 +92,22 @@
             </div>
 
             <div class="justify-content-end d-flex">
-                <input type="submit" class="btn btn-dark" value="Simpan">
+                <input type="submit" class="btn btn-dark" value="Next">
             </div>
         </div>
     </form>
+</div>
 
 
-
-    <div style="margin: 15px">
-        <h4 style="font-style: bold">Rincian Kriteria.</h4>
-        <p>Pilihlah rincian - rincian kriteria di bawah ini yang anda inginkan berdasarkan kriteria yang telah anda
-            pilih di atas:</p>
+<div class="container justify-content-center w-50">
+    <div>
+        <p class="pt-5">Pilihlah rincian kriteria yang anda inginkan berdasarkan kriteria pilihan anda di atas:</p>
     </div>
 
     @if (!!$pilihan1)
         <form action="{{ route('hasil') }}" method="POST">
             @csrf
-            <div class="px-5">
+            <div>
                 <select class="form-select mb-3" id="inputGroupSelect01" name="C1"
                     @if ($pilihan1 == 'kondisi kamar' || $pilihan2 == 'kondisi kamar' || $pilihan3 == 'kondisi kamar') @else hidden @endif>
                     <option value=""selected style="font-style: italic">Kondisi Kamar</option>
@@ -249,18 +246,17 @@
                 </select>
 
                 <div class="justify-content-end d-flex">
-                    <input type="submit" class="btn btn-dark" value="Proses">
+                    <input type="submit" class="btn btn-dark" value="Cari">
                 </div>
             </div>
         </form>
-    @endif
+        @endif
+    </div>
 
     <div class="ms-3">
-        <h6 class="pt-5">Note:</h6>
+        <h6 class="pt-5 text-decoration-underline">Note:</h6>
         <p style="font-style: italic">#Semakin sedikit kriteria yang anda pilih akan semakin banyak pilihan alternatif
-            yang akan tampil pada halaman hasil rekomendasi</p>
-        <p style="font-style: italic">#Hasil rekomendasi kos pada halaman hasil akan tampil berdasarkan rincian
-            kriteria yang anda pilih</p>
+            yang akan tampil pada halaman hasil rekomendasi<br>#Jika alternatif tidak muncul maka kos yang anda cari belum ada</p>
     </div>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js"

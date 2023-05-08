@@ -26,7 +26,3 @@ Route::get('/hasil', [PageController::class, 'hasil'])->name('hasil');
 Route::post('/hasil', [AlternatifController::class, 'hasil'])->name('hasil');
 
 Route::post('/filter/{jenis}', [AlternatifController::class, 'filter'])->name('filter');
-
-Route::get('/data', [PageController::class, 'data'])->name('datakos');
-
-

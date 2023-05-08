@@ -13,8 +13,4 @@ class PageController extends Controller
     public function hasil () {
         return view('hasil');
     }
-
-    public function data () {
-        return view('data kos');
-    }
 }
