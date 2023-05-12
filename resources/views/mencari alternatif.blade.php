@@ -30,11 +30,11 @@
             </ul>
         </div>
     </nav>
-    
+
 <div class="container justify-content-center w-50">
     <div>
         <h2 class="pt-5 text-center"><b>Ingin Mencari Alternatif Kos?</b></h2>
-        <p class="pt-2">Dapatkan kos yang anda inginkan dengan memilih kriteria di bawah ini:</p>
+        <p class="pt-4">Dapatkan kos yang anda inginkan dengan memilih kriteria di bawah ini:</p>
     </div>
 
     <form action="{{ route('pilih_alternatif') }}" method="POST">
@@ -90,6 +90,8 @@
                     <option value="parkiran">Parkiran</option>
                 </select>
             </div>
+
+            <p style="font-style: italic; font-size: 13px">Disarankan untuk memilih 1 atau 2 kriteria saja agar alternatif yang tampil lebih banyak.</p>
 
             <div class="justify-content-end d-flex">
                 <input type="submit" class="btn btn-dark" value="Next">

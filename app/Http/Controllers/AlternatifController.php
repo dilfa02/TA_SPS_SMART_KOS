@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\Models\Kos;
+use App\Models\Comment;
 
 class AlternatifController extends Controller
 {
@@ -56,8 +57,9 @@ class AlternatifController extends Controller
 
         $koss = $koss->sortByDesc('hasil');
         $koss = $koss;
+        $komens = Comment::all();
 
-        return view('hasil', compact('koss', 'ids'));
+        return view('hasil', compact('koss', 'ids', 'komens'));
     }
 
     public function filter(Request $request, $jenis) {
@@ -91,8 +93,9 @@ class AlternatifController extends Controller
 
         $koss = $koss->sortByDesc('hasil');
         $koss = $koss;
+        $komens = Comment::all();
 
-        return view('hasil', compact('koss', 'ids'));
+        return view('hasil', compact('koss', 'ids', 'komens'));
     }
 
 

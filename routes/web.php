@@ -3,6 +3,8 @@
 use App\Http\Controllers\AlternatifController;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\PageController;
+use App\Http\Controllers\CommentController;
+
 
 /*
 |--------------------------------------------------------------------------
@@ -26,3 +28,5 @@ Route::get('/hasil', [PageController::class, 'hasil'])->name('hasil');
 Route::post('/hasil', [AlternatifController::class, 'hasil'])->name('hasil');
 
 Route::post('/filter/{jenis}', [AlternatifController::class, 'filter'])->name('filter');
+
+Route::post('/komen', [CommentController::class, 'store'])->name('komen');

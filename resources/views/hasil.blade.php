@@ -8,6 +8,8 @@
     <title>Hasil Rekomendasi</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+    <script defer src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/js/all.min.js"></script>
 </head>
 
 <body>
@@ -1430,6 +1432,30 @@
         <p>#Alternatif yang menghasilkan nilai score tertinggi akan menjadi ranking pertama atau dapat disebut
             alternatif serta rekomendasi terbaik.<br>#Jika anda ingin melihat data real dari alternatif yang anda pilih, silahkan klik tombol "Lihat" pada kolom data real</p>
     </div>
+
+
+    <form action="{{ route('komen') }}" method="POST">
+        @csrf
+        @foreach ($ids as $id)
+            <input type="hidden" name="ids[]" value="{{ $id }}">
+        @endforeach
+
+        <div class="d-flex pt-5 pb-5">
+            <i class="fa-solid fa-comment fa-2xl ms-3"></i>
+                <textarea name="isi" placeholder="Add a comment" rows="1" cols="80" style="border-right: none; border-left: none; border-top: none"></textarea>
+            <button type='submit' class="dropdown-item" href="">
+                <i class="fa-solid fa-paper-plane fa-lg"></i>
+            </button>
+        </div>
+    </form>
+
+        @foreach ($komens as $komen)
+            <div>
+                <i class="fa-regular fa-user fa-lg ms-4"></i>
+                Anonimus
+            </div>
+            <div class="pb-4 ms-5">{{$komen->isi}}</div>
+        @endforeach
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N" crossorigin="anonymous">
