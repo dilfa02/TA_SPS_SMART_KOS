@@ -9,8 +9,6 @@ class Comment extends Model
 {
     use HasFactory;
 
-    public $timestamps = false;
-
     protected $fillable = [
         'isi',
     ];
