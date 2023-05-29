@@ -15,7 +15,7 @@
 <body>
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <a href="{{ route('dashboard') }}">
-            <img src="/image/logo.png" alt="" width="100px" height="50px">
+            <img src="{{ asset('image/logo.png') }}" alt="" width="100px" height="50px">
         </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
             aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -93,13 +93,14 @@
                                     </button></td>
                             </tr>
                             <div class="modal fade" id="Jawas" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
-                                <div class="modal-dialog modal-dialog-centered">
+                                <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-lg">
                                     <div class="modal-content">
                                         <div class="modal-header">
-                                            <h1 class="modal-title fs-5" id="staticBackdropLabel">Data Real</h1>
+                                            <h1 class="modal-title fs-5" id="staticBackdropLabel">Jawas</h1>
                                             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                                         </div>
                                         <div class="modal-body">
+                                            <h5 class="pb-2 text-decoration-underline">RINCIAN KRITERIA</h5>
                                             <strong>Kondisi Kamar:</strong> Kering, Ventilasi, Jendela, Paparan Sinar Matahari<br>
                                             <strong>Harga:</strong> Rp 1.200.000<br>
                                             <strong>Fasilitas Kamar:</strong> WC Dalam, Kasur, Lemari, Meja, Kursi, AC<br>
@@ -109,7 +110,14 @@
                                             <strong>Lingkungan:</strong> Sunyi, Dekat Pertokoan, Dekat Warung Makan<br>
                                             <strong>Fasilitas Umum:</strong> Dapur, Peralatan Dapur, Listrik, Air, Kulkas, Jemuran, WC Umum, Wifi, Ruang Tamu<br>
                                             <strong>Luas Kamar:</strong> 12 M^2<br>
-                                            <strong>Parkiran:</strong> 7 - 10 Motor & 1 - 2 Mobil
+                                            <strong>Parkiran:</strong> 7 - 10 Motor & 1 - 2 Mobil<br><br><br>
+                                            <h5 class="pb-2 text-decoration-underline">DETAIL</h5>
+                                            <strong>Gambar:</strong>
+                                            <div class="text-center">
+                                                <img src="{{ asset('image/logo.png') }}" class="rounded" width="50%" height="50%">
+                                            </div><br><br>
+                                            <strong>CP:</strong><br>08** **** ****<br><br>
+                                            <strong>Lokasi:</strong><a href="https://www.google.com/maps/place/VV2F%2BQVX,+Karang+Joang,+Kec.+Balikpapan+Utara,+Kota+Balikpapan,+Kalimantan+Timur/@-1.1480877,116.874523,17z/data=!4m5!3m4!1s0x2df14b8cfdc3d5bd:0xffc82decab0089c1!8m2!3d-1.1480125!4d116.8747344?hl=id&entry=ttu"><br>Alamat Kos</a><br><br>
                                         </div>
                                         <div class="modal-footer">
                                             <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
@@ -119,13 +127,14 @@
                             </div>
 
                             <div class="modal fade" id="CarjoeA18" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
-                                <div class="modal-dialog modal-dialog-centered">
+                                <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-lg">
                                     <div class="modal-content">
                                         <div class="modal-header">
-                                            <h1 class="modal-title fs-5" id="staticBackdropLabel">Data Real</h1>
+                                            <h1 class="modal-title fs-5" id="staticBackdropLabel">Carjoe A18</h1>
                                             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                                         </div>
                                         <div class="modal-body">
+                                            <h5 class="pb-2 text-decoration-underline">RINCIAN KRITERIA</h5>
                                             <strong>Kondisi Kamar:</strong> Kering, Ventilasi, Jendela, Paparan Sinar Matahari<br>
                                             <strong>Harga:</strong> Rp 1.300.000<br>
                                             <strong>Fasilitas Kamar:</strong> WC Dalam, Kasur, Lemari, Meja, Kursi, AC<br>
@@ -135,7 +144,14 @@
                                             <strong>Lingkungan:</strong> Ramai, Dekat Pertokoan, Dekat Warung Makan, Dekat SPBU, Dekat Supermarket<br>
                                             <strong>Fasilitas Umum:</strong> Dapur, Peralatan Dapur, Listrik, Air, Kulkas, Jemuran, WC Umum, Wifi, Ruang Tamu<br>
                                             <strong>Luas Kamar:</strong> 9 M^2<br>
-                                            <strong>Parkiran:</strong> 4 - 7 Motor
+                                            <strong>Parkiran:</strong> 4 - 7 Motor<br><br><br>
+                                            <h5 class="pb-2 text-decoration-underline">DETAIL</h5>
+                                            <strong>Gambar:</strong>
+                                            <div class="text-center">
+                                                <img src="{{ asset('image/logo.png') }}" class="rounded" width="50%" height="50%">
+                                            </div><br><br>
+                                            <strong>CP:</strong><br>08** **** ****<br><br>
+                                            <strong>Lokasi:</strong><a href="https://www.google.com/maps/place/VV2F%2BQVX,+Karang+Joang,+Kec.+Balikpapan+Utara,+Kota+Balikpapan,+Kalimantan+Timur/@-1.1480877,116.874523,17z/data=!4m5!3m4!1s0x2df14b8cfdc3d5bd:0xffc82decab0089c1!8m2!3d-1.1480125!4d116.8747344?hl=id&entry=ttu"><br>Alamat Kos</a><br><br>
                                         </div>
                                         <div class="modal-footer">
                                             <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
@@ -145,13 +161,14 @@
                             </div>
 
                             <div class="modal fade" id="Ar-RayyanA(Type1)" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
-                                <div class="modal-dialog modal-dialog-centered">
+                                <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-lg">
                                     <div class="modal-content">
                                         <div class="modal-header">
-                                            <h1 class="modal-title fs-5" id="staticBackdropLabel">Data Real</h1>
+                                            <h1 class="modal-title fs-5" id="staticBackdropLabel">Ar-Rayyan A (Type1)</h1>
                                             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                                         </div>
                                         <div class="modal-body">
+                                            <h5 class="pb-2 text-decoration-underline">RINCIAN KRITERIA</h5>
                                             <strong>Kondisi Kamar:</strong>Kering, Ventilasi, Jendela, Paparan Sinar Matahari<br>
                                             <strong>Harga:</strong> Rp 1.400.000<br>
                                             <strong>Fasilitas Kamar:</strong> WC Dalam, Kasur, Lemari, Meja, Kursi, AC<br>
@@ -161,7 +178,14 @@
                                             <strong>Lingkungan:</strong> Sunyi, Dekat Pertokoan, Dekat Warung Makan<br>
                                             <strong>Fasilitas Umum:</strong> Dapur, Peralatan Dapur, Listrik, Air, Kulkas, Jemuran, Wifi, Ruang Tamu<br>
                                             <strong>Luas Kamar:</strong> 9,9 M^2<br>
-                                            <strong>Parkiran:</strong> 7 - 10 Motor & 1 - 2 Mobil
+                                            <strong>Parkiran:</strong> 7 - 10 Motor & 1 - 2 Mobil<br><br><br>
+                                            <h5 class="pb-2 text-decoration-underline">DETAIL</h5>
+                                            <strong>Gambar:</strong>
+                                            <div class="text-center">
+                                                <img src="{{ asset('image/logo.png') }}" class="rounded" width="50%" height="50%">
+                                            </div><br><br>
+                                            <strong>CP:</strong><br>08** **** ****<br><br>
+                                            <strong>Lokasi:</strong><a href="https://www.google.com/maps/place/VV2F%2BQVX,+Karang+Joang,+Kec.+Balikpapan+Utara,+Kota+Balikpapan,+Kalimantan+Timur/@-1.1480877,116.874523,17z/data=!4m5!3m4!1s0x2df14b8cfdc3d5bd:0xffc82decab0089c1!8m2!3d-1.1480125!4d116.8747344?hl=id&entry=ttu"><br>Alamat Kos</a><br><br>
                                         </div>
                                         <div class="modal-footer">
                                             <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
@@ -171,14 +195,15 @@
                             </div>
 
                             <div class="modal fade" id="JK(Type1)" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
-                                <div class="modal-dialog modal-dialog-centered">
+                                <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-lg">
                                     <div class="modal-content">
                                         <div class="modal-header">
-                                            <h1 class="modal-title fs-5" id="staticBackdropLabel">Data Real</h1>
+                                            <h1 class="modal-title fs-5" id="staticBackdropLabel">JK (Type1)</h1>
                                             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                                         </div>
                                         <div class="modal-body">
-                                            <strong>Kondisi Kamar:</strong>Kering, Ventilasi, Jendela, Paparan Sinar Matahari<br>
+                                            <h5 class="pb-2 text-decoration-underline">RINCIAN KRITERIA</h5>
+                                            <strong>Kondisi Kamar:</strong> Kering, Ventilasi, Jendela, Paparan Sinar Matahari<br>
                                             <strong>Harga:</strong> Rp 1.200.000<br>
                                             <strong>Fasilitas Kamar:</strong> WC Dalam, Kasur, Lemari, Meja, Kursi, AC<br>
                                             <strong>Kondisi Kamar Mandi:</strong> Kloset Jongkok, Kering, Bersih, Blower<br>
@@ -187,7 +212,14 @@
                                             <strong>Lingkungan:</strong> Sunyi, Dekat Pertokoan, Dekat Warung Makan<br>
                                             <strong>Fasilitas Umum:</strong> Dapur, Peralatan Dapur, Listrik, Air, Jemuran, Wifi, Ruang Tamu<br>
                                             <strong>Luas Kamar:</strong> 8,4 M^2<br>
-                                            <strong>Parkiran:</strong> > 10 Motor
+                                            <strong>Parkiran:</strong> > 10 Motor<br><br><br>
+                                            <h5 class="pb-2 text-decoration-underline">DETAIL</h5>
+                                            <strong>Gambar:</strong>
+                                            <div class="text-center">
+                                                <img src="{{ asset('image/logo.png') }}" class="rounded" width="50%" height="50%">
+                                            </div><br><br>
+                                            <strong>CP:</strong><br>08** **** ****<br><br>
+                                            <strong>Lokasi:</strong><a href="https://www.google.com/maps/place/VV2F%2BQVX,+Karang+Joang,+Kec.+Balikpapan+Utara,+Kota+Balikpapan,+Kalimantan+Timur/@-1.1480877,116.874523,17z/data=!4m5!3m4!1s0x2df14b8cfdc3d5bd:0xffc82decab0089c1!8m2!3d-1.1480125!4d116.8747344?hl=id&entry=ttu"><br>Alamat Kos</a><br><br>
                                         </div>
                                         <div class="modal-footer">
                                             <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
@@ -197,13 +229,14 @@
                             </div>
 
                             <div class="modal fade" id="CarjoeA7" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
-                                <div class="modal-dialog modal-dialog-centered">
+                                <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-lg">
                                     <div class="modal-content">
                                         <div class="modal-header">
-                                            <h1 class="modal-title fs-5" id="staticBackdropLabel">Data Real</h1>
+                                            <h1 class="modal-title fs-5" id="staticBackdropLabel">Carjoe A7</h1>
                                             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                                         </div>
                                         <div class="modal-body">
+                                            <h5 class="pb-2 text-decoration-underline">RINCIAN KRITERIA</h5>
                                             <strong>Kondisi Kamar:</strong>Kering, Ventilasi, Jendela<br>
                                             <strong>Harga:</strong> Rp 1.400.000<br>
                                             <strong>Fasilitas Kamar:</strong> WC Dalam, Kasur, Lemari, Meja, Kursi, Kipas Angin<br>
@@ -213,7 +246,14 @@
                                             <strong>Lingkungan:</strong> Ramai, Dekat Pertokoan, Dekat Warung Makan, Dekat SPBU, Dekat Supermarket<br>
                                             <strong>Fasilitas Umum:</strong> Dapur, Peralatan Dapur, Listrik, Air, Kulkas, Jemuran, WC Umum, Wifi, Ruang Tamu<br>
                                             <strong>Luas Kamar:</strong> 9 M^2<br>
-                                            <strong>Parkiran:</strong> 4 - 7 Motor
+                                            <strong>Parkiran:</strong> 4 - 7 Motor<br><br><br>
+                                            <h5 class="pb-2 text-decoration-underline">DETAIL</h5>
+                                            <strong>Gambar:</strong>
+                                            <div class="text-center">
+                                                <img src="{{ asset('image/logo.png') }}" class="rounded" width="50%" height="50%">
+                                            </div><br><br>
+                                            <strong>CP:</strong><br>08** **** ****<br><br>
+                                            <strong>Lokasi:</strong><a href="https://www.google.com/maps/place/VV2F%2BQVX,+Karang+Joang,+Kec.+Balikpapan+Utara,+Kota+Balikpapan,+Kalimantan+Timur/@-1.1480877,116.874523,17z/data=!4m5!3m4!1s0x2df14b8cfdc3d5bd:0xffc82decab0089c1!8m2!3d-1.1480125!4d116.8747344?hl=id&entry=ttu"><br>Alamat Kos</a><br><br>
                                         </div>
                                         <div class="modal-footer">
                                             <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
@@ -223,13 +263,14 @@
                             </div>
 
                             <div class="modal fade" id="Ar-RayyanA(Type2)" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
-                                <div class="modal-dialog modal-dialog-centered">
+                                <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-lg">
                                     <div class="modal-content">
                                         <div class="modal-header">
-                                            <h1 class="modal-title fs-5" id="staticBackdropLabel">Data Real</h1>
+                                            <h1 class="modal-title fs-5" id="staticBackdropLabel">Ar-Rayyan A (Type2)</h1>
                                             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                                         </div>
                                         <div class="modal-body">
+                                            <h5 class="pb-2 text-decoration-underline">RINCIAN KRITERIA</h5>
                                             <strong>Kondisi Kamar:</strong>Kering, Ventilasi, Jendela, Paparan Sinar Matahari<br>
                                             <strong>Harga:</strong> Rp 1.000.000<br>
                                             <strong>Fasilitas Kamar:</strong> WC Dalam, Kasur, Lemari, Meja, Kursi, Kipas Angin<br>
@@ -239,7 +280,14 @@
                                             <strong>Lingkungan:</strong> Sunyi, Dekat Pertokoan, Dekat Warung Makan<br>
                                             <strong>Fasilitas Umum:</strong> Dapur, Peralatan Dapur, Listrik, Air, Kulkas, Jemuran, Wifi, Ruang Tamu<br>
                                             <strong>Luas Kamar:</strong> 9,9 M^2<br>
-                                            <strong>Parkiran:</strong> 7 - 10 Motor & 1 - 2 Mobil
+                                            <strong>Parkiran:</strong> 7 - 10 Motor & 1 - 2 Mobil<br><br><br>
+                                            <h5 class="pb-2 text-decoration-underline">DETAIL</h5>
+                                            <strong>Gambar:</strong>
+                                            <div class="text-center">
+                                                <img src="{{ asset('image/logo.png') }}" class="rounded" width="50%" height="50%">
+                                            </div><br><br>
+                                            <strong>CP:</strong><br>08** **** ****<br><br>
+                                            <strong>Lokasi:</strong><a href="https://www.google.com/maps/place/VV2F%2BQVX,+Karang+Joang,+Kec.+Balikpapan+Utara,+Kota+Balikpapan,+Kalimantan+Timur/@-1.1480877,116.874523,17z/data=!4m5!3m4!1s0x2df14b8cfdc3d5bd:0xffc82decab0089c1!8m2!3d-1.1480125!4d116.8747344?hl=id&entry=ttu"><br>Alamat Kos</a><br><br>
                                         </div>
                                         <div class="modal-footer">
                                             <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
@@ -249,13 +297,14 @@
                             </div>
 
                             <div class="modal fade" id="JK(Type2)" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
-                                <div class="modal-dialog modal-dialog-centered">
+                                <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-lg">
                                     <div class="modal-content">
                                         <div class="modal-header">
-                                            <h1 class="modal-title fs-5" id="staticBackdropLabel">Data Real</h1>
+                                            <h1 class="modal-title fs-5" id="staticBackdropLabel">JK (Type2)</h1>
                                             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                                         </div>
                                         <div class="modal-body">
+                                            <h5 class="pb-2 text-decoration-underline">RINCIAN KRITERIA</h5>
                                             <strong>Kondisi Kamar:</strong>Kering, Ventilasi, Jendela, Paparan Sinar Matahari<br>
                                             <strong>Harga:</strong> Rp 900.000<br>
                                             <strong>Fasilitas Kamar:</strong> WC Dalam, Kasur, Lemari, Meja, Kursi, Kipas Angin<br>
@@ -265,7 +314,14 @@
                                             <strong>Lingkungan:</strong> Sunyi, Dekat Pertokoan, Dekat Warung Makan<br>
                                             <strong>Fasilitas Umum:</strong> Dapur, Peralatan Dapur, Listrik, Air, Jemuran, Wifi, Ruang Tamu<br>
                                             <strong>Luas Kamar:</strong> 8,4 M^2<br>
-                                            <strong>Parkiran:</strong> > 10 Motor
+                                            <strong>Parkiran:</strong> > 10 Motor<br><br><br>
+                                            <h5 class="pb-2 text-decoration-underline">DETAIL</h5>
+                                            <strong>Gambar:</strong>
+                                            <div class="text-center">
+                                                <img src="{{ asset('image/logo.png') }}" class="rounded" width="50%" height="50%">
+                                            </div><br><br>
+                                            <strong>CP:</strong><br>08** **** ****<br><br>
+                                            <strong>Lokasi:</strong><a href="https://www.google.com/maps/place/VV2F%2BQVX,+Karang+Joang,+Kec.+Balikpapan+Utara,+Kota+Balikpapan,+Kalimantan+Timur/@-1.1480877,116.874523,17z/data=!4m5!3m4!1s0x2df14b8cfdc3d5bd:0xffc82decab0089c1!8m2!3d-1.1480125!4d116.8747344?hl=id&entry=ttu"><br>Alamat Kos</a><br><br>
                                         </div>
                                         <div class="modal-footer">
                                             <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
@@ -275,13 +331,14 @@
                             </div>
 
                             <div class="modal fade" id="Amanah" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
-                                <div class="modal-dialog modal-dialog-centered">
+                                <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-lg">
                                     <div class="modal-content">
                                         <div class="modal-header">
-                                            <h1 class="modal-title fs-5" id="staticBackdropLabel">Data Real</h1>
+                                            <h1 class="modal-title fs-5" id="staticBackdropLabel">Amanah</h1>
                                             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                                         </div>
                                         <div class="modal-body">
+                                            <h5 class="pb-2 text-decoration-underline">RINCIAN KRITERIA</h5>
                                             <strong>Kondisi Kamar:</strong>Kering, Ventilasi, Jendela, Paparan Sinar Matahari<br>
                                             <strong>Harga:</strong> Rp 850.000<br>
                                             <strong>Fasilitas Kamar:</strong> WC Dalam, Kasur, Lemari, Meja<br>
@@ -291,7 +348,14 @@
                                             <strong>Lingkungan:</strong> Ramai, Dekat Pertokoan, Dekat Warung Makan<br>
                                             <strong>Fasilitas Umum:</strong> Dapur, Peralatan Dapur, Listrik, Air, Kulkas, Jemuran, WC Umum, Wifi, Ruang Tamu<br>
                                             <strong>Luas Kamar:</strong> 9 M^2<br>
-                                            <strong>Parkiran:</strong> > 10 Motor
+                                            <strong>Parkiran:</strong> > 10 Motor<br><br><br>
+                                            <h5 class="pb-2 text-decoration-underline">DETAIL</h5>
+                                            <strong>Gambar:</strong>
+                                            <div class="text-center">
+                                                <img src="{{ asset('image/logo.png') }}" class="rounded" width="50%" height="50%">
+                                            </div><br><br>
+                                            <strong>CP:</strong><br>08** **** ****<br><br>
+                                            <strong>Lokasi:</strong><a href="https://www.google.com/maps/place/VV2F%2BQVX,+Karang+Joang,+Kec.+Balikpapan+Utara,+Kota+Balikpapan,+Kalimantan+Timur/@-1.1480877,116.874523,17z/data=!4m5!3m4!1s0x2df14b8cfdc3d5bd:0xffc82decab0089c1!8m2!3d-1.1480125!4d116.8747344?hl=id&entry=ttu"><br>Alamat Kos</a><br><br>
                                         </div>
                                         <div class="modal-footer">
                                             <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
@@ -301,13 +365,14 @@
                             </div>
 
                             <div class="modal fade" id="Bugenvil(L)" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
-                                <div class="modal-dialog modal-dialog-centered">
+                                <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-lg">
                                     <div class="modal-content">
                                         <div class="modal-header">
-                                            <h1 class="modal-title fs-5" id="staticBackdropLabel">Data Real</h1>
+                                            <h1 class="modal-title fs-5" id="staticBackdropLabel">Bugenvil (L)</h1>
                                             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                                         </div>
                                         <div class="modal-body">
+                                            <h5 class="pb-2 text-decoration-underline">RINCIAN KRITERIA</h5>
                                             <strong>Kondisi Kamar:</strong>Kering, Ventilasi, Jendela, Paparan Sinar Matahari<br>
                                             <strong>Harga:</strong> Rp 750.000<br>
                                             <strong>Fasilitas Kamar:</strong> WC Dalam, Kasur, Token Listrik<br>
@@ -317,7 +382,14 @@
                                             <strong>Lingkungan:</strong> Sunyi, Dekat Pertokoan, Dekat Warung Makan<br>
                                             <strong>Fasilitas Umum:</strong> Dapur, Peralatan Dapur, Listrik, Air, Kulkas, Jemuran, WC Umum, Wifi<br>
                                             <strong>Luas Kamar:</strong> 12 M^2<br>
-                                            <strong>Parkiran:</strong> 10 < MTR ≤ 25 & 1 ≤ MBL ≤ 5
+                                            <strong>Parkiran:</strong> 10 < MTR ≤ 25 & 1 ≤ MBL ≤ 5<br><br><br>
+                                            <h5 class="pb-2 text-decoration-underline">DETAIL</h5>
+                                            <strong>Gambar:</strong>
+                                            <div class="text-center">
+                                                <img src="{{ asset('image/logo.png') }}" class="rounded" width="50%" height="50%">
+                                            </div><br><br>
+                                            <strong>CP:</strong><br>08** **** ****<br><br>
+                                            <strong>Lokasi:</strong><a href="https://www.google.com/maps/place/VV2F%2BQVX,+Karang+Joang,+Kec.+Balikpapan+Utara,+Kota+Balikpapan,+Kalimantan+Timur/@-1.1480877,116.874523,17z/data=!4m5!3m4!1s0x2df14b8cfdc3d5bd:0xffc82decab0089c1!8m2!3d-1.1480125!4d116.8747344?hl=id&entry=ttu"><br>Alamat Kos</a><br><br>
                                         </div>
                                         <div class="modal-footer">
                                             <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
@@ -327,13 +399,14 @@
                             </div>
 
                             <div class="modal fade" id="Ramothy" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
-                                <div class="modal-dialog modal-dialog-centered">
+                                <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-lg">
                                     <div class="modal-content">
                                         <div class="modal-header">
-                                            <h1 class="modal-title fs-5" id="staticBackdropLabel">Data Real</h1>
+                                            <h1 class="modal-title fs-5" id="staticBackdropLabel">Ramothy</h1>
                                             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                                         </div>
                                         <div class="modal-body">
+                                            <h5 class="pb-2 text-decoration-underline">RINCIAN KRITERIA</h5>
                                             <strong>Kondisi Kamar:</strong>Kering, Ventilasi, Jendela, Paparan Sinar Matahari<br>
                                             <strong>Harga:</strong> Rp 850.000<br>
                                             <strong>Fasilitas Kamar:</strong> WC Dalam, Kasur, Lemari, Meja, Kursi, Kipas Angin<br>
@@ -343,7 +416,14 @@
                                             <strong>Lingkungan:</strong> Sunyi, Dekat Pertokoan, Dekat Warung Makan<br>
                                             <strong>Fasilitas Umum:</strong> Dapur, Peralatan Dapur, Listrik, Air, Kulkas, Jemuran, Wifi, Ruang Tamu<br>
                                             <strong>Luas Kamar:</strong> 9 M^2<br>
-                                            <strong>Parkiran:</strong> > 10 Motor
+                                            <strong>Parkiran:</strong> > 10 Motor<br><br><br>
+                                            <h5 class="pb-2 text-decoration-underline">DETAIL</h5>
+                                            <strong>Gambar:</strong>
+                                            <div class="text-center">
+                                                <img src="{{ asset('image/logo.png') }}" class="rounded" width="50%" height="50%">
+                                            </div><br><br>
+                                            <strong>CP:</strong><br>08** **** ****<br><br>
+                                            <strong>Lokasi:</strong><a href="https://www.google.com/maps/place/VV2F%2BQVX,+Karang+Joang,+Kec.+Balikpapan+Utara,+Kota+Balikpapan,+Kalimantan+Timur/@-1.1480877,116.874523,17z/data=!4m5!3m4!1s0x2df14b8cfdc3d5bd:0xffc82decab0089c1!8m2!3d-1.1480125!4d116.8747344?hl=id&entry=ttu"><br>Alamat Kos</a><br><br>
                                         </div>
                                         <div class="modal-footer">
                                             <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
@@ -353,13 +433,14 @@
                             </div>
 
                             <div class="modal fade" id="Ar-RayyanB" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
-                                <div class="modal-dialog modal-dialog-centered">
+                                <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-lg">
                                     <div class="modal-content">
                                         <div class="modal-header">
-                                            <h1 class="modal-title fs-5" id="staticBackdropLabel">Data Real</h1>
+                                            <h1 class="modal-title fs-5" id="staticBackdropLabel">Ar-Rayyan B</h1>
                                                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                                         </div>
                                         <div class="modal-body">
+                                            <h5 class="pb-2 text-decoration-underline">RINCIAN KRITERIA</h5>
                                             <strong>Kondisi Kamar:</strong>Kering, Ventilasi, Paparan Sinar Matahari<br>
                                             <strong>Harga:</strong> Rp 750.000<br>
                                             <strong>Fasilitas Kamar:</strong> WC Dalam, Kasur, Token Listrik<br>
@@ -369,7 +450,14 @@
                                             <strong>Lingkungan:</strong> Sunyi, Dekat Pertokoan, Dekat Warung Makan<br>
                                             <strong>Fasilitas Umum:</strong> Dapur, Peralatan Dapur, Listrik, Air, Kulkas, Jemuran, Wifi, Ruang Tamu<br>
                                             <strong>Luas Kamar:</strong> 9,9 M^2<br>
-                                            <strong>Parkiran:</strong> 7 - 10 Motor & 1 - 2 Mobil
+                                            <strong>Parkiran:</strong> 7 - 10 Motor & 1 - 2 Mobil<br><br><br>
+                                            <h5 class="pb-2 text-decoration-underline">DETAIL</h5>
+                                            <strong>Gambar:</strong>
+                                            <div class="text-center">
+                                                <img src="{{ asset('image/logo.png') }}" class="rounded" width="50%" height="50%">
+                                            </div><br><br>
+                                            <strong>CP:</strong><br>08** **** ****<br><br>
+                                            <strong>Lokasi:</strong><a href="https://www.google.com/maps/place/VV2F%2BQVX,+Karang+Joang,+Kec.+Balikpapan+Utara,+Kota+Balikpapan,+Kalimantan+Timur/@-1.1480877,116.874523,17z/data=!4m5!3m4!1s0x2df14b8cfdc3d5bd:0xffc82decab0089c1!8m2!3d-1.1480125!4d116.8747344?hl=id&entry=ttu"><br>Alamat Kos</a><br><br>
                                         </div>
                                         <div class="modal-footer">
                                             <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
@@ -379,13 +467,14 @@
                             </div>
 
                             <div class="modal fade" id="Barokah" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
-                                <div class="modal-dialog modal-dialog-centered">
+                                <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-lg">
                                     <div class="modal-content">
                                         <div class="modal-header">
-                                            <h1 class="modal-title fs-5" id="staticBackdropLabel">Data Real</h1>
+                                            <h1 class="modal-title fs-5" id="staticBackdropLabel">Barokah</h1>
                                                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                                         </div>
                                         <div class="modal-body">
+                                            <h5 class="pb-2 text-decoration-underline">RINCIAN KRITERIA</h5>
                                             <strong>Kondisi Kamar:</strong>Kering, Ventilasi, Jendela, Paparan Sinar Matahari<br>
                                             <strong>Harga:</strong> Rp 700.000<br>
                                             <strong>Fasilitas Kamar:</strong> Kasur, Lemari, Meja, Kipas Angin<br>
@@ -395,7 +484,14 @@
                                             <strong>Lingkungan:</strong> Sunyi, Dekat Pertokoan, Dekat Warung Makan<br>
                                             <strong>Fasilitas Umum:</strong> Dapur, Peralatan Dapur, Listrik, Air, Jemuran, Wifi, Ruang Tamu<br>
                                             <strong>Luas Kamar:</strong> 9 M^2<br>
-                                            <strong>Parkiran:</strong> > 10 Motor
+                                            <strong>Parkiran:</strong> > 10 Motor<br><br><br>
+                                            <h5 class="pb-2 text-decoration-underline">DETAIL</h5>
+                                            <strong>Gambar:</strong>
+                                            <div class="text-center">
+                                                <img src="{{ asset('image/logo.png') }}" class="rounded" width="50%" height="50%">
+                                            </div><br><br>
+                                            <strong>CP:</strong><br>08** **** ****<br><br>
+                                            <strong>Lokasi:</strong><a href="https://www.google.com/maps/place/VV2F%2BQVX,+Karang+Joang,+Kec.+Balikpapan+Utara,+Kota+Balikpapan,+Kalimantan+Timur/@-1.1480877,116.874523,17z/data=!4m5!3m4!1s0x2df14b8cfdc3d5bd:0xffc82decab0089c1!8m2!3d-1.1480125!4d116.8747344?hl=id&entry=ttu"><br>Alamat Kos</a><br><br>
                                         </div>
                                         <div class="modal-footer">
                                             <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
@@ -405,13 +501,14 @@
                             </div>
 
                             <div class="modal fade" id="3GKost" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
-                                <div class="modal-dialog modal-dialog-centered">
+                                <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-lg">
                                     <div class="modal-content">
                                         <div class="modal-header">
-                                            <h1 class="modal-title fs-5" id="staticBackdropLabel">Data Real</h1>
+                                            <h1 class="modal-title fs-5" id="staticBackdropLabel">3G Kost</h1>
                                                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                                         </div>
                                         <div class="modal-body">
+                                            <h5 class="pb-2 text-decoration-underline">RINCIAN KRITERIA</h5>
                                             <strong>Kondisi Kamar:</strong>Kering, Ventilasi, Jendela, Paparan Sinar Matahari<br>
                                             <strong>Harga:</strong> Rp 800.000<br>
                                             <strong>Fasilitas Kamar:</strong> WC Dalam, Kasur, Lemari, Meja<br>
@@ -421,7 +518,14 @@
                                             <strong>Lingkungan:</strong> Sunyi, Dekat Pertokoan, Dekat Warung Makan<br>
                                             <strong>Fasilitas Umum:</strong> Dapur, Peralatan Dapur, Listrik, Air, Kulkas, Jemuran, Wifi<br>
                                             <strong>Luas Kamar:</strong> 8,3 M^2<br>
-                                            <strong>Parkiran:</strong> > 10 Motor
+                                            <strong>Parkiran:</strong> > 10 Motor<br><br><br>
+                                            <h5 class="pb-2 text-decoration-underline">DETAIL</h5>
+                                            <strong>Gambar:</strong>
+                                            <div class="text-center">
+                                                <img src="{{ asset('image/logo.png') }}" class="rounded" width="50%" height="50%">
+                                            </div><br><br>
+                                            <strong>CP:</strong><br>08** **** ****<br><br>
+                                            <strong>Lokasi:</strong><a href="https://www.google.com/maps/place/VV2F%2BQVX,+Karang+Joang,+Kec.+Balikpapan+Utara,+Kota+Balikpapan,+Kalimantan+Timur/@-1.1480877,116.874523,17z/data=!4m5!3m4!1s0x2df14b8cfdc3d5bd:0xffc82decab0089c1!8m2!3d-1.1480125!4d116.8747344?hl=id&entry=ttu"><br>Alamat Kos</a><br><br>
                                         </div>
                                         <div class="modal-footer">
                                             <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
@@ -431,13 +535,14 @@
                             </div>
 
                             <div class="modal fade" id="HajiAsa" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
-                                <div class="modal-dialog modal-dialog-centered">
+                                <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-lg">
                                     <div class="modal-content">
                                         <div class="modal-header">
-                                            <h1 class="modal-title fs-5" id="staticBackdropLabel">Data Real</h1>
+                                            <h1 class="modal-title fs-5" id="staticBackdropLabel">Haji Asa</h1>
                                                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                                         </div>
                                         <div class="modal-body">
+                                            <h5 class="pb-2 text-decoration-underline">RINCIAN KRITERIA</h5>
                                             <strong>Kondisi Kamar:</strong>Kering, Ventilasi, Jendela, Paparan Sinar Matahari<br>
                                             <strong>Harga:</strong> Rp 1.000.000<br>
                                             <strong>Fasilitas Kamar:</strong> WC Dalam, Kasur, Lemari, Meja, Kursi, Kipas Angin<br>
@@ -447,7 +552,14 @@
                                             <strong>Lingkungan:</strong> Sunyi, Dekat Pertokoan, Dekat Warung Makan<br>
                                             <strong>Fasilitas Umum:</strong> Dapur, Listrik, Air, Jemuran, Wifi<br>
                                             <strong>Luas Kamar:</strong> 10,5 M^2<br>
-                                            <strong>Parkiran:</strong> 4 - 7 Motor
+                                            <strong>Parkiran:</strong> 4 - 7 Motor<br><br><br>
+                                            <h5 class="pb-2 text-decoration-underline">DETAIL</h5>
+                                            <strong>Gambar:</strong>
+                                            <div class="text-center">
+                                                <img src="{{ asset('image/logo.png') }}" class="rounded" width="50%" height="50%">
+                                            </div><br><br>
+                                            <strong>CP:</strong><br>08** **** ****<br><br>
+                                            <strong>Lokasi:</strong><a href="https://www.google.com/maps/place/VV2F%2BQVX,+Karang+Joang,+Kec.+Balikpapan+Utara,+Kota+Balikpapan,+Kalimantan+Timur/@-1.1480877,116.874523,17z/data=!4m5!3m4!1s0x2df14b8cfdc3d5bd:0xffc82decab0089c1!8m2!3d-1.1480125!4d116.8747344?hl=id&entry=ttu"><br>Alamat Kos</a><br><br>
                                         </div>
                                         <div class="modal-footer">
                                             <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
@@ -457,13 +569,14 @@
                             </div>
 
                             <div class="modal fade" id="Nawra" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
-                                <div class="modal-dialog modal-dialog-centered">
+                                <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-lg">
                                     <div class="modal-content">
                                         <div class="modal-header">
-                                            <h1 class="modal-title fs-5" id="staticBackdropLabel">Data Real</h1>
+                                            <h1 class="modal-title fs-5" id="staticBackdropLabel">Nawra</h1>
                                                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                                         </div>
                                         <div class="modal-body">
+                                            <h5 class="pb-2 text-decoration-underline">RINCIAN KRITERIA</h5>
                                             <strong>Kondisi Kamar:</strong>Kering, Ventilasi, Jendela, Paparan Sinar Matahari<br>
                                             <strong>Harga:</strong> Rp 750.000<br>
                                             <strong>Fasilitas Kamar:</strong> Kasur, Lemari, Meja<br>
@@ -473,7 +586,14 @@
                                             <strong>Lingkungan:</strong> Ramai, Dekat Pertokoan, Dekat Warung Makan<br>
                                             <strong>Fasilitas Umum:</strong> Dapur, Peralatan Dapur, Listrik, Air, Kulkas, Jemuran, WC Umum, Wifi, Ruang Tamu<br>
                                             <strong>Luas Kamar:</strong> 12 M^2<br>
-                                            <strong>Parkiran:</strong> 7 - 10 Motor & 1 - 2 Mobil
+                                            <strong>Parkiran:</strong> 7 - 10 Motor & 1 - 2 Mobil<br><br><br>
+                                            <h5 class="pb-2 text-decoration-underline">DETAIL</h5>
+                                            <strong>Gambar:</strong>
+                                            <div class="text-center">
+                                                <img src="{{ asset('image/logo.png') }}" class="rounded" width="50%" height="50%">
+                                            </div><br><br>
+                                            <strong>CP:</strong><br>08** **** ****<br><br>
+                                            <strong>Lokasi:</strong><a href="https://www.google.com/maps/place/VV2F%2BQVX,+Karang+Joang,+Kec.+Balikpapan+Utara,+Kota+Balikpapan,+Kalimantan+Timur/@-1.1480877,116.874523,17z/data=!4m5!3m4!1s0x2df14b8cfdc3d5bd:0xffc82decab0089c1!8m2!3d-1.1480125!4d116.8747344?hl=id&entry=ttu"><br>Alamat Kos</a><br><br>
                                         </div>
                                         <div class="modal-footer">
                                             <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
@@ -483,13 +603,14 @@
                             </div>
 
                             <div class="modal fade" id="Syariah" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
-                                <div class="modal-dialog modal-dialog-centered">
+                                <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-lg">
                                     <div class="modal-content">
                                         <div class="modal-header">
-                                            <h1 class="modal-title fs-5" id="staticBackdropLabel">Data Real</h1>
+                                            <h1 class="modal-title fs-5" id="staticBackdropLabel">Syariah</h1>
                                                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                                         </div>
                                         <div class="modal-body">
+                                            <h5 class="pb-2 text-decoration-underline">RINCIAN KRITERIA</h5>
                                             <strong>Kondisi Kamar:</strong>Kering, Ventilasi, Jendela, Paparan Sinar Matahari<br>
                                             <strong>Harga:</strong> Rp 700.000<br>
                                             <strong>Fasilitas Kamar:</strong> Kasur, Lemari, Meja, Kipas Angin<br>
@@ -499,7 +620,14 @@
                                             <strong>Lingkungan:</strong> Sunyi, Dekat Pertokoan, Dekat Warung Makan<br>
                                             <strong>Fasilitas Umum:</strong> Dapur, Peralatan Dapur, Listrik, Air, Kulkas, Jemuran, WC Umum, Wifi, Ruang Tamu<br>
                                             <strong>Luas Kamar:</strong> 9 M^2<br>
-                                            <strong>Parkiran:</strong> 4 - 7 Motor
+                                            <strong>Parkiran:</strong> 4 - 7 Motor<br><br><br>
+                                            <h5 class="pb-2 text-decoration-underline">DETAIL</h5>
+                                            <strong>Gambar:</strong>
+                                            <div class="text-center">
+                                                <img src="{{ asset('image/logo.png') }}" class="rounded" width="50%" height="50%">
+                                            </div><br><br>
+                                            <strong>CP:</strong><br>08** **** ****<br><br>
+                                            <strong>Lokasi:</strong><a href="https://www.google.com/maps/place/VV2F%2BQVX,+Karang+Joang,+Kec.+Balikpapan+Utara,+Kota+Balikpapan,+Kalimantan+Timur/@-1.1480877,116.874523,17z/data=!4m5!3m4!1s0x2df14b8cfdc3d5bd:0xffc82decab0089c1!8m2!3d-1.1480125!4d116.8747344?hl=id&entry=ttu"><br>Alamat Kos</a><br><br>
                                         </div>
                                         <div class="modal-footer">
                                             <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
@@ -509,13 +637,14 @@
                             </div>
 
                             <div class="modal fade" id="Wijaya" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
-                                <div class="modal-dialog modal-dialog-centered">
+                                <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-lg">
                                     <div class="modal-content">
                                         <div class="modal-header">
-                                            <h1 class="modal-title fs-5" id="staticBackdropLabel">Data Real</h1>
+                                            <h1 class="modal-title fs-5" id="staticBackdropLabel">Wijaya</h1>
                                                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                                         </div>
                                         <div class="modal-body">
+                                            <h5 class="pb-2 text-decoration-underline">RINCIAN KRITERIA</h5>
                                             <strong>Kondisi Kamar:</strong>Kering, Ventilasi, Jendela, Paparan Sinar Matahari<br>
                                             <strong>Harga:</strong> Rp 700.000<br>
                                             <strong>Fasilitas Kamar:</strong> Kasur, Lemari, Meja<br>
@@ -525,7 +654,14 @@
                                             <strong>Lingkungan:</strong> Ramai, Dekat Pertokoan, Dekat Warung Makan<br>
                                             <strong>Fasilitas Umum:</strong> Dapur, Peralatan Dapur, Listrik, Air, Jemuran, Wifi, Ruang Tamu<br>
                                             <strong>Luas Kamar:</strong> 10,5 M^2<br>
-                                            <strong>Parkiran:</strong> > 10 Motor
+                                            <strong>Parkiran:</strong> > 10 Motor<br><br><br>
+                                            <h5 class="pb-2 text-decoration-underline">DETAIL</h5>
+                                            <strong>Gambar:</strong>
+                                            <div class="text-center">
+                                                <img src="{{ asset('image/logo.png') }}" class="rounded" width="50%" height="50%">
+                                            </div><br><br>
+                                            <strong>CP:</strong><br>08** **** ****<br><br>
+                                            <strong>Lokasi:</strong><a href="https://www.google.com/maps/place/VV2F%2BQVX,+Karang+Joang,+Kec.+Balikpapan+Utara,+Kota+Balikpapan,+Kalimantan+Timur/@-1.1480877,116.874523,17z/data=!4m5!3m4!1s0x2df14b8cfdc3d5bd:0xffc82decab0089c1!8m2!3d-1.1480125!4d116.8747344?hl=id&entry=ttu"><br>Alamat Kos</a><br><br>
                                         </div>
                                         <div class="modal-footer">
                                             <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
@@ -535,13 +671,14 @@
                             </div>
 
                             <div class="modal fade" id="Adam" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
-                                <div class="modal-dialog modal-dialog-centered">
+                                <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-lg">
                                     <div class="modal-content">
                                         <div class="modal-header">
-                                            <h1 class="modal-title fs-5" id="staticBackdropLabel">Data Real</h1>
+                                            <h1 class="modal-title fs-5" id="staticBackdropLabel">Adam</h1>
                                                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                                         </div>
                                         <div class="modal-body">
+                                            <h5 class="pb-2 text-decoration-underline">RINCIAN KRITERIA</h5>
                                             <strong>Kondisi Kamar:</strong>Lembab, Ventilasi, Jendela<br>
                                             <strong>Harga:</strong> Rp 600.000<br>
                                             <strong>Fasilitas Kamar:</strong> Kasur, Lemari, Meja, Kipas Angin<br>
@@ -551,7 +688,14 @@
                                             <strong>Lingkungan:</strong> Sunyi<br>
                                             <strong>Fasilitas Umum:</strong> Dapur, Peralatan Dapur, Listrik, Air, Jemuran, Wifi, Ruang Tamu<br>
                                             <strong>Luas Kamar:</strong> 6 M^2<br>
-                                            <strong>Parkiran:</strong> 4 - 7 Motor
+                                            <strong>Parkiran:</strong> 4 - 7 Motor<br><br><br>
+                                            <h5 class="pb-2 text-decoration-underline">DETAIL</h5>
+                                            <strong>Gambar:</strong>
+                                            <div class="text-center">
+                                                <img src="{{ asset('image/logo.png') }}" class="rounded" width="50%" height="50%">
+                                            </div><br><br>
+                                            <strong>CP:</strong><br>08** **** ****<br><br>
+                                            <strong>Lokasi:</strong><a href="https://www.google.com/maps/place/VV2F%2BQVX,+Karang+Joang,+Kec.+Balikpapan+Utara,+Kota+Balikpapan,+Kalimantan+Timur/@-1.1480877,116.874523,17z/data=!4m5!3m4!1s0x2df14b8cfdc3d5bd:0xffc82decab0089c1!8m2!3d-1.1480125!4d116.8747344?hl=id&entry=ttu"><br>Alamat Kos</a><br><br>
                                         </div>
                                         <div class="modal-footer">
                                             <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
@@ -561,13 +705,14 @@
                             </div>
 
                             <div class="modal fade" id="Darmansyah" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
-                                <div class="modal-dialog modal-dialog-centered">
+                                <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-lg">
                                     <div class="modal-content">
                                         <div class="modal-header">
-                                            <h1 class="modal-title fs-5" id="staticBackdropLabel">Data Real</h1>
+                                            <h1 class="modal-title fs-5" id="staticBackdropLabel">Darmansyah</h1>
                                                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                                         </div>
                                         <div class="modal-body">
+                                            <h5 class="pb-2 text-decoration-underline">RINCIAN KRITERIA</h5>
                                             <strong>Kondisi Kamar:</strong>Kering, Jendela, Paparan Sinar Matahari<br>
                                             <strong>Harga:</strong> Rp 600.000<br>
                                             <strong>Fasilitas Kamar:</strong> Kasur, Lemari, Meja<br>
@@ -577,7 +722,14 @@
                                             <strong>Lingkungan:</strong> Ramai, Dekat Pertokoan, Dekat Warung Makan, Dekat SPBU, Dekat Supermarket<br>
                                             <strong>Fasilitas Umum:</strong> Listrik, Air, Jemuran, WC Umum, Wifi<br>
                                             <strong>Luas Kamar:</strong> 6 M^2<br>
-                                            <strong>Parkiran:</strong> 2 - 4 Motor
+                                            <strong>Parkiran:</strong> 2 - 4 Motor<br><br><br>
+                                            <h5 class="pb-2 text-decoration-underline">DETAIL</h5>
+                                            <strong>Gambar:</strong>
+                                            <div class="text-center">
+                                                <img src="{{ asset('image/logo.png') }}" class="rounded" width="50%" height="50%">
+                                            </div><br><br>
+                                            <strong>CP:</strong><br>08** **** ****<br><br>
+                                            <strong>Lokasi:</strong><a href="https://www.google.com/maps/place/VV2F%2BQVX,+Karang+Joang,+Kec.+Balikpapan+Utara,+Kota+Balikpapan,+Kalimantan+Timur/@-1.1480877,116.874523,17z/data=!4m5!3m4!1s0x2df14b8cfdc3d5bd:0xffc82decab0089c1!8m2!3d-1.1480125!4d116.8747344?hl=id&entry=ttu"><br>Alamat Kos</a><br><br>
                                         </div>
                                         <div class="modal-footer">
                                             <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
@@ -587,13 +739,14 @@
                             </div>
 
                             <div class="modal fade" id="CarjoeA11(Type1)" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
-                                <div class="modal-dialog modal-dialog-centered">
+                                <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-lg">
                                     <div class="modal-content">
                                         <div class="modal-header">
-                                            <h1 class="modal-title fs-5" id="staticBackdropLabel">Data Real</h1>
+                                            <h1 class="modal-title fs-5" id="staticBackdropLabel">Carjoe A11 (Type1)</h1>
                                                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                                         </div>
                                         <div class="modal-body">
+                                            <h5 class="pb-2 text-decoration-underline">RINCIAN KRITERIA</h5>
                                             <strong>Kondisi Kamar:</strong>Kering, Ventilasi, Jendela, Paparan Sinar Matahari<br>
                                             <strong>Harga:</strong> Rp 1.500.000<br>
                                             <strong>Fasilitas Kamar:</strong> WC Dalam, Kasur, Lemari, Meja, Kursi, AC<br>
@@ -603,7 +756,14 @@
                                             <strong>Lingkungan:</strong> Ramai, Dekat Pertokoan, Dekat Warung Makan, Dekat SPBU, Dekat Supermarket<br>
                                             <strong>Fasilitas Umum:</strong> Dapur, Peralatan Dapur, Listrik, Air, Kulkas, Jemuran, WC Umum, Wifi, Ruang Tamu<br>
                                             <strong>Luas Kamar:</strong> 9 M^2<br>
-                                            <strong>Parkiran:</strong> 4 - 7 Motor
+                                            <strong>Parkiran:</strong> 4 - 7 Motor<br><br><br>
+                                            <h5 class="pb-2 text-decoration-underline">DETAIL</h5>
+                                            <strong>Gambar:</strong>
+                                            <div class="text-center">
+                                                <img src="{{ asset('image/logo.png') }}" class="rounded" width="50%" height="50%">
+                                            </div><br><br>
+                                            <strong>CP:</strong><br>08** **** ****<br><br>
+                                            <strong>Lokasi:</strong><a href="https://www.google.com/maps/place/VV2F%2BQVX,+Karang+Joang,+Kec.+Balikpapan+Utara,+Kota+Balikpapan,+Kalimantan+Timur/@-1.1480877,116.874523,17z/data=!4m5!3m4!1s0x2df14b8cfdc3d5bd:0xffc82decab0089c1!8m2!3d-1.1480125!4d116.8747344?hl=id&entry=ttu"><br>Alamat Kos</a><br><br>
                                         </div>
                                         <div class="modal-footer">
                                             <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
@@ -613,13 +773,14 @@
                             </div>
 
                             <div class="modal fade" id="CarjoeA13" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
-                                <div class="modal-dialog modal-dialog-centered">
+                                <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-lg">
                                     <div class="modal-content">
                                         <div class="modal-header">
-                                            <h1 class="modal-title fs-5" id="staticBackdropLabel">Data Real</h1>
+                                            <h1 class="modal-title fs-5" id="staticBackdropLabel">Carjoe A13</h1>
                                                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                                         </div>
                                         <div class="modal-body">
+                                            <h5 class="pb-2 text-decoration-underline">RINCIAN KRITERIA</h5>
                                             <strong>Kondisi Kamar:</strong>Kering, Ventilasi, Jendela, Paparan Sinar Matahari<br>
                                             <strong>Harga:</strong> Rp 1.300.000<br>
                                             <strong>Fasilitas Kamar:</strong> WC Dalam, Kasur, Lemari, Meja, Kursi, AC<br>
@@ -629,7 +790,14 @@
                                             <strong>Lingkungan:</strong> Ramai, Dekat Pertokoan, Dekat Warung Makan, Dekat SPBU, Dekat Supermarket<br>
                                             <strong>Fasilitas Umum:</strong> Dapur, Peralatan Dapur, Listrik, Air, Kulkas, Jemuran, WC Umum, Wifi, Ruang Tamu<br>
                                             <strong>Luas Kamar:</strong> 9 M^2<br>
-                                            <strong>Parkiran:</strong> 4 - 7 Motor
+                                            <strong>Parkiran:</strong> 4 - 7 Motor<br><br><br>
+                                            <h5 class="pb-2 text-decoration-underline">DETAIL</h5>
+                                            <strong>Gambar:</strong>
+                                            <div class="text-center">
+                                                <img src="{{ asset('image/logo.png') }}" class="rounded" width="50%" height="50%">
+                                            </div><br><br>
+                                            <strong>CP:</strong><br>08** **** ****<br><br>
+                                            <strong>Lokasi:</strong><a href="https://www.google.com/maps/place/VV2F%2BQVX,+Karang+Joang,+Kec.+Balikpapan+Utara,+Kota+Balikpapan,+Kalimantan+Timur/@-1.1480877,116.874523,17z/data=!4m5!3m4!1s0x2df14b8cfdc3d5bd:0xffc82decab0089c1!8m2!3d-1.1480125!4d116.8747344?hl=id&entry=ttu"><br>Alamat Kos</a><br><br>
                                         </div>
                                         <div class="modal-footer">
                                             <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
@@ -639,13 +807,14 @@
                             </div>
 
                             <div class="modal fade" id="CarjoeA10" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
-                                <div class="modal-dialog modal-dialog-centered">
+                                <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-lg">
                                     <div class="modal-content">
                                         <div class="modal-header">
-                                            <h1 class="modal-title fs-5" id="staticBackdropLabel">Data Real</h1>
+                                            <h1 class="modal-title fs-5" id="staticBackdropLabel">Carjoe A10</h1>
                                                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                                         </div>
                                         <div class="modal-body">
+                                            <h5 class="pb-2 text-decoration-underline">RINCIAN KRITERIA</h5>
                                             <strong>Kondisi Kamar:</strong>Kering, Ventilasi, Jendela, Paparan Sinar Matahari<br>
                                             <strong>Harga:</strong> Rp 1.200.000<br>
                                             <strong>Fasilitas Kamar:</strong> WC Dalam, Kasur, Lemari, Meja, Kursi, Kipas Angin<br>
@@ -655,7 +824,14 @@
                                             <strong>Lingkungan:</strong> Ramai, Dekat Pertokoan, Dekat Warung Makan, Dekat SPBU, Dekat Supermarket<br>
                                             <strong>Fasilitas Umum:</strong> Dapur, Peralatan Dapur, Listrik, Air, Kulkas, Jemuran, WC Umum, Wifi, Ruang Tamu<br>
                                             <strong>Luas Kamar:</strong> 9 M^2<br>
-                                            <strong>Parkiran:</strong> 4 - 7 Motor
+                                            <strong>Parkiran:</strong> 4 - 7 Motor<br><br><br>
+                                            <h5 class="pb-2 text-decoration-underline">DETAIL</h5>
+                                            <strong>Gambar:</strong>
+                                            <div class="text-center">
+                                                <img src="{{ asset('image/logo.png') }}" class="rounded" width="50%" height="50%">
+                                            </div><br><br>
+                                            <strong>CP:</strong><br>08** **** ****<br><br>
+                                            <strong>Lokasi:</strong><a href="https://www.google.com/maps/place/VV2F%2BQVX,+Karang+Joang,+Kec.+Balikpapan+Utara,+Kota+Balikpapan,+Kalimantan+Timur/@-1.1480877,116.874523,17z/data=!4m5!3m4!1s0x2df14b8cfdc3d5bd:0xffc82decab0089c1!8m2!3d-1.1480125!4d116.8747344?hl=id&entry=ttu"><br>Alamat Kos</a><br><br>
                                         </div>
                                         <div class="modal-footer">
                                             <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
@@ -665,13 +841,14 @@
                             </div>
 
                             <div class="modal fade" id="CarjoeA14(Type1)" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
-                                <div class="modal-dialog modal-dialog-centered">
+                                <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-lg">
                                     <div class="modal-content">
                                         <div class="modal-header">
-                                            <h1 class="modal-title fs-5" id="staticBackdropLabel">Data Real</h1>
+                                            <h1 class="modal-title fs-5" id="staticBackdropLabel">Carjoe A14 (Type1)</h1>
                                                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                                         </div>
                                         <div class="modal-body">
+                                            <h5 class="pb-2 text-decoration-underline">RINCIAN KRITERIA</h5>
                                             <strong>Kondisi Kamar:</strong>Kering, Ventilasi, Jendela, Paparan Sinar Matahari<br>
                                             <strong>Harga:</strong> Rp 1.550.000<br>
                                             <strong>Fasilitas Kamar:</strong> WC Dalam, Kasur, Lemari, Meja, Kursi, AC<br>
@@ -681,7 +858,14 @@
                                             <strong>Lingkungan:</strong> Ramai, Dekat Pertokoan, Dekat Warung Makan, Dekat SPBU, Dekat Supermarket<br>
                                             <strong>Fasilitas Umum:</strong> Dapur, Peralatan Dapur, Listrik, Air, Kulkas, Jemuran, WC Umum, Wifi, Ruang Tamu<br>
                                             <strong>Luas Kamar:</strong> 9 M^2<br>
-                                            <strong>Parkiran:</strong> 4 - 7 Motor
+                                            <strong>Parkiran:</strong> 4 - 7 Motor<br><br><br>
+                                            <h5 class="pb-2 text-decoration-underline">DETAIL</h5>
+                                            <strong>Gambar:</strong>
+                                            <div class="text-center">
+                                                <img src="{{ asset('image/logo.png') }}" class="rounded" width="50%" height="50%">
+                                            </div><br><br>
+                                            <strong>CP:</strong><br>08** **** ****<br><br>
+                                            <strong>Lokasi:</strong><a href="https://www.google.com/maps/place/VV2F%2BQVX,+Karang+Joang,+Kec.+Balikpapan+Utara,+Kota+Balikpapan,+Kalimantan+Timur/@-1.1480877,116.874523,17z/data=!4m5!3m4!1s0x2df14b8cfdc3d5bd:0xffc82decab0089c1!8m2!3d-1.1480125!4d116.8747344?hl=id&entry=ttu"><br>Alamat Kos</a><br><br>
                                         </div>
                                         <div class="modal-footer">
                                             <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
@@ -691,13 +875,14 @@
                             </div>
 
                             <div class="modal fade" id="CarjoeA11(Type2)" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
-                                <div class="modal-dialog modal-dialog-centered">
+                                <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-lg">
                                     <div class="modal-content">
                                         <div class="modal-header">
-                                            <h1 class="modal-title fs-5" id="staticBackdropLabel">Data Real</h1>
+                                            <h1 class="modal-title fs-5" id="staticBackdropLabel">Carjoe A11 (Type2)</h1>
                                                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                                         </div>
                                         <div class="modal-body">
+                                            <h5 class="pb-2 text-decoration-underline">RINCIAN KRITERIA</h5>
                                             <strong>Kondisi Kamar:</strong>Kering, Ventilasi, Jendela<br>
                                             <strong>Harga:</strong> Rp 1.250.000<br>
                                             <strong>Fasilitas Kamar:</strong> WC Dalam, Kasur, Lemari, Meja, Kursi, Kipas Angin<br>
@@ -707,7 +892,14 @@
                                             <strong>Lingkungan:</strong> Ramai, Dekat Pertokoan, Dekat Warung Makan, Dekat SPBU, Dekat Supermarket<br>
                                             <strong>Fasilitas Umum:</strong> Dapur, Peralatan Dapur, Listrik, Air, Kulkas, Jemuran, WC Umum, Wifi, Ruang Tamu<br>
                                             <strong>Luas Kamar:</strong> 9 M^2<br>
-                                            <strong>Parkiran:</strong> 4 - 7 Motor
+                                            <strong>Parkiran:</strong> 4 - 7 Motor<br><br><br>
+                                            <h5 class="pb-2 text-decoration-underline">DETAIL</h5>
+                                            <strong>Gambar:</strong>
+                                            <div class="text-center">
+                                                <img src="{{ asset('image/logo.png') }}" class="rounded" width="50%" height="50%">
+                                            </div><br><br>
+                                            <strong>CP:</strong><br>08** **** ****<br><br>
+                                            <strong>Lokasi:</strong><a href="https://www.google.com/maps/place/VV2F%2BQVX,+Karang+Joang,+Kec.+Balikpapan+Utara,+Kota+Balikpapan,+Kalimantan+Timur/@-1.1480877,116.874523,17z/data=!4m5!3m4!1s0x2df14b8cfdc3d5bd:0xffc82decab0089c1!8m2!3d-1.1480125!4d116.8747344?hl=id&entry=ttu"><br>Alamat Kos</a><br><br>
                                         </div>
                                         <div class="modal-footer">
                                             <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
@@ -717,13 +909,14 @@
                             </div>
 
                             <div class="modal fade" id="KartikaPutri" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
-                                <div class="modal-dialog modal-dialog-centered">
+                                <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-lg">
                                     <div class="modal-content">
                                         <div class="modal-header">
-                                            <h1 class="modal-title fs-5" id="staticBackdropLabel">Data Real</h1>
+                                            <h1 class="modal-title fs-5" id="staticBackdropLabel">Kartika Putri</h1>
                                                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                                         </div>
                                         <div class="modal-body">
+                                            <h5 class="pb-2 text-decoration-underline">RINCIAN KRITERIA</h5>
                                             <strong>Kondisi Kamar:</strong>Kering, Ventilasi, Jendela, Paparan Sinar Matahari<br>
                                             <strong>Harga:</strong> Rp 1.000.000<br>
                                             <strong>Fasilitas Kamar:</strong> WC Dalam, Kasur, Lemari, Meja, Kursi, Kipas Angin<br>
@@ -733,7 +926,14 @@
                                             <strong>Lingkungan:</strong> Sunyi, Dekat Pertokoan, Dekat Warung Makan<br>
                                             <strong>Fasilitas Umum:</strong> Dapur, Peralatan Dapur, Listrik, Air, Kulkas, Jemuran, WC Umum, Wifi, Ruang Tamu<br>
                                             <strong>Luas Kamar:</strong> 8,9 M^2<br>
-                                            <strong>Parkiran:</strong> > 10 Motor
+                                            <strong>Parkiran:</strong> > 10 Motor<br><br><br>
+                                            <h5 class="pb-2 text-decoration-underline">DETAIL</h5>
+                                            <strong>Gambar:</strong>
+                                            <div class="text-center">
+                                                <img src="{{ asset('image/logo.png') }}" class="rounded" width="50%" height="50%">
+                                            </div><br><br>
+                                            <strong>CP:</strong><br>08** **** ****<br><br>
+                                            <strong>Lokasi:</strong><a href="https://www.google.com/maps/place/VV2F%2BQVX,+Karang+Joang,+Kec.+Balikpapan+Utara,+Kota+Balikpapan,+Kalimantan+Timur/@-1.1480877,116.874523,17z/data=!4m5!3m4!1s0x2df14b8cfdc3d5bd:0xffc82decab0089c1!8m2!3d-1.1480125!4d116.8747344?hl=id&entry=ttu"><br>Alamat Kos</a><br><br>
                                         </div>
                                         <div class="modal-footer">
                                             <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
@@ -743,13 +943,14 @@
                             </div>
 
                             <div class="modal fade" id="BanyuAlfa(Type2)" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
-                                <div class="modal-dialog modal-dialog-centered">
+                                <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-lg">
                                     <div class="modal-content">
                                         <div class="modal-header">
-                                            <h1 class="modal-title fs-5" id="staticBackdropLabel">Data Real</h1>
+                                            <h1 class="modal-title fs-5" id="staticBackdropLabel">Banyu Alfa (Type2)</h1>
                                                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                                         </div>
                                         <div class="modal-body">
+                                            <h5 class="pb-2 text-decoration-underline">RINCIAN KRITERIA</h5>
                                             <strong>Kondisi Kamar:</strong>Kering, Ventilasi, Jendela, Blower, Paparan Sinar Matahari<br>
                                             <strong>Harga:</strong> Rp 850.000<br>
                                             <strong>Fasilitas Kamar:</strong> WC Dalam, Kasur, Lemari, Meja, Kursi, Kipas Angin<br>
@@ -759,7 +960,14 @@
                                             <strong>Lingkungan:</strong> Ramai, Dekat Pertokoan, Dekat Warung Makan<br>
                                             <strong>Fasilitas Umum:</strong> Dapur, Peralatan Dapur, Listrik, Air, Kulkas, Jemuran, Wifi, Ruang Tamu<br>
                                             <strong>Luas Kamar:</strong> 9 M^2<br>
-                                            <strong>Parkiran:</strong> 4 - 7 Motor
+                                            <strong>Parkiran:</strong> 4 - 7 Motor<br><br><br>
+                                            <h5 class="pb-2 text-decoration-underline">DETAIL</h5>
+                                            <strong>Gambar:</strong>
+                                            <div class="text-center">
+                                                <img src="{{ asset('image/logo.png') }}" class="rounded" width="50%" height="50%">
+                                            </div><br><br>
+                                            <strong>CP:</strong><br>08** **** ****<br><br>
+                                            <strong>Lokasi:</strong><a href="https://www.google.com/maps/place/VV2F%2BQVX,+Karang+Joang,+Kec.+Balikpapan+Utara,+Kota+Balikpapan,+Kalimantan+Timur/@-1.1480877,116.874523,17z/data=!4m5!3m4!1s0x2df14b8cfdc3d5bd:0xffc82decab0089c1!8m2!3d-1.1480125!4d116.8747344?hl=id&entry=ttu"><br>Alamat Kos</a><br><br>
                                         </div>
                                         <div class="modal-footer">
                                             <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
@@ -769,13 +977,14 @@
                             </div>
 
                             <div class="modal fade" id="CarjoeA14(Type2)" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
-                                <div class="modal-dialog modal-dialog-centered">
+                                <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-lg">
                                     <div class="modal-content">
                                         <div class="modal-header">
-                                            <h1 class="modal-title fs-5" id="staticBackdropLabel">Data Real</h1>
+                                            <h1 class="modal-title fs-5" id="staticBackdropLabel">Carjoe A14 (Type2)</h1>
                                                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                                         </div>
                                         <div class="modal-body">
+                                            <h5 class="pb-2 text-decoration-underline">RINCIAN KRITERIA</h5>
                                             <strong>Kondisi Kamar:</strong>Kering, Ventilasi, Jendela<br>
                                             <strong>Harga:</strong> Rp 1.400.000<br>
                                             <strong>Fasilitas Kamar:</strong> WC Dalam, Kasur, Lemari, Meja, Kursi, Kipas Angin<br>
@@ -785,7 +994,14 @@
                                             <strong>Lingkungan:</strong> Ramai, Dekat Pertokoan, Dekat Warung Makan, Dekat SPBU, Dekat Supermarket<br>
                                             <strong>Fasilitas Umum:</strong> Dapur, Peralatan Dapur, Listrik, Air, Kulkas, Jemuran, WC Umum, Wifi, Ruang Tamu<br>
                                             <strong>Luas Kamar:</strong> 9 M^2<br>
-                                            <strong>Parkiran:</strong> 4 - 7 Motor
+                                            <strong>Parkiran:</strong> 4 - 7 Motor<br><br><br>
+                                            <h5 class="pb-2 text-decoration-underline">DETAIL</h5>
+                                            <strong>Gambar:</strong>
+                                            <div class="text-center">
+                                                <img src="{{ asset('image/logo.png') }}" class="rounded" width="50%" height="50%">
+                                            </div><br><br>
+                                            <strong>CP:</strong><br>08** **** ****<br><br>
+                                            <strong>Lokasi:</strong><a href="https://www.google.com/maps/place/VV2F%2BQVX,+Karang+Joang,+Kec.+Balikpapan+Utara,+Kota+Balikpapan,+Kalimantan+Timur/@-1.1480877,116.874523,17z/data=!4m5!3m4!1s0x2df14b8cfdc3d5bd:0xffc82decab0089c1!8m2!3d-1.1480125!4d116.8747344?hl=id&entry=ttu"><br>Alamat Kos</a><br><br>
                                         </div>
                                         <div class="modal-footer">
                                             <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
@@ -795,13 +1011,14 @@
                             </div>
 
                             <div class="modal fade" id="Permata" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
-                                <div class="modal-dialog modal-dialog-centered">
+                                <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-lg">
                                     <div class="modal-content">
                                         <div class="modal-header">
-                                            <h1 class="modal-title fs-5" id="staticBackdropLabel">Data Real</h1>
+                                            <h1 class="modal-title fs-5" id="staticBackdropLabel">Permata</h1>
                                                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                                         </div>
                                         <div class="modal-body">
+                                            <h5 class="pb-2 text-decoration-underline">RINCIAN KRITERIA</h5>
                                             <strong>Kondisi Kamar:</strong>Kering, Ventilasi, Jendela, Blower, Paparan Sinar Matahari<br>
                                             <strong>Harga:</strong> Rp 1.000.000<br>
                                             <strong>Fasilitas Kamar:</strong> Kasur, Lemari, Meja, Kursi, Kipas Angin<br>
@@ -811,7 +1028,14 @@
                                             <strong>Lingkungan:</strong> Sunyi, Dekat Pertokoan, Dekat Warung Makan<br>
                                             <strong>Fasilitas Umum:</strong> Dapur, Peralatan Dapur, Listrik, Air, Kulkas, Jemuran, WC Umum, Wifi, Ruang Tamu<br>
                                             <strong>Luas Kamar:</strong> 5,3 M^2<br>
-                                            <strong>Parkiran:</strong> 7 - 10 Motor & 1 - 2 Mobil
+                                            <strong>Parkiran:</strong> 7 - 10 Motor & 1 - 2 Mobil<br><br><br>
+                                            <h5 class="pb-2 text-decoration-underline">DETAIL</h5>
+                                            <strong>Gambar:</strong>
+                                            <div class="text-center">
+                                                <img src="{{ asset('image/logo.png') }}" class="rounded" width="50%" height="50%">
+                                            </div><br><br>
+                                            <strong>CP:</strong><br>08** **** ****<br><br>
+                                            <strong>Lokasi:</strong><a href="https://www.google.com/maps/place/VV2F%2BQVX,+Karang+Joang,+Kec.+Balikpapan+Utara,+Kota+Balikpapan,+Kalimantan+Timur/@-1.1480877,116.874523,17z/data=!4m5!3m4!1s0x2df14b8cfdc3d5bd:0xffc82decab0089c1!8m2!3d-1.1480125!4d116.8747344?hl=id&entry=ttu"><br>Alamat Kos</a><br><br>
                                         </div>
                                         <div class="modal-footer">
                                             <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
@@ -821,13 +1045,14 @@
                             </div>
 
                             <div class="modal fade" id="BanyuAlfa(Type1)" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
-                                <div class="modal-dialog modal-dialog-centered">
+                                <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-lg">
                                     <div class="modal-content">
                                         <div class="modal-header">
-                                            <h1 class="modal-title fs-5" id="staticBackdropLabel">Data Real</h1>
+                                            <h1 class="modal-title fs-5" id="staticBackdropLabel">Banyu Alfa (Type1)</h1>
                                                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                                         </div>
                                         <div class="modal-body">
+                                            <h5 class="pb-2 text-decoration-underline">RINCIAN KRITERIA</h5>
                                             <strong>Kondisi Kamar:</strong>Kering, Jendela<br>
                                             <strong>Harga:</strong> Rp 1.000.000<br>
                                             <strong>Fasilitas Kamar:</strong> WC Dalam, Kasur, Lemari, Meja, Kursi, AC<br>
@@ -837,7 +1062,14 @@
                                             <strong>Lingkungan:</strong> Ramai, Dekat Pertokoan, Dekat Warung Makan<br>
                                             <strong>Fasilitas Umum:</strong> Dapur, Peralatan Dapur, Listrik, Air, Kulkas, Jemuran, Wifi, Ruang Tamu<br>
                                             <strong>Luas Kamar:</strong> 15 M^2<br>
-                                            <strong>Parkiran:</strong> 4 - 7 Motor
+                                            <strong>Parkiran:</strong> 4 - 7 Motor<br><br><br>
+                                            <h5 class="pb-2 text-decoration-underline">DETAIL</h5>
+                                            <strong>Gambar:</strong>
+                                            <div class="text-center">
+                                                <img src="{{ asset('image/logo.png') }}" class="rounded" width="50%" height="50%">
+                                            </div><br><br>
+                                            <strong>CP:</strong><br>08** **** ****<br><br>
+                                            <strong>Lokasi:</strong><a href="https://www.google.com/maps/place/VV2F%2BQVX,+Karang+Joang,+Kec.+Balikpapan+Utara,+Kota+Balikpapan,+Kalimantan+Timur/@-1.1480877,116.874523,17z/data=!4m5!3m4!1s0x2df14b8cfdc3d5bd:0xffc82decab0089c1!8m2!3d-1.1480125!4d116.8747344?hl=id&entry=ttu"><br>Alamat Kos</a><br><br>
                                         </div>
                                         <div class="modal-footer">
                                             <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
@@ -847,13 +1079,14 @@
                             </div>
 
                             <div class="modal fade" id="CarjoeA2" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
-                                <div class="modal-dialog modal-dialog-centered">
+                                <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-lg">
                                     <div class="modal-content">
                                         <div class="modal-header">
-                                            <h1 class="modal-title fs-5" id="staticBackdropLabel">Data Real</h1>
+                                            <h1 class="modal-title fs-5" id="staticBackdropLabel">Carjoe A2</h1>
                                                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                                         </div>
                                         <div class="modal-body">
+                                            <h5 class="pb-2 text-decoration-underline">RINCIAN KRITERIA</h5>
                                             <strong>Kondisi Kamar:</strong>Kering, Jendela, Paparan Sinar Matahari<br>
                                             <strong>Harga:</strong> Rp 1.200.000<br>
                                             <strong>Fasilitas Kamar:</strong> Kasur, Lemari, Meja, Kursi, Kipas Angin<br>
@@ -863,7 +1096,14 @@
                                             <strong>Lingkungan:</strong> Ramai, Dekat Pertokoan, Dekat Warung Makan, Dekat SPBU, Dekat Supermarket<br>
                                             <strong>Fasilitas Umum:</strong> Dapur, Peralatan Dapur, Listrik, Air, Kulkas, Jemuran, WC Umum, Wifi, Ruang Tamu<br>
                                             <strong>Luas Kamar:</strong> 9 M^2<br>
-                                            <strong>Parkiran:</strong> 4 - 7 Motor
+                                            <strong>Parkiran:</strong> 4 - 7 Motor<br><br><br>
+                                            <h5 class="pb-2 text-decoration-underline">DETAIL</h5>
+                                            <strong>Gambar:</strong>
+                                            <div class="text-center">
+                                                <img src="{{ asset('image/logo.png') }}" class="rounded" width="50%" height="50%">
+                                            </div><br><br>
+                                            <strong>CP:</strong><br>08** **** ****<br><br>
+                                            <strong>Lokasi:</strong><a href="https://www.google.com/maps/place/VV2F%2BQVX,+Karang+Joang,+Kec.+Balikpapan+Utara,+Kota+Balikpapan,+Kalimantan+Timur/@-1.1480877,116.874523,17z/data=!4m5!3m4!1s0x2df14b8cfdc3d5bd:0xffc82decab0089c1!8m2!3d-1.1480125!4d116.8747344?hl=id&entry=ttu"><br>Alamat Kos</a><br><br>
                                         </div>
                                         <div class="modal-footer">
                                             <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
@@ -873,13 +1113,14 @@
                             </div>
 
                             <div class="modal fade" id="Raflesia(Type1)" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
-                                <div class="modal-dialog modal-dialog-centered">
+                                <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-lg">
                                     <div class="modal-content">
                                         <div class="modal-header">
-                                            <h1 class="modal-title fs-5" id="staticBackdropLabel">Data Real</h1>
+                                            <h1 class="modal-title fs-5" id="staticBackdropLabel">Raflesia (Type1)</h1>
                                                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                                         </div>
                                         <div class="modal-body">
+                                            <h5 class="pb-2 text-decoration-underline">RINCIAN KRITERIA</h5>
                                             <strong>Kondisi Kamar:</strong>Kering, Jendela<br>
                                             <strong>Harga:</strong> Rp 900.000<br>
                                             <strong>Fasilitas Kamar:</strong> Kasur, Lemari, Meja, Kursi, AC<br>
@@ -889,7 +1130,14 @@
                                             <strong>Lingkungan:</strong> Sunyi, Dekat Pertokoan, Dekat Warung Makan<br>
                                             <strong>Fasilitas Umum:</strong> Dapur, Peralatan Dapur, Listrik, Air, Kulkas, Jemuran, WC Umum, Wifi, Ruang Tamu<br>
                                             <strong>Luas Kamar:</strong> 9 M^2<br>
-                                            <strong>Parkiran:</strong> 10 < MTR ≤ 25 & 1 ≤ MBL ≤ 5
+                                            <strong>Parkiran:</strong> 10 < MTR ≤ 25 & 1 ≤ MBL ≤ 5<br><br><br>
+                                            <h5 class="pb-2 text-decoration-underline">DETAIL</h5>
+                                            <strong>Gambar:</strong>
+                                            <div class="text-center">
+                                                <img src="{{ asset('image/logo.png') }}" class="rounded" width="50%" height="50%">
+                                            </div><br><br>
+                                            <strong>CP:</strong><br>08** **** ****<br><br>
+                                            <strong>Lokasi:</strong><a href="https://www.google.com/maps/place/VV2F%2BQVX,+Karang+Joang,+Kec.+Balikpapan+Utara,+Kota+Balikpapan,+Kalimantan+Timur/@-1.1480877,116.874523,17z/data=!4m5!3m4!1s0x2df14b8cfdc3d5bd:0xffc82decab0089c1!8m2!3d-1.1480125!4d116.8747344?hl=id&entry=ttu"><br>Alamat Kos</a><br><br>
                                         </div>
                                         <div class="modal-footer">
                                             <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
@@ -899,13 +1147,14 @@
                             </div>
 
                             <div class="modal fade" id="Raflesia(Type2)" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
-                                <div class="modal-dialog modal-dialog-centered">
+                                <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-lg">
                                     <div class="modal-content">
                                         <div class="modal-header">
-                                            <h1 class="modal-title fs-5" id="staticBackdropLabel">Data Real</h1>
+                                            <h1 class="modal-title fs-5" id="staticBackdropLabel">Raflesia (Type2)</h1>
                                                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                                         </div>
                                         <div class="modal-body">
+                                            <h5 class="pb-2 text-decoration-underline">RINCIAN KRITERIA</h5>
                                             <strong>Kondisi Kamar:</strong>Kering, Ventilasi, Jendela<br>
                                             <strong>Harga:</strong> Rp 800.000<br>
                                             <strong>Fasilitas Kamar:</strong> Kasur, Lemari, Meja, Kursi, Kipas Angin<br>
@@ -915,7 +1164,14 @@
                                             <strong>Lingkungan:</strong> Sunyi, Dekat Pertokoan, Dekat Warung Makan<br>
                                             <strong>Fasilitas Umum:</strong> Dapur, Peralatan Dapur, Listrik, Air, Kulkas, Jemuran, WC Umum, Wifi, Ruang Tamu<br>
                                             <strong>Luas Kamar:</strong> 9 M^2<br>
-                                            <strong>Parkiran:</strong> 10 < MTR ≤ 25 & 1 ≤ MBL ≤ 5
+                                            <strong>Parkiran:</strong> 10 < MTR ≤ 25 & 1 ≤ MBL ≤ 5<br><br><br>
+                                            <h5 class="pb-2 text-decoration-underline">DETAIL</h5>
+                                            <strong>Gambar:</strong>
+                                            <div class="text-center">
+                                                <img src="{{ asset('image/logo.png') }}" class="rounded" width="50%" height="50%">
+                                            </div><br><br>
+                                            <strong>CP:</strong><br>08** **** ****<br><br>
+                                            <strong>Lokasi:</strong><a href="https://www.google.com/maps/place/VV2F%2BQVX,+Karang+Joang,+Kec.+Balikpapan+Utara,+Kota+Balikpapan,+Kalimantan+Timur/@-1.1480877,116.874523,17z/data=!4m5!3m4!1s0x2df14b8cfdc3d5bd:0xffc82decab0089c1!8m2!3d-1.1480125!4d116.8747344?hl=id&entry=ttu"><br>Alamat Kos</a><br><br>
                                         </div>
                                         <div class="modal-footer">
                                             <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
@@ -925,13 +1181,14 @@
                             </div>
 
                             <div class="modal fade" id="Pink(Type2)" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
-                                <div class="modal-dialog modal-dialog-centered">
+                                <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-lg">
                                     <div class="modal-content">
                                         <div class="modal-header">
-                                            <h1 class="modal-title fs-5" id="staticBackdropLabel">Data Real</h1>
+                                            <h1 class="modal-title fs-5" id="staticBackdropLabel">Pink (Type2)</h1>
                                                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                                         </div>
                                         <div class="modal-body">
+                                            <h5 class="pb-2 text-decoration-underline">RINCIAN KRITERIA</h5>
                                             <strong>Kondisi Kamar:</strong>Kering, Ventilasi, Jendela<br>
                                             <strong>Harga:</strong> Rp 900.000<br>
                                             <strong>Fasilitas Kamar:</strong> WC Dalam, Kasur, Lemari, Meja, Kursi, Kipas Angin<br>
@@ -941,7 +1198,14 @@
                                             <strong>Lingkungan:</strong> Sunyi, Dekat Pertokoan, Dekat Warung Makan<br>
                                             <strong>Fasilitas Umum:</strong> Dapur, Peralatan Dapur, Listrik, Air, Kulkas, Jemuran, WC Umum, Wifi<br>
                                             <strong>Luas Kamar:</strong> 9 M^2<br>
-                                            <strong>Parkiran:</strong> 4 - 7 Motor
+                                            <strong>Parkiran:</strong> 4 - 7 Motor<br><br><br>
+                                            <h5 class="pb-2 text-decoration-underline">DETAIL</h5>
+                                            <strong>Gambar:</strong>
+                                            <div class="text-center">
+                                                <img src="{{ asset('image/logo.png') }}" class="rounded" width="50%" height="50%">
+                                            </div><br><br>
+                                            <strong>CP:</strong><br>08** **** ****<br><br>
+                                            <strong>Lokasi:</strong><a href="https://www.google.com/maps/place/VV2F%2BQVX,+Karang+Joang,+Kec.+Balikpapan+Utara,+Kota+Balikpapan,+Kalimantan+Timur/@-1.1480877,116.874523,17z/data=!4m5!3m4!1s0x2df14b8cfdc3d5bd:0xffc82decab0089c1!8m2!3d-1.1480125!4d116.8747344?hl=id&entry=ttu"><br>Alamat Kos</a><br><br>
                                         </div>
                                         <div class="modal-footer">
                                             <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
@@ -951,13 +1215,14 @@
                             </div>
 
                             <div class="modal fade" id="Pink(Type1)" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
-                                <div class="modal-dialog modal-dialog-centered">
+                                <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-lg">
                                     <div class="modal-content">
                                         <div class="modal-header">
-                                            <h1 class="modal-title fs-5" id="staticBackdropLabel">Data Real</h1>
+                                            <h1 class="modal-title fs-5" id="staticBackdropLabel">Pink (Type1)</h1>
                                                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                                         </div>
                                         <div class="modal-body">
+                                            <h5 class="pb-2 text-decoration-underline">RINCIAN KRITERIA</h5>
                                             <strong>Kondisi Kamar:</strong>Kering, Jendela, Blower<br>
                                             <strong>Harga:</strong> Rp 1.000.000<br>
                                             <strong>Fasilitas Kamar:</strong> WC Dalam, Kasur, Lemari, Meja, Kursi, AC<br>
@@ -967,7 +1232,14 @@
                                             <strong>Lingkungan:</strong> Sunyi, Dekat Pertokoan, Dekat Warung Makan<br>
                                             <strong>Fasilitas Umum:</strong> Dapur, Peralatan Dapur, Listrik, Air, Kulkas, Jemuran, WC Umum, Wifi<br>
                                             <strong>Luas Kamar:</strong> 9 M^2<br>
-                                            <strong>Parkiran:</strong> 4 - 7 Motor
+                                            <strong>Parkiran:</strong> 4 - 7 Motor<br><br><br>
+                                            <h5 class="pb-2 text-decoration-underline">DETAIL</h5>
+                                            <strong>Gambar:</strong>
+                                            <div class="text-center">
+                                                <img src="{{ asset('image/logo.png') }}" class="rounded" width="50%" height="50%">
+                                            </div><br><br>
+                                            <strong>CP:</strong><br>08** **** ****<br><br>
+                                            <strong>Lokasi:</strong><a href="https://www.google.com/maps/place/VV2F%2BQVX,+Karang+Joang,+Kec.+Balikpapan+Utara,+Kota+Balikpapan,+Kalimantan+Timur/@-1.1480877,116.874523,17z/data=!4m5!3m4!1s0x2df14b8cfdc3d5bd:0xffc82decab0089c1!8m2!3d-1.1480125!4d116.8747344?hl=id&entry=ttu"><br>Alamat Kos</a><br><br>
                                         </div>
                                         <div class="modal-footer">
                                             <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
@@ -977,13 +1249,14 @@
                             </div>
 
                             <div class="modal fade" id="Audy" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
-                                <div class="modal-dialog modal-dialog-centered">
+                                <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-lg">
                                     <div class="modal-content">
                                         <div class="modal-header">
-                                            <h1 class="modal-title fs-5" id="staticBackdropLabel">Data Real</h1>
+                                            <h1 class="modal-title fs-5" id="staticBackdropLabel">Audy</h1>
                                                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                                         </div>
                                         <div class="modal-body">
+                                            <h5 class="pb-2 text-decoration-underline">RINCIAN KRITERIA</h5>
                                             <strong>Kondisi Kamar:</strong>Kering, Ventilasi, Jendela, Paparan Sinar Matahari<br>
                                             <strong>Harga:</strong> Rp 1.025.000<br>
                                             <strong>Fasilitas Kamar:</strong> WC Dalam, Kasur, Lemari, Meja<br>
@@ -993,7 +1266,14 @@
                                             <strong>Lingkungan:</strong> Ramai, Dekat Pertokoan, Dekat Warung Makan<br>
                                             <strong>Fasilitas Umum:</strong> Dapur, Peralatan Dapur, Listrik, Air, Kulkas, Jemuran, Wifi, Ruang Tamu<br>
                                             <strong>Luas Kamar:</strong> 6,9 M^2<br>
-                                            <strong>Parkiran:</strong> > 10 Motor
+                                            <strong>Parkiran:</strong> > 10 Motor<br><br><br>
+                                            <h5 class="pb-2 text-decoration-underline">DETAIL</h5>
+                                            <strong>Gambar:</strong>
+                                            <div class="text-center">
+                                                <img src="{{ asset('image/logo.png') }}" class="rounded" width="50%" height="50%">
+                                            </div><br><br>
+                                            <strong>CP:</strong><br>08** **** ****<br><br>
+                                            <strong>Lokasi:</strong><a href="https://www.google.com/maps/place/VV2F%2BQVX,+Karang+Joang,+Kec.+Balikpapan+Utara,+Kota+Balikpapan,+Kalimantan+Timur/@-1.1480877,116.874523,17z/data=!4m5!3m4!1s0x2df14b8cfdc3d5bd:0xffc82decab0089c1!8m2!3d-1.1480125!4d116.8747344?hl=id&entry=ttu"><br>Alamat Kos</a><br><br>
                                         </div>
                                         <div class="modal-footer">
                                             <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
@@ -1003,13 +1283,14 @@
                             </div>
 
                             <div class="modal fade" id="CarjoeB1" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
-                                <div class="modal-dialog modal-dialog-centered">
+                                <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-lg">
                                     <div class="modal-content">
                                         <div class="modal-header">
-                                            <h1 class="modal-title fs-5" id="staticBackdropLabel">Data Real</h1>
+                                            <h1 class="modal-title fs-5" id="staticBackdropLabel">Carjoe B1</h1>
                                                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                                         </div>
                                         <div class="modal-body">
+                                            <h5 class="pb-2 text-decoration-underline">RINCIAN KRITERIA</h5>
                                             <strong>Kondisi Kamar:</strong>Kering, Jendela, Paparan Sinar Matahari<br>
                                             <strong>Harga:</strong> Rp 700.000<br>
                                             <strong>Fasilitas Kamar:</strong> Kasur, Lemari, Meja, Kipas Angin<br>
@@ -1019,7 +1300,14 @@
                                             <strong>Lingkungan:</strong> Ramai, Dekat Pertokoan, Dekat Warung Makan, Dekat SPBU, Dekat Supermarket<br>
                                             <strong>Fasilitas Umum:</strong> Dapur, Peralatan Dapur, Listrik, Air, Kulkas, Jemuran, WC Umum, Wifi, Ruang Tamu<br>
                                             <strong>Luas Kamar:</strong> 9 M^2<br>
-                                            <strong>Parkiran:</strong> 4 - 7 Motor
+                                            <strong>Parkiran:</strong> 4 - 7 Motor<br><br><br>
+                                            <h5 class="pb-2 text-decoration-underline">DETAIL</h5>
+                                            <strong>Gambar:</strong>
+                                            <div class="text-center">
+                                                <img src="{{ asset('image/logo.png') }}" class="rounded" width="50%" height="50%">
+                                            </div><br><br>
+                                            <strong>CP:</strong><br>08** **** ****<br><br>
+                                            <strong>Lokasi:</strong><a href="https://www.google.com/maps/place/VV2F%2BQVX,+Karang+Joang,+Kec.+Balikpapan+Utara,+Kota+Balikpapan,+Kalimantan+Timur/@-1.1480877,116.874523,17z/data=!4m5!3m4!1s0x2df14b8cfdc3d5bd:0xffc82decab0089c1!8m2!3d-1.1480125!4d116.8747344?hl=id&entry=ttu"><br>Alamat Kos</a><br><br>
                                         </div>
                                         <div class="modal-footer">
                                             <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
@@ -1029,13 +1317,14 @@
                             </div>
 
                             <div class="modal fade" id="Hira" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
-                                <div class="modal-dialog modal-dialog-centered">
+                                <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-lg">
                                     <div class="modal-content">
                                         <div class="modal-header">
-                                            <h1 class="modal-title fs-5" id="staticBackdropLabel">Data Real</h1>
+                                            <h1 class="modal-title fs-5" id="staticBackdropLabel">Hira</h1>
                                                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                                         </div>
                                         <div class="modal-body">
+                                            <h5 class="pb-2 text-decoration-underline">RINCIAN KRITERIA</h5>
                                             <strong>Kondisi Kamar:</strong>Kering, Ventilasi, Jendela, Paparan Sinar Matahari<br>
                                             <strong>Harga:</strong> Rp 800.000<br>
                                             <strong>Fasilitas Kamar:</strong> Kasur, Lemari, Meja<br>
@@ -1045,7 +1334,14 @@
                                             <strong>Lingkungan:</strong> Sunyi, Dekat Pertokoan, Dekat Warung Makan<br>
                                             <strong>Fasilitas Umum:</strong> Dapur, Peralatan Dapur, Listrik, Air, Kulkas, Jemuran, WC Umum, Wifi, Ruang Tamu<br>
                                             <strong>Luas Kamar:</strong> 9 M^2<br>
-                                            <strong>Parkiran:</strong> > 10 Motor
+                                            <strong>Parkiran:</strong> > 10 Motor<br><br><br>
+                                            <h5 class="pb-2 text-decoration-underline">DETAIL</h5>
+                                            <strong>Gambar:</strong>
+                                            <div class="text-center">
+                                                <img src="{{ asset('image/logo.png') }}" class="rounded" width="50%" height="50%">
+                                            </div><br><br>
+                                            <strong>CP:</strong><br>08** **** ****<br><br>
+                                            <strong>Lokasi:</strong><a href="https://www.google.com/maps/place/VV2F%2BQVX,+Karang+Joang,+Kec.+Balikpapan+Utara,+Kota+Balikpapan,+Kalimantan+Timur/@-1.1480877,116.874523,17z/data=!4m5!3m4!1s0x2df14b8cfdc3d5bd:0xffc82decab0089c1!8m2!3d-1.1480125!4d116.8747344?hl=id&entry=ttu"><br>Alamat Kos</a><br><br>
                                         </div>
                                         <div class="modal-footer">
                                             <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
@@ -1055,13 +1351,14 @@
                             </div>
 
                             <div class="modal fade" id="PutriITK" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
-                                <div class="modal-dialog modal-dialog-centered">
+                                <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-lg">
                                     <div class="modal-content">
                                         <div class="modal-header">
-                                            <h1 class="modal-title fs-5" id="staticBackdropLabel">Data Real</h1>
+                                            <h1 class="modal-title fs-5" id="staticBackdropLabel">Putri ITK</h1>
                                                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                                         </div>
                                         <div class="modal-body">
+                                            <h5 class="pb-2 text-decoration-underline">RINCIAN KRITERIA</h5>
                                             <strong>Kondisi Kamar:</strong>Kering, Ventilasi, Jendela, Paparan Sinar Matahari<br>
                                             <strong>Harga:</strong> Rp 800.000<br>
                                             <strong>Fasilitas Kamar:</strong> Kasur, Lemari, Meja, Kipas Angin<br>
@@ -1071,7 +1368,14 @@
                                             <strong>Lingkungan:</strong> Sunyi, Dekat Pertokoan, Dekat Warung Makan, Dekat SPBU, Dekat Supermarket<br>
                                             <strong>Fasilitas Umum:</strong> Dapur, Peralatan Dapur, Listrik, Air, Kulkas, Jemuran, WC Umum, Wifi, Ruang Tamu<br>
                                             <strong>Luas Kamar:</strong> 9 M^2<br>
-                                            <strong>Parkiran:</strong> 4 - 7 Motor
+                                            <strong>Parkiran:</strong> 4 - 7 Motor<br><br><br>
+                                            <h5 class="pb-2 text-decoration-underline">DETAIL</h5>
+                                            <strong>Gambar:</strong>
+                                            <div class="text-center">
+                                                <img src="{{ asset('image/logo.png') }}" class="rounded" width="50%" height="50%">
+                                            </div><br><br>
+                                            <strong>CP:</strong><br>08** **** ****<br><br>
+                                            <strong>Lokasi:</strong><a href="https://www.google.com/maps/place/VV2F%2BQVX,+Karang+Joang,+Kec.+Balikpapan+Utara,+Kota+Balikpapan,+Kalimantan+Timur/@-1.1480877,116.874523,17z/data=!4m5!3m4!1s0x2df14b8cfdc3d5bd:0xffc82decab0089c1!8m2!3d-1.1480125!4d116.8747344?hl=id&entry=ttu"><br>Alamat Kos</a><br><br>
                                         </div>
                                         <div class="modal-footer">
                                             <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
@@ -1081,13 +1385,14 @@
                             </div>
 
                             <div class="modal fade" id="Gue" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
-                                <div class="modal-dialog modal-dialog-centered">
+                                <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-lg">
                                     <div class="modal-content">
                                         <div class="modal-header">
-                                            <h1 class="modal-title fs-5" id="staticBackdropLabel">Data Real</h1>
+                                            <h1 class="modal-title fs-5" id="staticBackdropLabel">Gue</h1>
                                                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                                         </div>
                                         <div class="modal-body">
+                                            <h5 class="pb-2 text-decoration-underline">RINCIAN KRITERIA</h5>
                                             <strong>Kondisi Kamar:</strong>Kering, Ventilasi, Jendela, Paparan Sinar Matahari<br>
                                             <strong>Harga:</strong> Rp 900.000<br>
                                             <strong>Fasilitas Kamar:</strong> Kasur, Lemari, Meja, Kipas Angin<br>
@@ -1097,7 +1402,14 @@
                                             <strong>Lingkungan:</strong> Ramai, Dekat Pertokoan, Dekat Warung Makan<br>
                                             <strong>Fasilitas Umum:</strong> Dapur, Peralatan Dapur, Listrik, Air, Jemuran, Wifi, Ruang Tamu<br>
                                             <strong>Luas Kamar:</strong> 10,5 M^2<br>
-                                            <strong>Parkiran:</strong> 4 - 7 Motor
+                                            <strong>Parkiran:</strong> 4 - 7 Motor<br><br><br>
+                                            <h5 class="pb-2 text-decoration-underline">DETAIL</h5>
+                                            <strong>Gambar:</strong>
+                                            <div class="text-center">
+                                                <img src="{{ asset('image/logo.png') }}" class="rounded" width="50%" height="50%">
+                                            </div><br><br>
+                                            <strong>CP:</strong><br>08** **** ****<br><br>
+                                            <strong>Lokasi:</strong><a href="https://www.google.com/maps/place/VV2F%2BQVX,+Karang+Joang,+Kec.+Balikpapan+Utara,+Kota+Balikpapan,+Kalimantan+Timur/@-1.1480877,116.874523,17z/data=!4m5!3m4!1s0x2df14b8cfdc3d5bd:0xffc82decab0089c1!8m2!3d-1.1480125!4d116.8747344?hl=id&entry=ttu"><br>Alamat Kos</a><br><br>
                                         </div>
                                         <div class="modal-footer">
                                             <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
@@ -1107,13 +1419,14 @@
                             </div>
 
                             <div class="modal fade" id="Threefa" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
-                                <div class="modal-dialog modal-dialog-centered">
+                                <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-lg">
                                     <div class="modal-content">
                                         <div class="modal-header">
-                                            <h1 class="modal-title fs-5" id="staticBackdropLabel">Data Real</h1>
+                                            <h1 class="modal-title fs-5" id="staticBackdropLabel">Threefa</h1>
                                                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                                         </div>
                                         <div class="modal-body">
+                                            <h5 class="pb-2 text-decoration-underline">RINCIAN KRITERIA</h5>
                                             <strong>Kondisi Kamar:</strong>Kering, Ventilasi, Jendela, Paparan Sinar Matahari<br>
                                             <strong>Harga:</strong> Rp 750.000<br>
                                             <strong>Fasilitas Kamar:</strong> Kasur, Lemari, Meja, Kipas Angin<br>
@@ -1123,7 +1436,14 @@
                                             <strong>Lingkungan:</strong> Sunyi, Dekat Pertokoan, Dekat Warung Makan<br>
                                             <strong>Fasilitas Umum:</strong> Dapur, Peralatan Dapur, Listrik, Air, Kulkas, Jemuran, WC Umum, Wifi, Ruang Tamu<br>
                                             <strong>Luas Kamar:</strong> 9 M^2<br>
-                                            <strong>Parkiran:</strong> 7 - 10 Motor & 1 - 2 Mobil
+                                            <strong>Parkiran:</strong> 7 - 10 Motor & 1 - 2 Mobil<br><br><br>
+                                            <h5 class="pb-2 text-decoration-underline">DETAIL</h5>
+                                            <strong>Gambar:</strong>
+                                            <div class="text-center">
+                                                <img src="{{ asset('image/logo.png') }}" class="rounded" width="50%" height="50%">
+                                            </div><br><br>
+                                            <strong>CP:</strong><br>08** **** ****<br><br>
+                                            <strong>Lokasi:</strong><a href="https://www.google.com/maps/place/VV2F%2BQVX,+Karang+Joang,+Kec.+Balikpapan+Utara,+Kota+Balikpapan,+Kalimantan+Timur/@-1.1480877,116.874523,17z/data=!4m5!3m4!1s0x2df14b8cfdc3d5bd:0xffc82decab0089c1!8m2!3d-1.1480125!4d116.8747344?hl=id&entry=ttu"><br>Alamat Kos</a><br><br>
                                         </div>
                                         <div class="modal-footer">
                                             <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
@@ -1133,13 +1453,14 @@
                             </div>
 
                             <div class="modal fade" id="Hera" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
-                                <div class="modal-dialog modal-dialog-centered">
+                                <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-lg">
                                     <div class="modal-content">
                                         <div class="modal-header">
-                                            <h1 class="modal-title fs-5" id="staticBackdropLabel">Data Real</h1>
+                                            <h1 class="modal-title fs-5" id="staticBackdropLabel">Hera</h1>
                                                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                                         </div>
                                         <div class="modal-body">
+                                            <h5 class="pb-2 text-decoration-underline">RINCIAN KRITERIA</h5>
                                             <strong>Kondisi Kamar:</strong>Kering, Ventilasi, Jendela<br>
                                             <strong>Harga:</strong> Rp 850.000<br>
                                             <strong>Fasilitas Kamar:</strong> Kasur, Lemari, Meja, Kipas Angin<br>
@@ -1149,7 +1470,14 @@
                                             <strong>Lingkungan:</strong> Sunyi, Dekat Pertokoan, Dekat Warung Makan<br>
                                             <strong>Fasilitas Umum:</strong> Dapur, Peralatan Dapur, Listrik, Air, Kulkas, Jemuran, WC Umum, Wifi, Ruang Tamu<br>
                                             <strong>Luas Kamar:</strong> 8,1 M^2<br>
-                                            <strong>Parkiran:</strong> 2 - 4 Motor
+                                            <strong>Parkiran:</strong> 2 - 4 Motor<br><br><br>
+                                            <h5 class="pb-2 text-decoration-underline">DETAIL</h5>
+                                            <strong>Gambar:</strong>
+                                            <div class="text-center">
+                                                <img src="{{ asset('image/logo.png') }}" class="rounded" width="50%" height="50%">
+                                            </div><br><br>
+                                            <strong>CP:</strong><br>08** **** ****<br><br>
+                                            <strong>Lokasi:</strong><a href="https://www.google.com/maps/place/VV2F%2BQVX,+Karang+Joang,+Kec.+Balikpapan+Utara,+Kota+Balikpapan,+Kalimantan+Timur/@-1.1480877,116.874523,17z/data=!4m5!3m4!1s0x2df14b8cfdc3d5bd:0xffc82decab0089c1!8m2!3d-1.1480125!4d116.8747344?hl=id&entry=ttu"><br>Alamat Kos</a><br><br>
                                         </div>
                                         <div class="modal-footer">
                                             <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
@@ -1159,13 +1487,14 @@
                             </div>
 
                             <div class="modal fade" id="Sidrap1" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
-                                <div class="modal-dialog modal-dialog-centered">
+                                <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-lg">
                                     <div class="modal-content">
                                         <div class="modal-header">
-                                            <h1 class="modal-title fs-5" id="staticBackdropLabel">Data Real</h1>
+                                            <h1 class="modal-title fs-5" id="staticBackdropLabel">Sidrap 1</h1>
                                                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                                         </div>
                                         <div class="modal-body">
+                                            <h5 class="pb-2 text-decoration-underline">RINCIAN KRITERIA</h5>
                                             <strong>Kondisi Kamar:</strong>Kering, Ventilasi, Jendela, Paparan Sinar Matahari<br>
                                             <strong>Harga:</strong> Rp 800.000<br>
                                             <strong>Fasilitas Kamar:</strong> Kasur, Lemari, Meja, Kipas Angin<br>
@@ -1175,7 +1504,14 @@
                                             <strong>Lingkungan:</strong> Sunyi, Dekat Pertokoan, Dekat Warung Makan<br>
                                             <strong>Fasilitas Umum:</strong> Dapur, Peralatan Dapur, Listrik, Air, Kulkas, Jemuran, WC Umum, Wifi<br>
                                             <strong>Luas Kamar:</strong> 7,5 M^2<br>
-                                            <strong>Parkiran:</strong> 7 - 10 Motor & 1 - 2 Mobil
+                                            <strong>Parkiran:</strong> 7 - 10 Motor & 1 - 2 Mobil<br><br><br>
+                                            <h5 class="pb-2 text-decoration-underline">DETAIL</h5>
+                                            <strong>Gambar:</strong>
+                                            <div class="text-center">
+                                                <img src="{{ asset('image/logo.png') }}" class="rounded" width="50%" height="50%">
+                                            </div><br><br>
+                                            <strong>CP:</strong><br>08** **** ****<br><br>
+                                            <strong>Lokasi:</strong><a href="https://www.google.com/maps/place/VV2F%2BQVX,+Karang+Joang,+Kec.+Balikpapan+Utara,+Kota+Balikpapan,+Kalimantan+Timur/@-1.1480877,116.874523,17z/data=!4m5!3m4!1s0x2df14b8cfdc3d5bd:0xffc82decab0089c1!8m2!3d-1.1480125!4d116.8747344?hl=id&entry=ttu"><br>Alamat Kos</a><br><br>
                                         </div>
                                         <div class="modal-footer">
                                             <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
@@ -1185,13 +1521,14 @@
                             </div>
 
                             <div class="modal fade" id="DuaPutra" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
-                                <div class="modal-dialog modal-dialog-centered">
+                                <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-lg">
                                     <div class="modal-content">
                                         <div class="modal-header">
-                                            <h1 class="modal-title fs-5" id="staticBackdropLabel">Data Real</h1>
+                                            <h1 class="modal-title fs-5" id="staticBackdropLabel">Dua Putra</h1>
                                                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                                         </div>
                                         <div class="modal-body">
+                                            <h5 class="pb-2 text-decoration-underline">RINCIAN KRITERIA</h5>
                                             <strong>Kondisi Kamar:</strong>Kering, Ventilasi, Jendela<br>
                                             <strong>Harga:</strong> Rp 800.000<br>
                                             <strong>Fasilitas Kamar:</strong> Kasur, Lemari, Meja<br>
@@ -1201,7 +1538,14 @@
                                             <strong>Lingkungan:</strong> Ramai, Dekat Pertokoan, Dekat Warung Makan, Dekat SPBU, Dekat Supermarket<br>
                                             <strong>Fasilitas Umum:</strong> Dapur, Peralatan Dapur, Listrik, Air, Kulkas, Jemuran, WC Umum, Wifi, Ruang Tamu<br>
                                             <strong>Luas Kamar:</strong> 7,6 M^2<br>
-                                            <strong>Parkiran:</strong> 7 - 10 Motor & 1 - 2 Mobil
+                                            <strong>Parkiran:</strong> 7 - 10 Motor & 1 - 2 Mobil<br><br><br>
+                                            <h5 class="pb-2 text-decoration-underline">DETAIL</h5>
+                                            <strong>Gambar:</strong>
+                                            <div class="text-center">
+                                                <img src="{{ asset('image/logo.png') }}" class="rounded" width="50%" height="50%">
+                                            </div><br><br>
+                                            <strong>CP:</strong><br>08** **** ****<br><br>
+                                            <strong>Lokasi:</strong><a href="https://www.google.com/maps/place/VV2F%2BQVX,+Karang+Joang,+Kec.+Balikpapan+Utara,+Kota+Balikpapan,+Kalimantan+Timur/@-1.1480877,116.874523,17z/data=!4m5!3m4!1s0x2df14b8cfdc3d5bd:0xffc82decab0089c1!8m2!3d-1.1480125!4d116.8747344?hl=id&entry=ttu"><br>Alamat Kos</a><br><br>
                                         </div>
                                         <div class="modal-footer">
                                             <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
@@ -1211,13 +1555,14 @@
                             </div>
 
                             <div class="modal fade" id="Anugrah" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
-                                <div class="modal-dialog modal-dialog-centered">
+                                <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-lg">
                                     <div class="modal-content">
                                         <div class="modal-header">
-                                            <h1 class="modal-title fs-5" id="staticBackdropLabel">Data Real</h1>
+                                            <h1 class="modal-title fs-5" id="staticBackdropLabel">Anugrah</h1>
                                                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                                         </div>
                                         <div class="modal-body">
+                                            <h5 class="pb-2 text-decoration-underline">RINCIAN KRITERIA</h5>
                                             <strong>Kondisi Kamar:</strong>Kering, Jendela, Paparan Sinar Matahari<br>
                                             <strong>Harga:</strong> Rp 850.000<br>
                                             <strong>Fasilitas Kamar:</strong> WC Dalam, Kasur, Lemari, Meja<br>
@@ -1227,7 +1572,14 @@
                                             <strong>Lingkungan:</strong> Ramai, Dekat Pertokoan, Dekat Warung Makan<br>
                                             <strong>Fasilitas Umum:</strong> Dapur, Peralatan Dapur, Listrik, Air, Kulkas, Jemuran, WC Umum, Wifi, Ruang Tamu<br>
                                             <strong>Luas Kamar:</strong> 7 M^2<br>
-                                            <strong>Parkiran:</strong> 4 - 7 Motor
+                                            <strong>Parkiran:</strong> 4 - 7 Motor<br><br><br>
+                                            <h5 class="pb-2 text-decoration-underline">DETAIL</h5>
+                                            <strong>Gambar:</strong>
+                                            <div class="text-center">
+                                                <img src="{{ asset('image/logo.png') }}" class="rounded" width="50%" height="50%">
+                                            </div><br><br>
+                                            <strong>CP:</strong><br>08** **** ****<br><br>
+                                            <strong>Lokasi:</strong><a href="https://www.google.com/maps/place/VV2F%2BQVX,+Karang+Joang,+Kec.+Balikpapan+Utara,+Kota+Balikpapan,+Kalimantan+Timur/@-1.1480877,116.874523,17z/data=!4m5!3m4!1s0x2df14b8cfdc3d5bd:0xffc82decab0089c1!8m2!3d-1.1480125!4d116.8747344?hl=id&entry=ttu"><br>Alamat Kos</a><br><br>
                                         </div>
                                         <div class="modal-footer">
                                             <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
@@ -1237,13 +1589,14 @@
                             </div>
 
                             <div class="modal fade" id="Dea" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
-                                <div class="modal-dialog modal-dialog-centered">
+                                <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-lg">
                                     <div class="modal-content">
                                         <div class="modal-header">
-                                            <h1 class="modal-title fs-5" id="staticBackdropLabel">Data Real</h1>
+                                            <h1 class="modal-title fs-5" id="staticBackdropLabel">Dea</h1>
                                                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                                         </div>
                                         <div class="modal-body">
+                                            <h5 class="pb-2 text-decoration-underline">RINCIAN KRITERIA</h5>
                                             <strong>Kondisi Kamar:</strong>Kering, Ventilasi, Jendela, Paparan Sinar Matahari<br>
                                             <strong>Harga:</strong> Rp 950.000<br>
                                             <strong>Fasilitas Kamar:</strong> WC Dalam, Kasur, Lemari, Meja<br>
@@ -1253,7 +1606,14 @@
                                             <strong>Lingkungan:</strong> Sunyi, Dekat Pertokoan, Dekat Warung Makan<br>
                                             <strong>Fasilitas Umum:</strong> Dapur, Listrik, Air, Jemuran, Wifi<br>
                                             <strong>Luas Kamar:</strong> 12 M^2<br>
-                                            <strong>Parkiran:</strong> 4 - 7 Motor
+                                            <strong>Parkiran:</strong> 4 - 7 Motor<br><br><br>
+                                            <h5 class="pb-2 text-decoration-underline">DETAIL</h5>
+                                            <strong>Gambar:</strong>
+                                            <div class="text-center">
+                                                <img src="{{ asset('image/logo.png') }}" class="rounded" width="50%" height="50%">
+                                            </div><br><br>
+                                            <strong>CP:</strong><br>08** **** ****<br><br>
+                                            <strong>Lokasi:</strong><a href="https://www.google.com/maps/place/VV2F%2BQVX,+Karang+Joang,+Kec.+Balikpapan+Utara,+Kota+Balikpapan,+Kalimantan+Timur/@-1.1480877,116.874523,17z/data=!4m5!3m4!1s0x2df14b8cfdc3d5bd:0xffc82decab0089c1!8m2!3d-1.1480125!4d116.8747344?hl=id&entry=ttu"><br>Alamat Kos</a><br><br>
                                         </div>
                                         <div class="modal-footer">
                                             <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
@@ -1263,13 +1623,14 @@
                             </div>
 
                             <div class="modal fade" id="Bugenvil(P)" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
-                                <div class="modal-dialog modal-dialog-centered">
+                                <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-lg">
                                     <div class="modal-content">
                                         <div class="modal-header">
-                                            <h1 class="modal-title fs-5" id="staticBackdropLabel">Data Real</h1>
+                                            <h1 class="modal-title fs-5" id="staticBackdropLabel">Bugenvil (P)</h1>
                                                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                                         </div>
                                         <div class="modal-body">
+                                            <h5 class="pb-2 text-decoration-underline">RINCIAN KRITERIA</h5>
                                             <strong>Kondisi Kamar:</strong>Lembab, Ventilasi, Jendela<br>
                                             <strong>Harga:</strong> Rp 900.000<br>
                                             <strong>Fasilitas Kamar:</strong> WC Dalam, Kasur, Lemari, Meja, Kursi, Kipas Angin<br>
@@ -1279,7 +1640,14 @@
                                             <strong>Lingkungan:</strong> Sunyi, Dekat Pertokoan, Dekat Warung Makan<br>
                                             <strong>Fasilitas Umum:</strong> Dapur, Peralatan Dapur, Listrik, Air, Kulkas, Jemuran, Wifi<br>
                                             <strong>Luas Kamar:</strong> 7,4 M^2<br>
-                                            <strong>Parkiran:</strong> > 10 Motor
+                                            <strong>Parkiran:</strong> > 10 Motor<br><br><br>
+                                            <h5 class="pb-2 text-decoration-underline">DETAIL</h5>
+                                            <strong>Gambar:</strong>
+                                            <div class="text-center">
+                                                <img src="{{ asset('image/logo.png') }}" class="rounded" width="50%" height="50%">
+                                            </div><br><br>
+                                            <strong>CP:</strong><br>08** **** ****<br><br>
+                                            <strong>Lokasi:</strong><a href="https://www.google.com/maps/place/VV2F%2BQVX,+Karang+Joang,+Kec.+Balikpapan+Utara,+Kota+Balikpapan,+Kalimantan+Timur/@-1.1480877,116.874523,17z/data=!4m5!3m4!1s0x2df14b8cfdc3d5bd:0xffc82decab0089c1!8m2!3d-1.1480125!4d116.8747344?hl=id&entry=ttu"><br>Alamat Kos</a><br><br>
                                         </div>
                                         <div class="modal-footer">
                                             <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
@@ -1289,13 +1657,14 @@
                             </div>
 
                             <div class="modal fade" id="Warbun" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
-                                <div class="modal-dialog modal-dialog-centered">
+                                <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-lg">
                                     <div class="modal-content">
                                         <div class="modal-header">
-                                            <h1 class="modal-title fs-5" id="staticBackdropLabel">Data Real</h1>
+                                            <h1 class="modal-title fs-5" id="staticBackdropLabel">Warbun</h1>
                                                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                                         </div>
                                         <div class="modal-body">
+                                            <h5 class="pb-2 text-decoration-underline">RINCIAN KRITERIA</h5>
                                             <strong>Kondisi Kamar:</strong>Kering, Ventilasi, Jendela, Paparan sinar Matahari<br>
                                             <strong>Harga:</strong> Rp 900.000<br>
                                             <strong>Fasilitas Kamar:</strong> Kasur, Lemari, Meja<br>
@@ -1305,7 +1674,14 @@
                                             <strong>Lingkungan:</strong> Ramai, Dekat Pertokoan, Dekat Warung Makan<br>
                                             <strong>Fasilitas Umum:</strong> Dapur, Peralatan Dapur, Listrik, Air, Kulkas, Jemuran, WC Umum, Wifi<br>
                                             <strong>Luas Kamar:</strong> 7,5 M^2<br>
-                                            <strong>Parkiran:</strong> 4 - 7 Motor
+                                            <strong>Parkiran:</strong> 4 - 7 Motor<br><br><br>
+                                            <h5 class="pb-2 text-decoration-underline">DETAIL</h5>
+                                            <strong>Gambar:</strong>
+                                            <div class="text-center">
+                                                <img src="{{ asset('image/logo.png') }}" class="rounded" width="50%" height="50%">
+                                            </div><br><br>
+                                            <strong>CP:</strong><br>08** **** ****<br><br>
+                                            <strong>Lokasi:</strong><a href="https://www.google.com/maps/place/VV2F%2BQVX,+Karang+Joang,+Kec.+Balikpapan+Utara,+Kota+Balikpapan,+Kalimantan+Timur/@-1.1480877,116.874523,17z/data=!4m5!3m4!1s0x2df14b8cfdc3d5bd:0xffc82decab0089c1!8m2!3d-1.1480125!4d116.8747344?hl=id&entry=ttu"><br>Alamat Kos</a><br><br>
                                         </div>
                                         <div class="modal-footer">
                                             <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
@@ -1315,13 +1691,14 @@
                             </div>
 
                             <div class="modal fade" id="WarungAbangJon" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
-                                <div class="modal-dialog modal-dialog-centered">
+                                <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-lg">
                                     <div class="modal-content">
                                         <div class="modal-header">
-                                            <h1 class="modal-title fs-5" id="staticBackdropLabel">Data Real</h1>
+                                            <h1 class="modal-title fs-5" id="staticBackdropLabel">Warung Abang Jon</h1>
                                                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                                         </div>
                                         <div class="modal-body">
+                                            <h5 class="pb-2 text-decoration-underline">RINCIAN KRITERIA</h5>
                                             <strong>Kondisi Kamar:</strong>Kering, Jendela, Paparan sinar Matahari<br>
                                             <strong>Harga:</strong> Rp 800.000<br>
                                             <strong>Fasilitas Kamar:</strong> Kasur, Lemari, Meja<br>
@@ -1331,7 +1708,14 @@
                                             <strong>Lingkungan:</strong> Ramai, Dekat Pertokoan, Dekat Warung Makan<br>
                                             <strong>Fasilitas Umum:</strong> Dapur, Peralatan Dapur, Listrik, Air, Kulkas, Jemuran, WC Umum, Wifi, Ruang Tamu<br>
                                             <strong>Luas Kamar:</strong> 6 M^2<br>
-                                            <strong>Parkiran:</strong> 2 - 4 Motor
+                                            <strong>Parkiran:</strong> 2 - 4 Motor<br><br><br>
+                                            <h5 class="pb-2 text-decoration-underline">DETAIL</h5>
+                                            <strong>Gambar:</strong>
+                                            <div class="text-center">
+                                                <img src="{{ asset('image/logo.png') }}" class="rounded" width="50%" height="50%">
+                                            </div><br><br>
+                                            <strong>CP:</strong><br>08** **** ****<br><br>
+                                            <strong>Lokasi:</strong><a href="https://www.google.com/maps/place/VV2F%2BQVX,+Karang+Joang,+Kec.+Balikpapan+Utara,+Kota+Balikpapan,+Kalimantan+Timur/@-1.1480877,116.874523,17z/data=!4m5!3m4!1s0x2df14b8cfdc3d5bd:0xffc82decab0089c1!8m2!3d-1.1480125!4d116.8747344?hl=id&entry=ttu"><br>Alamat Kos</a><br><br>
                                         </div>
                                         <div class="modal-footer">
                                             <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
@@ -1341,13 +1725,14 @@
                             </div>
 
                             <div class="modal fade" id="Azriel" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
-                                <div class="modal-dialog modal-dialog-centered">
+                                <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-lg">
                                     <div class="modal-content">
                                         <div class="modal-header">
-                                            <h1 class="modal-title fs-5" id="staticBackdropLabel">Data Real</h1>
+                                            <h1 class="modal-title fs-5" id="staticBackdropLabel">Azriel</h1>
                                                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                                         </div>
                                         <div class="modal-body">
+                                            <h5 class="pb-2 text-decoration-underline">RINCIAN KRITERIA</h5>
                                             <strong>Kondisi Kamar:</strong>Lembab, Ventilasi, Jendela, Paparan sinar Matahari<br>
                                             <strong>Harga:</strong> Rp 850.000<br>
                                             <strong>Fasilitas Kamar:</strong> WC Dalam, Kasur, Lemari, Meja<br>
@@ -1357,7 +1742,14 @@
                                             <strong>Lingkungan:</strong> Sunyi, Dekat Pertokoan, Dekat Warung Makan<br>
                                             <strong>Fasilitas Umum:</strong> Dapur, Listrik, Air, Kulkas, Jemuran, WC Umum, Wifi<br>
                                             <strong>Luas Kamar:</strong> 9,9 M^2<br>
-                                            <strong>Parkiran:</strong> 7 - 10 Motor & 1 - 2 Mobil
+                                            <strong>Parkiran:</strong> 7 - 10 Motor & 1 - 2 Mobil<br><br><br>
+                                            <h5 class="pb-2 text-decoration-underline">DETAIL</h5>
+                                            <strong>Gambar:</strong>
+                                            <div class="text-center">
+                                                <img src="{{ asset('image/logo.png') }}" class="rounded" width="50%" height="50%">
+                                            </div><br><br>
+                                            <strong>CP:</strong><br>08** **** ****<br><br>
+                                            <strong>Lokasi:</strong><a href="https://www.google.com/maps/place/VV2F%2BQVX,+Karang+Joang,+Kec.+Balikpapan+Utara,+Kota+Balikpapan,+Kalimantan+Timur/@-1.1480877,116.874523,17z/data=!4m5!3m4!1s0x2df14b8cfdc3d5bd:0xffc82decab0089c1!8m2!3d-1.1480125!4d116.8747344?hl=id&entry=ttu"><br>Alamat Kos</a><br><br>
                                         </div>
                                         <div class="modal-footer">
                                             <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
@@ -1367,13 +1759,14 @@
                             </div>
 
                             <div class="modal fade" id="WiwitJayantina" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
-                                <div class="modal-dialog modal-dialog-centered">
+                                <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-lg">
                                     <div class="modal-content">
                                         <div class="modal-header">
-                                            <h1 class="modal-title fs-5" id="staticBackdropLabel">Data Real</h1>
+                                            <h1 class="modal-title fs-5" id="staticBackdropLabel">Wiwit Jayantina</h1>
                                                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                                         </div>
                                         <div class="modal-body">
+                                            <h5 class="pb-2 text-decoration-underline">RINCIAN KRITERIA</h5>
                                             <strong>Kondisi Kamar:</strong>Kering, Ventilasi, Jendela, Paparan sinar Matahari<br>
                                             <strong>Harga:</strong> Rp 550.000<br>
                                             <strong>Fasilitas Kamar:</strong> Kasur, Lemari, Meja<br>
@@ -1383,7 +1776,14 @@
                                             <strong>Lingkungan:</strong> Sunyi, Dekat Pertokoan, Dekat Warung Makan<br>
                                             <strong>Fasilitas Umum:</strong> Dapur, Peralatan Dapur, Listrik, Air, Kulkas, Jemuran, Wifi, Ruang Tamu<br>
                                             <strong>Luas Kamar:</strong> 5 M^2<br>
-                                            <strong>Parkiran:</strong> 1 - 2 Motor
+                                            <strong>Parkiran:</strong> 1 - 2 Motor<br><br><br>
+                                            <h5 class="pb-2 text-decoration-underline">DETAIL</h5>
+                                            <strong>Gambar:</strong>
+                                            <div class="text-center">
+                                                <img src="{{ asset('image/logo.png') }}" class="rounded" width="50%" height="50%">
+                                            </div><br><br>
+                                            <strong>CP:</strong><br>08** **** ****<br><br>
+                                            <strong>Lokasi:</strong><a href="https://www.google.com/maps/place/VV2F%2BQVX,+Karang+Joang,+Kec.+Balikpapan+Utara,+Kota+Balikpapan,+Kalimantan+Timur/@-1.1480877,116.874523,17z/data=!4m5!3m4!1s0x2df14b8cfdc3d5bd:0xffc82decab0089c1!8m2!3d-1.1480125!4d116.8747344?hl=id&entry=ttu"><br>Alamat Kos</a><br><br>
                                         </div>
                                         <div class="modal-footer">
                                             <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
@@ -1393,13 +1793,14 @@
                             </div>
 
                             <div class="modal fade" id="Biru" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
-                                <div class="modal-dialog modal-dialog-centered">
+                                <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-lg">
                                     <div class="modal-content">
                                         <div class="modal-header">
-                                            <h1 class="modal-title fs-5" id="staticBackdropLabel">Data Real</h1>
+                                            <h1 class="modal-title fs-5" id="staticBackdropLabel">Biru</h1>
                                                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                                         </div>
                                         <div class="modal-body">
+                                            <h5 class="pb-2 text-decoration-underline">RINCIAN KRITERIA</h5>
                                             <strong>Kondisi Kamar:</strong>Lembab, Ventilasi, Jendela<br>
                                             <strong>Harga:</strong> Rp 500.000<br>
                                             <strong>Fasilitas Kamar:</strong> Kasur, Lemari, Meja<br>
@@ -1409,7 +1810,14 @@
                                             <strong>Lingkungan:</strong> Sunyi, Dekat Pertokoan, Dekat Warung Makan<br>
                                             <strong>Fasilitas Umum:</strong> Dapur, Peralatan Dapur, Listrik, Air, Jemuran, Wifi, Ruang Tamu<br>
                                             <strong>Luas Kamar:</strong> 6,2 M^2<br>
-                                            <strong>Parkiran:</strong> 10 < MTR ≤ 25 & 1 ≤ MBL ≤ 5
+                                            <strong>Parkiran:</strong> 10 < MTR ≤ 25 & 1 ≤ MBL ≤ 5<br><br><br>
+                                            <h5 class="pb-2 text-decoration-underline">DETAIL</h5>
+                                            <strong>Gambar:</strong>
+                                            <div class="text-center">
+                                                <img src="{{ asset('image/logo.png') }}" class="rounded" width="50%" height="50%">
+                                            </div><br><br>
+                                            <strong>CP:</strong><br>08** **** ****<br><br>
+                                            <strong>Lokasi:</strong><a href="https://www.google.com/maps/place/VV2F%2BQVX,+Karang+Joang,+Kec.+Balikpapan+Utara,+Kota+Balikpapan,+Kalimantan+Timur/@-1.1480877,116.874523,17z/data=!4m5!3m4!1s0x2df14b8cfdc3d5bd:0xffc82decab0089c1!8m2!3d-1.1480125!4d116.8747344?hl=id&entry=ttu"><br>Alamat Kos</a><br><br>
                                         </div>
                                         <div class="modal-footer">
                                             <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
@@ -1440,22 +1848,29 @@
             <input type="hidden" name="ids[]" value="{{ $id }}">
         @endforeach
 
-        <div class="d-flex pt-5 pb-5">
+
+        <div class="d-flex pt-5 pb-3">
             <i class="fa-solid fa-comment fa-2xl ms-3"></i>
-                <textarea name="isi" placeholder="Add a comment" rows="1" cols="80" style="border-right: none; border-left: none; border-top: none"></textarea>
+                <input type="text" name="isi" placeholder="Add a comment" style="border-right: none; border-left: none; border-top: none; width:400px">
             <button type='submit' class="dropdown-item" href="">
                 <i class="fa-solid fa-paper-plane fa-lg"></i>
             </button>
         </div>
     </form>
 
+    <div class="card" style="width: 400px; height: 370px">
+        <div class="card-body">
+          <div class="scrollable" style="overflow-y: auto; max-height: 300px;">
         @foreach ($komens as $komen)
-            <div>
+            <div class="">
                 <i class="fa-regular fa-user fa-lg ms-4"></i>
                 Anonimus
             </div>
             <div class="pb-4 ms-5">{{$komen->isi}}</div>
         @endforeach
+          </div>
+        </div>
+      </div>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N" crossorigin="anonymous">

@@ -57,7 +57,7 @@ class AlternatifController extends Controller
 
         $koss = $koss->sortByDesc('hasil');
         $koss = $koss;
-        $komens = Comment::all();
+        $komens = Comment::latest()->get();
 
         return view('hasil', compact('koss', 'ids', 'komens'));
     }
@@ -99,7 +99,7 @@ class AlternatifController extends Controller
             $ids = [];
         }
 
-        $komens = Comment::all();
+        $komens = Comment::latest()->get();
 
         return view('hasil', compact('koss', 'ids', 'komens'));
     }

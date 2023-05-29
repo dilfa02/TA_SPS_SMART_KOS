@@ -34,12 +34,12 @@
 <div class="container justify-content-center w-50">
     <div>
         <h2 class="pt-5 text-center"><b>Ingin Mencari Alternatif Kos?</b></h2>
-        <p class="pt-4">Dapatkan kos yang anda inginkan dengan memilih kriteria di bawah ini:</p>
+        <p @if ($pilihan1) hidden @endif class="pt-4">Dapatkan kos yang anda inginkan dengan memilih kriteria di bawah ini:</p>
     </div>
 
     <form action="{{ route('pilih_alternatif') }}" method="POST">
         @csrf
-        <div>
+        <div @if ($pilihan1) hidden @endif>
             <div class="input-group mb-3">
                 <label class="input-group-text" for="inputGroupSelect01">Pilihan 1</label>
                 <select class="form-select" id="inputGroupSelect01" name="pilihan1">
@@ -103,7 +103,7 @@
 
 <div class="container justify-content-center w-50">
     <div>
-        <p class="pt-5">Pilihlah rincian kriteria yang anda inginkan berdasarkan kriteria pilihan anda di atas:</p>
+        <p @if (!$pilihan1) hidden @endif class="pt-5">Pilihlah rincian kriteria yang anda inginkan berdasarkan kriteria pilihan anda:</p>
     </div>
 
     @if (!!$pilihan1)
