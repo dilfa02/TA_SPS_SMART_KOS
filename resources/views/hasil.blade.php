@@ -114,7 +114,7 @@
                                             <h5 class="pb-2 text-decoration-underline">DETAIL</h5>
                                             <strong>Gambar:</strong>
                                             <div class="text-center">
-                                                <img src="{{ asset('image/logo.png') }}" class="rounded" width="50%" height="50%">
+                                                <img src="{{ asset('image/Jawas.jpg') }}" class="rounded" width="50%" height="50%">
                                             </div><br><br>
                                             <strong>CP:</strong><br>0813 4666 6895<br><br>
                                             <strong>Lokasi:</strong><a href="https://goo.gl/maps/NyGiVyYc58c22RrZ8"><br>Alamat Kos</a><br><br>
@@ -148,7 +148,7 @@
                                             <h5 class="pb-2 text-decoration-underline">DETAIL</h5>
                                             <strong>Gambar:</strong>
                                             <div class="text-center">
-                                                <img src="{{ asset('image/logo.png') }}" class="rounded" width="50%" height="50%">
+                                                <img src="{{ asset('image/Carjoe.jpg') }}" class="rounded" width="50%" height="50%">
                                             </div><br><br>
                                             <strong>CP:</strong><br>08** **** ****<br><br>
                                             <strong>Lokasi:</strong><a href="https://goo.gl/maps/8vn8aVnDjbpGskCY8"><br>Alamat Kos</a><br><br>
@@ -182,7 +182,7 @@
                                             <h5 class="pb-2 text-decoration-underline">DETAIL</h5>
                                             <strong>Gambar:</strong>
                                             <div class="text-center">
-                                                <img src="{{ asset('image/logo.png') }}" class="rounded" width="50%" height="50%">
+                                                <img src="{{ asset('image/Ar-Rayyan.jpg') }}" class="rounded" width="50%" height="50%">
                                             </div><br><br>
                                             <strong>CP:</strong><br>0813 4750 5450<br><br>
                                             <strong>Lokasi:</strong><a href="https://goo.gl/maps/YN3eygWp29YPUYk5A"><br>Alamat Kos</a><br><br>
@@ -216,7 +216,7 @@
                                             <h5 class="pb-2 text-decoration-underline">DETAIL</h5>
                                             <strong>Gambar:</strong>
                                             <div class="text-center">
-                                                <img src="{{ asset('image/logo.png') }}" class="rounded" width="50%" height="50%">
+                                                <img src="{{ asset('image/JK.jpg') }}" class="rounded" width="50%" height="50%">
                                             </div><br><br>
                                             <strong>CP:</strong><br>0811 5977 001<br><br>
                                             <strong>Lokasi:</strong><a href="https://goo.gl/maps/BGjD448NUEj3NVKS6"><br>Alamat Kos</a><br><br>
@@ -250,7 +250,7 @@
                                             <h5 class="pb-2 text-decoration-underline">DETAIL</h5>
                                             <strong>Gambar:</strong>
                                             <div class="text-center">
-                                                <img src="{{ asset('image/logo.png') }}" class="rounded" width="50%" height="50%">
+                                                <img src="{{ asset('image/Carjoe.jpg') }}" class="rounded" width="50%" height="50%">
                                             </div><br><br>
                                             <strong>CP:</strong><br>0812 5809 993<br><br>
                                             <strong>Lokasi:</strong><a href="https://goo.gl/maps/HsfpnEmQaAbKWfag8"><br>Alamat Kos</a><br><br>
@@ -284,7 +284,7 @@
                                             <h5 class="pb-2 text-decoration-underline">DETAIL</h5>
                                             <strong>Gambar:</strong>
                                             <div class="text-center">
-                                                <img src="{{ asset('image/logo.png') }}" class="rounded" width="50%" height="50%">
+                                                <img src="{{ asset('image/Ar-Rayyan.jpg') }}" class="rounded" width="50%" height="50%">
                                             </div><br><br>
                                             <strong>CP:</strong><br>0813 4750 5450<br><br>
                                             <strong>Lokasi:</strong><a href="https://goo.gl/maps/YN3eygWp29YPUYk5A"><br>Alamat Kos</a><br><br>
@@ -318,7 +318,7 @@
                                             <h5 class="pb-2 text-decoration-underline">DETAIL</h5>
                                             <strong>Gambar:</strong>
                                             <div class="text-center">
-                                                <img src="{{ asset('image/logo.png') }}" class="rounded" width="50%" height="50%">
+                                                <img src="{{ asset('image/JK.jpg') }}" class="rounded" width="50%" height="50%">
                                             </div><br><br>
                                             <strong>CP:</strong><br>0811 5977 001<br><br>
                                             <strong>Lokasi:</strong><a href="https://goo.gl/maps/BGjD448NUEj3NVKS6"><br>Alamat Kos</a><br><br>
@@ -386,7 +386,7 @@
                                             <h5 class="pb-2 text-decoration-underline">DETAIL</h5>
                                             <strong>Gambar:</strong>
                                             <div class="text-center">
-                                                <img src="{{ asset('image/logo.png') }}" class="rounded" width="50%" height="50%">
+                                                <img src="{{ asset('image/Bugenvil(L).jpg') }}" class="rounded" width="50%" height="50%">
                                             </div><br><br>
                                             <strong>CP:</strong><br>0812 5377 9502<br><br>
                                             <strong>Lokasi:</strong><a href="https://goo.gl/maps/YQw2C6ntC3h7HRy78"><br>Alamat Kos</a><br><br>
@@ -420,7 +420,7 @@
                                             <h5 class="pb-2 text-decoration-underline">DETAIL</h5>
                                             <strong>Gambar:</strong>
                                             <div class="text-center">
-                                                <img src="{{ asset('image/logo.png') }}" class="rounded" width="50%" height="50%">
+                                                <img src="{{ asset('image/Ramothy.jpg') }}" class="rounded" width="50%" height="50%">
                                             </div><br><br>
                                             <strong>CP:</strong><br>0813 2966 0111<br><br>
                                             <strong>Lokasi:</strong><a href="https://goo.gl/maps/bKqRvAYkcpyK3iMw9"><br>Alamat Kos</a><br><br>
@@ -454,7 +454,7 @@
                                             <h5 class="pb-2 text-decoration-underline">DETAIL</h5>
                                             <strong>Gambar:</strong>
                                             <div class="text-center">
-                                                <img src="{{ asset('image/logo.png') }}" class="rounded" width="50%" height="50%">
+                                                <img src="{{ asset('image/Ar-Rayyan.jpg') }}" class="rounded" width="50%" height="50%">
                                             </div><br><br>
                                             <strong>CP:</strong><br>0813 4750 5450<br><br>
                                             <strong>Lokasi:</strong><a href="https://goo.gl/maps/YN3eygWp29YPUYk5A"><br>Alamat Kos</a><br><br>
@@ -488,7 +488,7 @@
                                             <h5 class="pb-2 text-decoration-underline">DETAIL</h5>
                                             <strong>Gambar:</strong>
                                             <div class="text-center">
-                                                <img src="{{ asset('image/logo.png') }}" class="rounded" width="50%" height="50%">
+                                                <img src="{{ asset('image/Barokah.jpg') }}" class="rounded" width="50%" height="50%">
                                             </div><br><br>
                                             <strong>CP:</strong><br>0812 5829 584<br><br>
                                             <strong>Lokasi:</strong><a href="https://goo.gl/maps/2D2vatPwdWC1tWx99"><br>Alamat Kos</a><br><br>
@@ -522,7 +522,7 @@
                                             <h5 class="pb-2 text-decoration-underline">DETAIL</h5>
                                             <strong>Gambar:</strong>
                                             <div class="text-center">
-                                                <img src="{{ asset('image/logo.png') }}" class="rounded" width="50%" height="50%">
+                                                <img src="{{ asset('image/3G.jpg') }}" class="rounded" width="50%" height="50%">
                                             </div><br><br>
                                             <strong>CP:</strong><br>0812 6586 171<br><br>
                                             <strong>Lokasi:</strong><a href="https://goo.gl/maps/XrDxho6zjMEXyv2w6"><br>Alamat Kos</a><br><br>
@@ -556,7 +556,7 @@
                                             <h5 class="pb-2 text-decoration-underline">DETAIL</h5>
                                             <strong>Gambar:</strong>
                                             <div class="text-center">
-                                                <img src="{{ asset('image/logo.png') }}" class="rounded" width="50%" height="50%">
+                                                <img src="{{ asset('image/HajiAsa.jpeg') }}" class="rounded" width="50%" height="50%">
                                             </div><br><br>
                                             <strong>CP:</strong><br>0815 4555 4551<br><br>
                                             <strong>Lokasi:</strong><a href="https://maps.app.goo.gl/ek2gm3UGrwaNTz6V9?g_st=iw"><br>Alamat Kos</a><br><br>
@@ -590,7 +590,7 @@
                                             <h5 class="pb-2 text-decoration-underline">DETAIL</h5>
                                             <strong>Gambar:</strong>
                                             <div class="text-center">
-                                                <img src="{{ asset('image/logo.png') }}" class="rounded" width="50%" height="50%">
+                                                <img src="{{ asset('image/Nawra.jpg') }}" class="rounded" width="50%" height="50%">
                                             </div><br><br>
                                             <strong>CP:</strong><br>0821 5118 5692<br><br>
                                             <strong>Lokasi:</strong><a href="https://goo.gl/maps/t3ZR3ikUCoiCJwM17"><br>Alamat Kos</a><br><br>
@@ -658,7 +658,7 @@
                                             <h5 class="pb-2 text-decoration-underline">DETAIL</h5>
                                             <strong>Gambar:</strong>
                                             <div class="text-center">
-                                                <img src="{{ asset('image/logo.png') }}" class="rounded" width="50%" height="50%">
+                                                <img src="{{ asset('image/Wijaya.jpg') }}" class="rounded" width="50%" height="50%">
                                             </div><br><br>
                                             <strong>CP:</strong><br>08** **** ****<br><br>
                                             <strong>Lokasi:</strong><a href="https://goo.gl/maps/D6PXFq8LZv2AYFR67"><br>Alamat Kos</a><br><br>
@@ -760,7 +760,7 @@
                                             <h5 class="pb-2 text-decoration-underline">DETAIL</h5>
                                             <strong>Gambar:</strong>
                                             <div class="text-center">
-                                                <img src="{{ asset('image/logo.png') }}" class="rounded" width="50%" height="50%">
+                                                <img src="{{ asset('image/Carjoe.jpg') }}" class="rounded" width="50%" height="50%">
                                             </div><br><br>
                                             <strong>CP:</strong><br>0813 4738 7284<br><br>
                                             <strong>Lokasi:</strong><a href="https://goo.gl/maps/8vn8aVnDjbpGskCY8"><br>Alamat Kos</a><br><br>
@@ -794,7 +794,7 @@
                                             <h5 class="pb-2 text-decoration-underline">DETAIL</h5>
                                             <strong>Gambar:</strong>
                                             <div class="text-center">
-                                                <img src="{{ asset('image/logo.png') }}" class="rounded" width="50%" height="50%">
+                                                <img src="{{ asset('image/Carjoe.jpg') }}" class="rounded" width="50%" height="50%">
                                             </div><br><br>
                                             <strong>CP:</strong><br>0812 5834 2525<br><br>
                                             <strong>Lokasi:</strong><a href="https://goo.gl/maps/Cce1pJrEZXh2XDih9"><br>Alamat Kos</a><br><br>
@@ -828,7 +828,7 @@
                                             <h5 class="pb-2 text-decoration-underline">DETAIL</h5>
                                             <strong>Gambar:</strong>
                                             <div class="text-center">
-                                                <img src="{{ asset('image/logo.png') }}" class="rounded" width="50%" height="50%">
+                                                <img src="{{ asset('image/Carjoe.jpg') }}" class="rounded" width="50%" height="50%">
                                             </div><br><br>
                                             <strong>CP:</strong><br>0822 1311 2311<br><br>
                                             <strong>Lokasi:</strong><a href="https://goo.gl/maps/P6KAmyBzB1v9hMnB7"><br>Alamat Kos</a><br><br>
@@ -862,7 +862,7 @@
                                             <h5 class="pb-2 text-decoration-underline">DETAIL</h5>
                                             <strong>Gambar:</strong>
                                             <div class="text-center">
-                                                <img src="{{ asset('image/logo.png') }}" class="rounded" width="50%" height="50%">
+                                                <img src="{{ asset('image/Carjoe.jpg') }}" class="rounded" width="50%" height="50%">
                                             </div><br><br>
                                             <strong>CP:</strong><br>0811 5443 032<br><br>
                                             <strong>Lokasi:</strong><a href="https://goo.gl/maps/5pt3Hs1AQhYT4Syr8"><br>Alamat Kos</a><br><br>
@@ -896,7 +896,7 @@
                                             <h5 class="pb-2 text-decoration-underline">DETAIL</h5>
                                             <strong>Gambar:</strong>
                                             <div class="text-center">
-                                                <img src="{{ asset('image/logo.png') }}" class="rounded" width="50%" height="50%">
+                                                <img src="{{ asset('image/Carjoe.jpg') }}" class="rounded" width="50%" height="50%">
                                             </div><br><br>
                                             <strong>CP:</strong><br>0813 4738 7284<br><br>
                                             <strong>Lokasi:</strong><a href="https://goo.gl/maps/kfoX5KkaVj3XdDRW6"><br>Alamat Kos</a><br><br>
@@ -930,7 +930,7 @@
                                             <h5 class="pb-2 text-decoration-underline">DETAIL</h5>
                                             <strong>Gambar:</strong>
                                             <div class="text-center">
-                                                <img src="{{ asset('image/logo.png') }}" class="rounded" width="50%" height="50%">
+                                                <img src="{{ asset('image/KartikaPutri.jpg') }}" class="rounded" width="50%" height="50%">
                                             </div><br><br>
                                             <strong>CP:</strong><br>0813 8165 4483<br><br>
                                             <strong>Lokasi:</strong><a href="https://goo.gl/maps/UvKUkwyyKLdGacKN7"><br>Alamat Kos</a><br><br>
@@ -998,7 +998,7 @@
                                             <h5 class="pb-2 text-decoration-underline">DETAIL</h5>
                                             <strong>Gambar:</strong>
                                             <div class="text-center">
-                                                <img src="{{ asset('image/logo.png') }}" class="rounded" width="50%" height="50%">
+                                                <img src="{{ asset('image/Carjoe.jpg') }}" class="rounded" width="50%" height="50%">
                                             </div><br><br>
                                             <strong>CP:</strong><br>0811 5443 032<br><br>
                                             <strong>Lokasi:</strong><a href="https://goo.gl/maps/iTV7gfMnMNdZKPKw7"><br>Alamat Kos</a><br><br>
@@ -1100,7 +1100,7 @@
                                             <h5 class="pb-2 text-decoration-underline">DETAIL</h5>
                                             <strong>Gambar:</strong>
                                             <div class="text-center">
-                                                <img src="{{ asset('image/logo.png') }}" class="rounded" width="50%" height="50%">
+                                                <img src="{{ asset('image/Carjoe.jpg') }}" class="rounded" width="50%" height="50%">
                                             </div><br><br>
                                             <strong>CP:</strong><br>08** **** ****<br><br>
                                             <strong>Lokasi:</strong><a href="https://goo.gl/maps/JWcxPaTM3gfxNTDV8"><br>Alamat Kos</a><br><br>
@@ -1134,7 +1134,7 @@
                                             <h5 class="pb-2 text-decoration-underline">DETAIL</h5>
                                             <strong>Gambar:</strong>
                                             <div class="text-center">
-                                                <img src="{{ asset('image/logo.png') }}" class="rounded" width="50%" height="50%">
+                                                <img src="{{ asset('image/Raflesia.jpg') }}" class="rounded" width="50%" height="50%">
                                             </div><br><br>
                                             <strong>CP:</strong><br>08** **** ****<br><br>
                                             <strong>Lokasi:</strong><a href="https://goo.gl/maps/25JgzP25kVmNuQYE6"><br>Alamat Kos</a><br><br>
@@ -1168,7 +1168,7 @@
                                             <h5 class="pb-2 text-decoration-underline">DETAIL</h5>
                                             <strong>Gambar:</strong>
                                             <div class="text-center">
-                                                <img src="{{ asset('image/logo.png') }}" class="rounded" width="50%" height="50%">
+                                                <img src="{{ asset('image/Raflesia.jpg') }}" class="rounded" width="50%" height="50%">
                                             </div><br><br>
                                             <strong>CP:</strong><br>08** **** ****<br><br>
                                             <strong>Lokasi:</strong><a href="https://goo.gl/maps/25JgzP25kVmNuQYE6"><br>Alamat Kos</a><br><br>
@@ -1304,7 +1304,7 @@
                                             <h5 class="pb-2 text-decoration-underline">DETAIL</h5>
                                             <strong>Gambar:</strong>
                                             <div class="text-center">
-                                                <img src="{{ asset('image/logo.png') }}" class="rounded" width="50%" height="50%">
+                                                <img src="{{ asset('image/Carjoe.jpg') }}" class="rounded" width="50%" height="50%">
                                             </div><br><br>
                                             <strong>CP:</strong><br>08** **** ****<br><br>
                                             <strong>Lokasi:</strong><a href="https://goo.gl/maps/JWcxPaTM3gfxNTDV8"><br>Alamat Kos</a><br><br>
@@ -1406,7 +1406,7 @@
                                             <h5 class="pb-2 text-decoration-underline">DETAIL</h5>
                                             <strong>Gambar:</strong>
                                             <div class="text-center">
-                                                <img src="{{ asset('image/logo.png') }}" class="rounded" width="50%" height="50%">
+                                                <img src="{{ asset('image/Gue.jpg') }}" class="rounded" width="50%" height="50%">
                                             </div><br><br>
                                             <strong>CP:</strong><br>0812 5720 1525<br><br>
                                             <strong>Lokasi:</strong><a href="https://goo.gl/maps/KQH6Hg8NMoLMmcrc6"><br>Alamat Kos</a><br><br>
@@ -1440,7 +1440,7 @@
                                             <h5 class="pb-2 text-decoration-underline">DETAIL</h5>
                                             <strong>Gambar:</strong>
                                             <div class="text-center">
-                                                <img src="{{ asset('image/logo.png') }}" class="rounded" width="50%" height="50%">
+                                                <img src="{{ asset('image/Threefa.jpg') }}" class="rounded" width="50%" height="50%">
                                             </div><br><br>
                                             <strong>CP:</strong><br>0815 2265 6984<br><br>
                                             <strong>Lokasi:</strong><a href="https://goo.gl/maps/7ZpTaSez5TaHe3ot8"><br>Alamat Kos</a><br><br>
@@ -1508,7 +1508,7 @@
                                             <h5 class="pb-2 text-decoration-underline">DETAIL</h5>
                                             <strong>Gambar:</strong>
                                             <div class="text-center">
-                                                <img src="{{ asset('image/logo.png') }}" class="rounded" width="50%" height="50%">
+                                                <img src="{{ asset('image/Sidrap1.jpg') }}" class="rounded" width="50%" height="50%">
                                             </div><br><br>
                                             <strong>CP:</strong><br>0812 5058 6459<br><br>
                                             <strong>Lokasi:</strong><a href="https://goo.gl/maps/Xdbpiv6ZxMapgCyG9"><br>Alamat Kos</a><br><br>
@@ -1542,7 +1542,7 @@
                                             <h5 class="pb-2 text-decoration-underline">DETAIL</h5>
                                             <strong>Gambar:</strong>
                                             <div class="text-center">
-                                                <img src="{{ asset('image/logo.png') }}" class="rounded" width="50%" height="50%">
+                                                <img src="{{ asset('image/DuaPutra.jpg') }}" class="rounded" width="50%" height="50%">
                                             </div><br><br>
                                             <strong>CP:</strong><br>0853 4809 0754<br><br>
                                             <strong>Lokasi:</strong><a href="https://maps.app.goo.gl/PtjEDmA6pYJaP1DM8"><br>Alamat Kos</a><br><br>
@@ -1576,7 +1576,7 @@
                                             <h5 class="pb-2 text-decoration-underline">DETAIL</h5>
                                             <strong>Gambar:</strong>
                                             <div class="text-center">
-                                                <img src="{{ asset('image/logo.png') }}" class="rounded" width="50%" height="50%">
+                                                <img src="{{ asset('image/Anugrah.jpg') }}" class="rounded" width="50%" height="50%">
                                             </div><br><br>
                                             <strong>CP:</strong><br>0813 4652 8247<br><br>
                                             <strong>Lokasi:</strong><a href="https://goo.gl/maps/4jUG2xJZKZCP2GXZ6"><br>Alamat Kos</a><br><br>
@@ -1712,7 +1712,7 @@
                                             <h5 class="pb-2 text-decoration-underline">DETAIL</h5>
                                             <strong>Gambar:</strong>
                                             <div class="text-center">
-                                                <img src="{{ asset('image/logo.png') }}" class="rounded" width="50%" height="50%">
+                                                <img src="{{ asset('image/Anugrah.jpg') }}" class="rounded" width="50%" height="50%">
                                             </div><br><br>
                                             <strong>CP:</strong><br>0813 4652 8247<br><br>
                                             <strong>Lokasi:</strong><a href="https://goo.gl/maps/4jUG2xJZKZCP2GXZ6"><br>Alamat Kos</a><br><br>
@@ -1780,7 +1780,7 @@
                                             <h5 class="pb-2 text-decoration-underline">DETAIL</h5>
                                             <strong>Gambar:</strong>
                                             <div class="text-center">
-                                                <img src="{{ asset('image/logo.png') }}" class="rounded" width="50%" height="50%">
+                                                <img src="{{ asset('image/WiwitJayantina.jpg') }}" class="rounded" width="50%" height="50%">
                                             </div><br><br>
                                             <strong>CP:</strong><br>0857 5166 0387<br><br>
                                             <strong>Lokasi:</strong><a href="https://goo.gl/maps/bTJDh34XqERDPRFq8"><br>Alamat Kos</a><br><br>
