@@ -558,8 +558,8 @@
                                             <div class="text-center">
                                                 <img src="{{ asset('image/logo.png') }}" class="rounded" width="50%" height="50%">
                                             </div><br><br>
-                                            <strong>CP:</strong><br>08** **** ****<br><br>
-                                            <strong>Lokasi:</strong><a href="..."><br>Alamat Kos</a><br><br>
+                                            <strong>CP:</strong><br>0815 4555 4551<br><br>
+                                            <strong>Lokasi:</strong><a href="https://maps.app.goo.gl/ek2gm3UGrwaNTz6V9?g_st=iw"><br>Alamat Kos</a><br><br>
                                         </div>
                                         <div class="modal-footer">
                                             <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
@@ -1442,7 +1442,7 @@
                                             <div class="text-center">
                                                 <img src="{{ asset('image/logo.png') }}" class="rounded" width="50%" height="50%">
                                             </div><br><br>
-                                            <strong>CP:</strong><br>08** **** ****<br><br>
+                                            <strong>CP:</strong><br>0815 2265 6984<br><br>
                                             <strong>Lokasi:</strong><a href="https://goo.gl/maps/7ZpTaSez5TaHe3ot8"><br>Alamat Kos</a><br><br>
                                         </div>
                                         <div class="modal-footer">
@@ -1579,7 +1579,7 @@
                                                 <img src="{{ asset('image/logo.png') }}" class="rounded" width="50%" height="50%">
                                             </div><br><br>
                                             <strong>CP:</strong><br>0813 4652 8247<br><br>
-                                            <strong>Lokasi:</strong><a href="..."><br>Alamat Kos</a><br><br>
+                                            <strong>Lokasi:</strong><a href="https://goo.gl/maps/4jUG2xJZKZCP2GXZ6"><br>Alamat Kos</a><br><br>
                                         </div>
                                         <div class="modal-footer">
                                             <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
@@ -1715,7 +1715,7 @@
                                                 <img src="{{ asset('image/logo.png') }}" class="rounded" width="50%" height="50%">
                                             </div><br><br>
                                             <strong>CP:</strong><br>0813 4652 8247<br><br>
-                                            <strong>Lokasi:</strong><a href="..."><br>Alamat Kos</a><br><br>
+                                            <strong>Lokasi:</strong><a href="https://goo.gl/maps/4jUG2xJZKZCP2GXZ6"><br>Alamat Kos</a><br><br>
                                         </div>
                                         <div class="modal-footer">
                                             <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
@@ -1748,7 +1748,7 @@
                                             <div class="text-center">
                                                 <img src="{{ asset('image/logo.png') }}" class="rounded" width="50%" height="50%">
                                             </div><br><br>
-                                            <strong>CP:</strong><br>08** **** ****<br><br>
+                                            <strong>CP:</strong><br>0878 4256 5537<br><br>
                                             <strong>Lokasi:</strong><a href="https://goo.gl/maps/S51K6CLfa9aWb11H7"><br>Alamat Kos</a><br><br>
                                         </div>
                                         <div class="modal-footer">
