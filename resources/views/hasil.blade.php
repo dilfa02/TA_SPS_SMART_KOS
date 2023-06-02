@@ -116,8 +116,8 @@
                                             <div class="text-center">
                                                 <img src="{{ asset('image/logo.png') }}" class="rounded" width="50%" height="50%">
                                             </div><br><br>
-                                            <strong>CP:</strong><br>08** **** ****<br><br>
-                                            <strong>Lokasi:</strong><a href="https://www.google.com/maps/place/VV2F%2BQVX,+Karang+Joang,+Kec.+Balikpapan+Utara,+Kota+Balikpapan,+Kalimantan+Timur/@-1.1480877,116.874523,17z/data=!4m5!3m4!1s0x2df14b8cfdc3d5bd:0xffc82decab0089c1!8m2!3d-1.1480125!4d116.8747344?hl=id&entry=ttu"><br>Alamat Kos</a><br><br>
+                                            <strong>CP:</strong><br>0813 4666 6895<br><br>
+                                            <strong>Lokasi:</strong><a href="https://goo.gl/maps/NyGiVyYc58c22RrZ8"><br>Alamat Kos</a><br><br>
                                         </div>
                                         <div class="modal-footer">
                                             <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
@@ -151,7 +151,7 @@
                                                 <img src="{{ asset('image/logo.png') }}" class="rounded" width="50%" height="50%">
                                             </div><br><br>
                                             <strong>CP:</strong><br>08** **** ****<br><br>
-                                            <strong>Lokasi:</strong><a href="https://www.google.com/maps/place/VV2F%2BQVX,+Karang+Joang,+Kec.+Balikpapan+Utara,+Kota+Balikpapan,+Kalimantan+Timur/@-1.1480877,116.874523,17z/data=!4m5!3m4!1s0x2df14b8cfdc3d5bd:0xffc82decab0089c1!8m2!3d-1.1480125!4d116.8747344?hl=id&entry=ttu"><br>Alamat Kos</a><br><br>
+                                            <strong>Lokasi:</strong><a href="https://goo.gl/maps/8vn8aVnDjbpGskCY8"><br>Alamat Kos</a><br><br>
                                         </div>
                                         <div class="modal-footer">
                                             <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
@@ -184,8 +184,8 @@
                                             <div class="text-center">
                                                 <img src="{{ asset('image/logo.png') }}" class="rounded" width="50%" height="50%">
                                             </div><br><br>
-                                            <strong>CP:</strong><br>08** **** ****<br><br>
-                                            <strong>Lokasi:</strong><a href="https://www.google.com/maps/place/VV2F%2BQVX,+Karang+Joang,+Kec.+Balikpapan+Utara,+Kota+Balikpapan,+Kalimantan+Timur/@-1.1480877,116.874523,17z/data=!4m5!3m4!1s0x2df14b8cfdc3d5bd:0xffc82decab0089c1!8m2!3d-1.1480125!4d116.8747344?hl=id&entry=ttu"><br>Alamat Kos</a><br><br>
+                                            <strong>CP:</strong><br>0813 4750 5450<br><br>
+                                            <strong>Lokasi:</strong><a href="https://goo.gl/maps/YN3eygWp29YPUYk5A"><br>Alamat Kos</a><br><br>
                                         </div>
                                         <div class="modal-footer">
                                             <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
@@ -218,8 +218,8 @@
                                             <div class="text-center">
                                                 <img src="{{ asset('image/logo.png') }}" class="rounded" width="50%" height="50%">
                                             </div><br><br>
-                                            <strong>CP:</strong><br>08** **** ****<br><br>
-                                            <strong>Lokasi:</strong><a href="https://www.google.com/maps/place/VV2F%2BQVX,+Karang+Joang,+Kec.+Balikpapan+Utara,+Kota+Balikpapan,+Kalimantan+Timur/@-1.1480877,116.874523,17z/data=!4m5!3m4!1s0x2df14b8cfdc3d5bd:0xffc82decab0089c1!8m2!3d-1.1480125!4d116.8747344?hl=id&entry=ttu"><br>Alamat Kos</a><br><br>
+                                            <strong>CP:</strong><br>0811 5977 001<br><br>
+                                            <strong>Lokasi:</strong><a href="https://goo.gl/maps/BGjD448NUEj3NVKS6"><br>Alamat Kos</a><br><br>
                                         </div>
                                         <div class="modal-footer">
                                             <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
@@ -252,8 +252,8 @@
                                             <div class="text-center">
                                                 <img src="{{ asset('image/logo.png') }}" class="rounded" width="50%" height="50%">
                                             </div><br><br>
-                                            <strong>CP:</strong><br>08** **** ****<br><br>
-                                            <strong>Lokasi:</strong><a href="https://www.google.com/maps/place/VV2F%2BQVX,+Karang+Joang,+Kec.+Balikpapan+Utara,+Kota+Balikpapan,+Kalimantan+Timur/@-1.1480877,116.874523,17z/data=!4m5!3m4!1s0x2df14b8cfdc3d5bd:0xffc82decab0089c1!8m2!3d-1.1480125!4d116.8747344?hl=id&entry=ttu"><br>Alamat Kos</a><br><br>
+                                            <strong>CP:</strong><br>0812 5809 993<br><br>
+                                            <strong>Lokasi:</strong><a href="https://goo.gl/maps/HsfpnEmQaAbKWfag8"><br>Alamat Kos</a><br><br>
                                         </div>
                                         <div class="modal-footer">
                                             <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
@@ -286,8 +286,8 @@
                                             <div class="text-center">
                                                 <img src="{{ asset('image/logo.png') }}" class="rounded" width="50%" height="50%">
                                             </div><br><br>
-                                            <strong>CP:</strong><br>08** **** ****<br><br>
-                                            <strong>Lokasi:</strong><a href="https://www.google.com/maps/place/VV2F%2BQVX,+Karang+Joang,+Kec.+Balikpapan+Utara,+Kota+Balikpapan,+Kalimantan+Timur/@-1.1480877,116.874523,17z/data=!4m5!3m4!1s0x2df14b8cfdc3d5bd:0xffc82decab0089c1!8m2!3d-1.1480125!4d116.8747344?hl=id&entry=ttu"><br>Alamat Kos</a><br><br>
+                                            <strong>CP:</strong><br>0813 4750 5450<br><br>
+                                            <strong>Lokasi:</strong><a href="https://goo.gl/maps/YN3eygWp29YPUYk5A"><br>Alamat Kos</a><br><br>
                                         </div>
                                         <div class="modal-footer">
                                             <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
@@ -320,8 +320,8 @@
                                             <div class="text-center">
                                                 <img src="{{ asset('image/logo.png') }}" class="rounded" width="50%" height="50%">
                                             </div><br><br>
-                                            <strong>CP:</strong><br>08** **** ****<br><br>
-                                            <strong>Lokasi:</strong><a href="https://www.google.com/maps/place/VV2F%2BQVX,+Karang+Joang,+Kec.+Balikpapan+Utara,+Kota+Balikpapan,+Kalimantan+Timur/@-1.1480877,116.874523,17z/data=!4m5!3m4!1s0x2df14b8cfdc3d5bd:0xffc82decab0089c1!8m2!3d-1.1480125!4d116.8747344?hl=id&entry=ttu"><br>Alamat Kos</a><br><br>
+                                            <strong>CP:</strong><br>0811 5977 001<br><br>
+                                            <strong>Lokasi:</strong><a href="https://goo.gl/maps/BGjD448NUEj3NVKS6"><br>Alamat Kos</a><br><br>
                                         </div>
                                         <div class="modal-footer">
                                             <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
@@ -355,7 +355,7 @@
                                                 <img src="{{ asset('image/logo.png') }}" class="rounded" width="50%" height="50%">
                                             </div><br><br>
                                             <strong>CP:</strong><br>08** **** ****<br><br>
-                                            <strong>Lokasi:</strong><a href="https://www.google.com/maps/place/VV2F%2BQVX,+Karang+Joang,+Kec.+Balikpapan+Utara,+Kota+Balikpapan,+Kalimantan+Timur/@-1.1480877,116.874523,17z/data=!4m5!3m4!1s0x2df14b8cfdc3d5bd:0xffc82decab0089c1!8m2!3d-1.1480125!4d116.8747344?hl=id&entry=ttu"><br>Alamat Kos</a><br><br>
+                                            <strong>Lokasi:</strong><a href="..."><br>Alamat Kos</a><br><br>
                                         </div>
                                         <div class="modal-footer">
                                             <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
@@ -388,8 +388,8 @@
                                             <div class="text-center">
                                                 <img src="{{ asset('image/logo.png') }}" class="rounded" width="50%" height="50%">
                                             </div><br><br>
-                                            <strong>CP:</strong><br>08** **** ****<br><br>
-                                            <strong>Lokasi:</strong><a href="https://www.google.com/maps/place/VV2F%2BQVX,+Karang+Joang,+Kec.+Balikpapan+Utara,+Kota+Balikpapan,+Kalimantan+Timur/@-1.1480877,116.874523,17z/data=!4m5!3m4!1s0x2df14b8cfdc3d5bd:0xffc82decab0089c1!8m2!3d-1.1480125!4d116.8747344?hl=id&entry=ttu"><br>Alamat Kos</a><br><br>
+                                            <strong>CP:</strong><br>0812 5377 9502<br><br>
+                                            <strong>Lokasi:</strong><a href="https://goo.gl/maps/YQw2C6ntC3h7HRy78"><br>Alamat Kos</a><br><br>
                                         </div>
                                         <div class="modal-footer">
                                             <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
@@ -422,8 +422,8 @@
                                             <div class="text-center">
                                                 <img src="{{ asset('image/logo.png') }}" class="rounded" width="50%" height="50%">
                                             </div><br><br>
-                                            <strong>CP:</strong><br>08** **** ****<br><br>
-                                            <strong>Lokasi:</strong><a href="https://www.google.com/maps/place/VV2F%2BQVX,+Karang+Joang,+Kec.+Balikpapan+Utara,+Kota+Balikpapan,+Kalimantan+Timur/@-1.1480877,116.874523,17z/data=!4m5!3m4!1s0x2df14b8cfdc3d5bd:0xffc82decab0089c1!8m2!3d-1.1480125!4d116.8747344?hl=id&entry=ttu"><br>Alamat Kos</a><br><br>
+                                            <strong>CP:</strong><br>0813 2966 0111<br><br>
+                                            <strong>Lokasi:</strong><a href="https://goo.gl/maps/bKqRvAYkcpyK3iMw9"><br>Alamat Kos</a><br><br>
                                         </div>
                                         <div class="modal-footer">
                                             <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
@@ -456,8 +456,8 @@
                                             <div class="text-center">
                                                 <img src="{{ asset('image/logo.png') }}" class="rounded" width="50%" height="50%">
                                             </div><br><br>
-                                            <strong>CP:</strong><br>08** **** ****<br><br>
-                                            <strong>Lokasi:</strong><a href="https://www.google.com/maps/place/VV2F%2BQVX,+Karang+Joang,+Kec.+Balikpapan+Utara,+Kota+Balikpapan,+Kalimantan+Timur/@-1.1480877,116.874523,17z/data=!4m5!3m4!1s0x2df14b8cfdc3d5bd:0xffc82decab0089c1!8m2!3d-1.1480125!4d116.8747344?hl=id&entry=ttu"><br>Alamat Kos</a><br><br>
+                                            <strong>CP:</strong><br>0813 4750 5450<br><br>
+                                            <strong>Lokasi:</strong><a href="https://goo.gl/maps/YN3eygWp29YPUYk5A"><br>Alamat Kos</a><br><br>
                                         </div>
                                         <div class="modal-footer">
                                             <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
@@ -490,8 +490,8 @@
                                             <div class="text-center">
                                                 <img src="{{ asset('image/logo.png') }}" class="rounded" width="50%" height="50%">
                                             </div><br><br>
-                                            <strong>CP:</strong><br>08** **** ****<br><br>
-                                            <strong>Lokasi:</strong><a href="https://www.google.com/maps/place/VV2F%2BQVX,+Karang+Joang,+Kec.+Balikpapan+Utara,+Kota+Balikpapan,+Kalimantan+Timur/@-1.1480877,116.874523,17z/data=!4m5!3m4!1s0x2df14b8cfdc3d5bd:0xffc82decab0089c1!8m2!3d-1.1480125!4d116.8747344?hl=id&entry=ttu"><br>Alamat Kos</a><br><br>
+                                            <strong>CP:</strong><br>0812 5829 584<br><br>
+                                            <strong>Lokasi:</strong><a href="https://goo.gl/maps/2D2vatPwdWC1tWx99"><br>Alamat Kos</a><br><br>
                                         </div>
                                         <div class="modal-footer">
                                             <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
@@ -524,8 +524,8 @@
                                             <div class="text-center">
                                                 <img src="{{ asset('image/logo.png') }}" class="rounded" width="50%" height="50%">
                                             </div><br><br>
-                                            <strong>CP:</strong><br>08** **** ****<br><br>
-                                            <strong>Lokasi:</strong><a href="https://www.google.com/maps/place/VV2F%2BQVX,+Karang+Joang,+Kec.+Balikpapan+Utara,+Kota+Balikpapan,+Kalimantan+Timur/@-1.1480877,116.874523,17z/data=!4m5!3m4!1s0x2df14b8cfdc3d5bd:0xffc82decab0089c1!8m2!3d-1.1480125!4d116.8747344?hl=id&entry=ttu"><br>Alamat Kos</a><br><br>
+                                            <strong>CP:</strong><br>0812 6586 171<br><br>
+                                            <strong>Lokasi:</strong><a href="https://goo.gl/maps/XrDxho6zjMEXyv2w6"><br>Alamat Kos</a><br><br>
                                         </div>
                                         <div class="modal-footer">
                                             <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
@@ -559,7 +559,7 @@
                                                 <img src="{{ asset('image/logo.png') }}" class="rounded" width="50%" height="50%">
                                             </div><br><br>
                                             <strong>CP:</strong><br>08** **** ****<br><br>
-                                            <strong>Lokasi:</strong><a href="https://www.google.com/maps/place/VV2F%2BQVX,+Karang+Joang,+Kec.+Balikpapan+Utara,+Kota+Balikpapan,+Kalimantan+Timur/@-1.1480877,116.874523,17z/data=!4m5!3m4!1s0x2df14b8cfdc3d5bd:0xffc82decab0089c1!8m2!3d-1.1480125!4d116.8747344?hl=id&entry=ttu"><br>Alamat Kos</a><br><br>
+                                            <strong>Lokasi:</strong><a href="..."><br>Alamat Kos</a><br><br>
                                         </div>
                                         <div class="modal-footer">
                                             <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
@@ -592,8 +592,8 @@
                                             <div class="text-center">
                                                 <img src="{{ asset('image/logo.png') }}" class="rounded" width="50%" height="50%">
                                             </div><br><br>
-                                            <strong>CP:</strong><br>08** **** ****<br><br>
-                                            <strong>Lokasi:</strong><a href="https://www.google.com/maps/place/VV2F%2BQVX,+Karang+Joang,+Kec.+Balikpapan+Utara,+Kota+Balikpapan,+Kalimantan+Timur/@-1.1480877,116.874523,17z/data=!4m5!3m4!1s0x2df14b8cfdc3d5bd:0xffc82decab0089c1!8m2!3d-1.1480125!4d116.8747344?hl=id&entry=ttu"><br>Alamat Kos</a><br><br>
+                                            <strong>CP:</strong><br>0821 5118 5692<br><br>
+                                            <strong>Lokasi:</strong><a href="https://goo.gl/maps/t3ZR3ikUCoiCJwM17"><br>Alamat Kos</a><br><br>
                                         </div>
                                         <div class="modal-footer">
                                             <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
@@ -627,7 +627,7 @@
                                                 <img src="{{ asset('image/logo.png') }}" class="rounded" width="50%" height="50%">
                                             </div><br><br>
                                             <strong>CP:</strong><br>08** **** ****<br><br>
-                                            <strong>Lokasi:</strong><a href="https://www.google.com/maps/place/VV2F%2BQVX,+Karang+Joang,+Kec.+Balikpapan+Utara,+Kota+Balikpapan,+Kalimantan+Timur/@-1.1480877,116.874523,17z/data=!4m5!3m4!1s0x2df14b8cfdc3d5bd:0xffc82decab0089c1!8m2!3d-1.1480125!4d116.8747344?hl=id&entry=ttu"><br>Alamat Kos</a><br><br>
+                                            <strong>Lokasi:</strong><a href="..."><br>Alamat Kos</a><br><br>
                                         </div>
                                         <div class="modal-footer">
                                             <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
@@ -661,7 +661,7 @@
                                                 <img src="{{ asset('image/logo.png') }}" class="rounded" width="50%" height="50%">
                                             </div><br><br>
                                             <strong>CP:</strong><br>08** **** ****<br><br>
-                                            <strong>Lokasi:</strong><a href="https://www.google.com/maps/place/VV2F%2BQVX,+Karang+Joang,+Kec.+Balikpapan+Utara,+Kota+Balikpapan,+Kalimantan+Timur/@-1.1480877,116.874523,17z/data=!4m5!3m4!1s0x2df14b8cfdc3d5bd:0xffc82decab0089c1!8m2!3d-1.1480125!4d116.8747344?hl=id&entry=ttu"><br>Alamat Kos</a><br><br>
+                                            <strong>Lokasi:</strong><a href="https://goo.gl/maps/D6PXFq8LZv2AYFR67"><br>Alamat Kos</a><br><br>
                                         </div>
                                         <div class="modal-footer">
                                             <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
@@ -695,7 +695,7 @@
                                                 <img src="{{ asset('image/logo.png') }}" class="rounded" width="50%" height="50%">
                                             </div><br><br>
                                             <strong>CP:</strong><br>08** **** ****<br><br>
-                                            <strong>Lokasi:</strong><a href="https://www.google.com/maps/place/VV2F%2BQVX,+Karang+Joang,+Kec.+Balikpapan+Utara,+Kota+Balikpapan,+Kalimantan+Timur/@-1.1480877,116.874523,17z/data=!4m5!3m4!1s0x2df14b8cfdc3d5bd:0xffc82decab0089c1!8m2!3d-1.1480125!4d116.8747344?hl=id&entry=ttu"><br>Alamat Kos</a><br><br>
+                                            <strong>Lokasi:</strong><a href="..."><br>Alamat Kos</a><br><br>
                                         </div>
                                         <div class="modal-footer">
                                             <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
@@ -729,7 +729,7 @@
                                                 <img src="{{ asset('image/logo.png') }}" class="rounded" width="50%" height="50%">
                                             </div><br><br>
                                             <strong>CP:</strong><br>08** **** ****<br><br>
-                                            <strong>Lokasi:</strong><a href="https://www.google.com/maps/place/VV2F%2BQVX,+Karang+Joang,+Kec.+Balikpapan+Utara,+Kota+Balikpapan,+Kalimantan+Timur/@-1.1480877,116.874523,17z/data=!4m5!3m4!1s0x2df14b8cfdc3d5bd:0xffc82decab0089c1!8m2!3d-1.1480125!4d116.8747344?hl=id&entry=ttu"><br>Alamat Kos</a><br><br>
+                                            <strong>Lokasi:</strong><a href="..."><br>Alamat Kos</a><br><br>
                                         </div>
                                         <div class="modal-footer">
                                             <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
@@ -762,8 +762,8 @@
                                             <div class="text-center">
                                                 <img src="{{ asset('image/logo.png') }}" class="rounded" width="50%" height="50%">
                                             </div><br><br>
-                                            <strong>CP:</strong><br>08** **** ****<br><br>
-                                            <strong>Lokasi:</strong><a href="https://www.google.com/maps/place/VV2F%2BQVX,+Karang+Joang,+Kec.+Balikpapan+Utara,+Kota+Balikpapan,+Kalimantan+Timur/@-1.1480877,116.874523,17z/data=!4m5!3m4!1s0x2df14b8cfdc3d5bd:0xffc82decab0089c1!8m2!3d-1.1480125!4d116.8747344?hl=id&entry=ttu"><br>Alamat Kos</a><br><br>
+                                            <strong>CP:</strong><br>0813 4738 7284<br><br>
+                                            <strong>Lokasi:</strong><a href="https://goo.gl/maps/8vn8aVnDjbpGskCY8"><br>Alamat Kos</a><br><br>
                                         </div>
                                         <div class="modal-footer">
                                             <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
@@ -796,8 +796,8 @@
                                             <div class="text-center">
                                                 <img src="{{ asset('image/logo.png') }}" class="rounded" width="50%" height="50%">
                                             </div><br><br>
-                                            <strong>CP:</strong><br>08** **** ****<br><br>
-                                            <strong>Lokasi:</strong><a href="https://www.google.com/maps/place/VV2F%2BQVX,+Karang+Joang,+Kec.+Balikpapan+Utara,+Kota+Balikpapan,+Kalimantan+Timur/@-1.1480877,116.874523,17z/data=!4m5!3m4!1s0x2df14b8cfdc3d5bd:0xffc82decab0089c1!8m2!3d-1.1480125!4d116.8747344?hl=id&entry=ttu"><br>Alamat Kos</a><br><br>
+                                            <strong>CP:</strong><br>0812 5834 2525<br><br>
+                                            <strong>Lokasi:</strong><a href="https://goo.gl/maps/Cce1pJrEZXh2XDih9"><br>Alamat Kos</a><br><br>
                                         </div>
                                         <div class="modal-footer">
                                             <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
@@ -830,8 +830,8 @@
                                             <div class="text-center">
                                                 <img src="{{ asset('image/logo.png') }}" class="rounded" width="50%" height="50%">
                                             </div><br><br>
-                                            <strong>CP:</strong><br>08** **** ****<br><br>
-                                            <strong>Lokasi:</strong><a href="https://www.google.com/maps/place/VV2F%2BQVX,+Karang+Joang,+Kec.+Balikpapan+Utara,+Kota+Balikpapan,+Kalimantan+Timur/@-1.1480877,116.874523,17z/data=!4m5!3m4!1s0x2df14b8cfdc3d5bd:0xffc82decab0089c1!8m2!3d-1.1480125!4d116.8747344?hl=id&entry=ttu"><br>Alamat Kos</a><br><br>
+                                            <strong>CP:</strong><br>0822 1311 2311<br><br>
+                                            <strong>Lokasi:</strong><a href="https://goo.gl/maps/P6KAmyBzB1v9hMnB7"><br>Alamat Kos</a><br><br>
                                         </div>
                                         <div class="modal-footer">
                                             <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
@@ -864,8 +864,8 @@
                                             <div class="text-center">
                                                 <img src="{{ asset('image/logo.png') }}" class="rounded" width="50%" height="50%">
                                             </div><br><br>
-                                            <strong>CP:</strong><br>08** **** ****<br><br>
-                                            <strong>Lokasi:</strong><a href="https://www.google.com/maps/place/VV2F%2BQVX,+Karang+Joang,+Kec.+Balikpapan+Utara,+Kota+Balikpapan,+Kalimantan+Timur/@-1.1480877,116.874523,17z/data=!4m5!3m4!1s0x2df14b8cfdc3d5bd:0xffc82decab0089c1!8m2!3d-1.1480125!4d116.8747344?hl=id&entry=ttu"><br>Alamat Kos</a><br><br>
+                                            <strong>CP:</strong><br>0811 5443 032<br><br>
+                                            <strong>Lokasi:</strong><a href="https://goo.gl/maps/5pt3Hs1AQhYT4Syr8"><br>Alamat Kos</a><br><br>
                                         </div>
                                         <div class="modal-footer">
                                             <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
@@ -898,8 +898,8 @@
                                             <div class="text-center">
                                                 <img src="{{ asset('image/logo.png') }}" class="rounded" width="50%" height="50%">
                                             </div><br><br>
-                                            <strong>CP:</strong><br>08** **** ****<br><br>
-                                            <strong>Lokasi:</strong><a href="https://www.google.com/maps/place/VV2F%2BQVX,+Karang+Joang,+Kec.+Balikpapan+Utara,+Kota+Balikpapan,+Kalimantan+Timur/@-1.1480877,116.874523,17z/data=!4m5!3m4!1s0x2df14b8cfdc3d5bd:0xffc82decab0089c1!8m2!3d-1.1480125!4d116.8747344?hl=id&entry=ttu"><br>Alamat Kos</a><br><br>
+                                            <strong>CP:</strong><br>0813 4738 7284<br><br>
+                                            <strong>Lokasi:</strong><a href="https://goo.gl/maps/kfoX5KkaVj3XdDRW6"><br>Alamat Kos</a><br><br>
                                         </div>
                                         <div class="modal-footer">
                                             <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
@@ -932,8 +932,8 @@
                                             <div class="text-center">
                                                 <img src="{{ asset('image/logo.png') }}" class="rounded" width="50%" height="50%">
                                             </div><br><br>
-                                            <strong>CP:</strong><br>08** **** ****<br><br>
-                                            <strong>Lokasi:</strong><a href="https://www.google.com/maps/place/VV2F%2BQVX,+Karang+Joang,+Kec.+Balikpapan+Utara,+Kota+Balikpapan,+Kalimantan+Timur/@-1.1480877,116.874523,17z/data=!4m5!3m4!1s0x2df14b8cfdc3d5bd:0xffc82decab0089c1!8m2!3d-1.1480125!4d116.8747344?hl=id&entry=ttu"><br>Alamat Kos</a><br><br>
+                                            <strong>CP:</strong><br>0813 8165 4483<br><br>
+                                            <strong>Lokasi:</strong><a href="https://goo.gl/maps/UvKUkwyyKLdGacKN7"><br>Alamat Kos</a><br><br>
                                         </div>
                                         <div class="modal-footer">
                                             <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
@@ -967,7 +967,7 @@
                                                 <img src="{{ asset('image/logo.png') }}" class="rounded" width="50%" height="50%">
                                             </div><br><br>
                                             <strong>CP:</strong><br>08** **** ****<br><br>
-                                            <strong>Lokasi:</strong><a href="https://www.google.com/maps/place/VV2F%2BQVX,+Karang+Joang,+Kec.+Balikpapan+Utara,+Kota+Balikpapan,+Kalimantan+Timur/@-1.1480877,116.874523,17z/data=!4m5!3m4!1s0x2df14b8cfdc3d5bd:0xffc82decab0089c1!8m2!3d-1.1480125!4d116.8747344?hl=id&entry=ttu"><br>Alamat Kos</a><br><br>
+                                            <strong>Lokasi:</strong><a href="..."><br>Alamat Kos</a><br><br>
                                         </div>
                                         <div class="modal-footer">
                                             <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
@@ -1000,8 +1000,8 @@
                                             <div class="text-center">
                                                 <img src="{{ asset('image/logo.png') }}" class="rounded" width="50%" height="50%">
                                             </div><br><br>
-                                            <strong>CP:</strong><br>08** **** ****<br><br>
-                                            <strong>Lokasi:</strong><a href="https://www.google.com/maps/place/VV2F%2BQVX,+Karang+Joang,+Kec.+Balikpapan+Utara,+Kota+Balikpapan,+Kalimantan+Timur/@-1.1480877,116.874523,17z/data=!4m5!3m4!1s0x2df14b8cfdc3d5bd:0xffc82decab0089c1!8m2!3d-1.1480125!4d116.8747344?hl=id&entry=ttu"><br>Alamat Kos</a><br><br>
+                                            <strong>CP:</strong><br>0811 5443 032<br><br>
+                                            <strong>Lokasi:</strong><a href="https://goo.gl/maps/iTV7gfMnMNdZKPKw7"><br>Alamat Kos</a><br><br>
                                         </div>
                                         <div class="modal-footer">
                                             <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
@@ -1035,7 +1035,7 @@
                                                 <img src="{{ asset('image/logo.png') }}" class="rounded" width="50%" height="50%">
                                             </div><br><br>
                                             <strong>CP:</strong><br>08** **** ****<br><br>
-                                            <strong>Lokasi:</strong><a href="https://www.google.com/maps/place/VV2F%2BQVX,+Karang+Joang,+Kec.+Balikpapan+Utara,+Kota+Balikpapan,+Kalimantan+Timur/@-1.1480877,116.874523,17z/data=!4m5!3m4!1s0x2df14b8cfdc3d5bd:0xffc82decab0089c1!8m2!3d-1.1480125!4d116.8747344?hl=id&entry=ttu"><br>Alamat Kos</a><br><br>
+                                            <strong>Lokasi:</strong><a href="https://goo.gl/maps/4BcjFaXxs2nFoT7i9"><br>Alamat Kos</a><br><br>
                                         </div>
                                         <div class="modal-footer">
                                             <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
@@ -1069,7 +1069,7 @@
                                                 <img src="{{ asset('image/logo.png') }}" class="rounded" width="50%" height="50%">
                                             </div><br><br>
                                             <strong>CP:</strong><br>08** **** ****<br><br>
-                                            <strong>Lokasi:</strong><a href="https://www.google.com/maps/place/VV2F%2BQVX,+Karang+Joang,+Kec.+Balikpapan+Utara,+Kota+Balikpapan,+Kalimantan+Timur/@-1.1480877,116.874523,17z/data=!4m5!3m4!1s0x2df14b8cfdc3d5bd:0xffc82decab0089c1!8m2!3d-1.1480125!4d116.8747344?hl=id&entry=ttu"><br>Alamat Kos</a><br><br>
+                                            <strong>Lokasi:</strong><a href="..."><br>Alamat Kos</a><br><br>
                                         </div>
                                         <div class="modal-footer">
                                             <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
@@ -1103,7 +1103,7 @@
                                                 <img src="{{ asset('image/logo.png') }}" class="rounded" width="50%" height="50%">
                                             </div><br><br>
                                             <strong>CP:</strong><br>08** **** ****<br><br>
-                                            <strong>Lokasi:</strong><a href="https://www.google.com/maps/place/VV2F%2BQVX,+Karang+Joang,+Kec.+Balikpapan+Utara,+Kota+Balikpapan,+Kalimantan+Timur/@-1.1480877,116.874523,17z/data=!4m5!3m4!1s0x2df14b8cfdc3d5bd:0xffc82decab0089c1!8m2!3d-1.1480125!4d116.8747344?hl=id&entry=ttu"><br>Alamat Kos</a><br><br>
+                                            <strong>Lokasi:</strong><a href="https://goo.gl/maps/JWcxPaTM3gfxNTDV8"><br>Alamat Kos</a><br><br>
                                         </div>
                                         <div class="modal-footer">
                                             <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
@@ -1137,7 +1137,7 @@
                                                 <img src="{{ asset('image/logo.png') }}" class="rounded" width="50%" height="50%">
                                             </div><br><br>
                                             <strong>CP:</strong><br>08** **** ****<br><br>
-                                            <strong>Lokasi:</strong><a href="https://www.google.com/maps/place/VV2F%2BQVX,+Karang+Joang,+Kec.+Balikpapan+Utara,+Kota+Balikpapan,+Kalimantan+Timur/@-1.1480877,116.874523,17z/data=!4m5!3m4!1s0x2df14b8cfdc3d5bd:0xffc82decab0089c1!8m2!3d-1.1480125!4d116.8747344?hl=id&entry=ttu"><br>Alamat Kos</a><br><br>
+                                            <strong>Lokasi:</strong><a href="https://goo.gl/maps/25JgzP25kVmNuQYE6"><br>Alamat Kos</a><br><br>
                                         </div>
                                         <div class="modal-footer">
                                             <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
@@ -1171,7 +1171,7 @@
                                                 <img src="{{ asset('image/logo.png') }}" class="rounded" width="50%" height="50%">
                                             </div><br><br>
                                             <strong>CP:</strong><br>08** **** ****<br><br>
-                                            <strong>Lokasi:</strong><a href="https://www.google.com/maps/place/VV2F%2BQVX,+Karang+Joang,+Kec.+Balikpapan+Utara,+Kota+Balikpapan,+Kalimantan+Timur/@-1.1480877,116.874523,17z/data=!4m5!3m4!1s0x2df14b8cfdc3d5bd:0xffc82decab0089c1!8m2!3d-1.1480125!4d116.8747344?hl=id&entry=ttu"><br>Alamat Kos</a><br><br>
+                                            <strong>Lokasi:</strong><a href="https://goo.gl/maps/25JgzP25kVmNuQYE6"><br>Alamat Kos</a><br><br>
                                         </div>
                                         <div class="modal-footer">
                                             <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
@@ -1205,7 +1205,7 @@
                                                 <img src="{{ asset('image/logo.png') }}" class="rounded" width="50%" height="50%">
                                             </div><br><br>
                                             <strong>CP:</strong><br>08** **** ****<br><br>
-                                            <strong>Lokasi:</strong><a href="https://www.google.com/maps/place/VV2F%2BQVX,+Karang+Joang,+Kec.+Balikpapan+Utara,+Kota+Balikpapan,+Kalimantan+Timur/@-1.1480877,116.874523,17z/data=!4m5!3m4!1s0x2df14b8cfdc3d5bd:0xffc82decab0089c1!8m2!3d-1.1480125!4d116.8747344?hl=id&entry=ttu"><br>Alamat Kos</a><br><br>
+                                            <strong>Lokasi:</strong><a href="..."><br>Alamat Kos</a><br><br>
                                         </div>
                                         <div class="modal-footer">
                                             <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
@@ -1239,7 +1239,7 @@
                                                 <img src="{{ asset('image/logo.png') }}" class="rounded" width="50%" height="50%">
                                             </div><br><br>
                                             <strong>CP:</strong><br>08** **** ****<br><br>
-                                            <strong>Lokasi:</strong><a href="https://www.google.com/maps/place/VV2F%2BQVX,+Karang+Joang,+Kec.+Balikpapan+Utara,+Kota+Balikpapan,+Kalimantan+Timur/@-1.1480877,116.874523,17z/data=!4m5!3m4!1s0x2df14b8cfdc3d5bd:0xffc82decab0089c1!8m2!3d-1.1480125!4d116.8747344?hl=id&entry=ttu"><br>Alamat Kos</a><br><br>
+                                            <strong>Lokasi:</strong><a href="..."><br>Alamat Kos</a><br><br>
                                         </div>
                                         <div class="modal-footer">
                                             <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
@@ -1273,7 +1273,7 @@
                                                 <img src="{{ asset('image/logo.png') }}" class="rounded" width="50%" height="50%">
                                             </div><br><br>
                                             <strong>CP:</strong><br>08** **** ****<br><br>
-                                            <strong>Lokasi:</strong><a href="https://www.google.com/maps/place/VV2F%2BQVX,+Karang+Joang,+Kec.+Balikpapan+Utara,+Kota+Balikpapan,+Kalimantan+Timur/@-1.1480877,116.874523,17z/data=!4m5!3m4!1s0x2df14b8cfdc3d5bd:0xffc82decab0089c1!8m2!3d-1.1480125!4d116.8747344?hl=id&entry=ttu"><br>Alamat Kos</a><br><br>
+                                            <strong>Lokasi:</strong><a href="..."><br>Alamat Kos</a><br><br>
                                         </div>
                                         <div class="modal-footer">
                                             <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
@@ -1307,7 +1307,7 @@
                                                 <img src="{{ asset('image/logo.png') }}" class="rounded" width="50%" height="50%">
                                             </div><br><br>
                                             <strong>CP:</strong><br>08** **** ****<br><br>
-                                            <strong>Lokasi:</strong><a href="https://www.google.com/maps/place/VV2F%2BQVX,+Karang+Joang,+Kec.+Balikpapan+Utara,+Kota+Balikpapan,+Kalimantan+Timur/@-1.1480877,116.874523,17z/data=!4m5!3m4!1s0x2df14b8cfdc3d5bd:0xffc82decab0089c1!8m2!3d-1.1480125!4d116.8747344?hl=id&entry=ttu"><br>Alamat Kos</a><br><br>
+                                            <strong>Lokasi:</strong><a href="https://goo.gl/maps/JWcxPaTM3gfxNTDV8"><br>Alamat Kos</a><br><br>
                                         </div>
                                         <div class="modal-footer">
                                             <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
@@ -1340,8 +1340,8 @@
                                             <div class="text-center">
                                                 <img src="{{ asset('image/logo.png') }}" class="rounded" width="50%" height="50%">
                                             </div><br><br>
-                                            <strong>CP:</strong><br>08** **** ****<br><br>
-                                            <strong>Lokasi:</strong><a href="https://www.google.com/maps/place/VV2F%2BQVX,+Karang+Joang,+Kec.+Balikpapan+Utara,+Kota+Balikpapan,+Kalimantan+Timur/@-1.1480877,116.874523,17z/data=!4m5!3m4!1s0x2df14b8cfdc3d5bd:0xffc82decab0089c1!8m2!3d-1.1480125!4d116.8747344?hl=id&entry=ttu"><br>Alamat Kos</a><br><br>
+                                            <strong>CP:</strong><br>0813 4773 4440<br><br>
+                                            <strong>Lokasi:</strong><a href="https://goo.gl/maps/oDXbFHgXgXTjcwQJ9"><br>Alamat Kos</a><br><br>
                                         </div>
                                         <div class="modal-footer">
                                             <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
@@ -1374,8 +1374,8 @@
                                             <div class="text-center">
                                                 <img src="{{ asset('image/logo.png') }}" class="rounded" width="50%" height="50%">
                                             </div><br><br>
-                                            <strong>CP:</strong><br>08** **** ****<br><br>
-                                            <strong>Lokasi:</strong><a href="https://www.google.com/maps/place/VV2F%2BQVX,+Karang+Joang,+Kec.+Balikpapan+Utara,+Kota+Balikpapan,+Kalimantan+Timur/@-1.1480877,116.874523,17z/data=!4m5!3m4!1s0x2df14b8cfdc3d5bd:0xffc82decab0089c1!8m2!3d-1.1480125!4d116.8747344?hl=id&entry=ttu"><br>Alamat Kos</a><br><br>
+                                            <strong>CP:</strong><br>0811 597 046<br><br>
+                                            <strong>Lokasi:</strong><a href="..."><br>Alamat Kos</a><br><br>
                                         </div>
                                         <div class="modal-footer">
                                             <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
@@ -1408,8 +1408,8 @@
                                             <div class="text-center">
                                                 <img src="{{ asset('image/logo.png') }}" class="rounded" width="50%" height="50%">
                                             </div><br><br>
-                                            <strong>CP:</strong><br>08** **** ****<br><br>
-                                            <strong>Lokasi:</strong><a href="https://www.google.com/maps/place/VV2F%2BQVX,+Karang+Joang,+Kec.+Balikpapan+Utara,+Kota+Balikpapan,+Kalimantan+Timur/@-1.1480877,116.874523,17z/data=!4m5!3m4!1s0x2df14b8cfdc3d5bd:0xffc82decab0089c1!8m2!3d-1.1480125!4d116.8747344?hl=id&entry=ttu"><br>Alamat Kos</a><br><br>
+                                            <strong>CP:</strong><br>0812 5720 1525<br><br>
+                                            <strong>Lokasi:</strong><a href="https://goo.gl/maps/KQH6Hg8NMoLMmcrc6"><br>Alamat Kos</a><br><br>
                                         </div>
                                         <div class="modal-footer">
                                             <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
@@ -1443,7 +1443,7 @@
                                                 <img src="{{ asset('image/logo.png') }}" class="rounded" width="50%" height="50%">
                                             </div><br><br>
                                             <strong>CP:</strong><br>08** **** ****<br><br>
-                                            <strong>Lokasi:</strong><a href="https://www.google.com/maps/place/VV2F%2BQVX,+Karang+Joang,+Kec.+Balikpapan+Utara,+Kota+Balikpapan,+Kalimantan+Timur/@-1.1480877,116.874523,17z/data=!4m5!3m4!1s0x2df14b8cfdc3d5bd:0xffc82decab0089c1!8m2!3d-1.1480125!4d116.8747344?hl=id&entry=ttu"><br>Alamat Kos</a><br><br>
+                                            <strong>Lokasi:</strong><a href="https://goo.gl/maps/7ZpTaSez5TaHe3ot8"><br>Alamat Kos</a><br><br>
                                         </div>
                                         <div class="modal-footer">
                                             <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
@@ -1477,7 +1477,7 @@
                                                 <img src="{{ asset('image/logo.png') }}" class="rounded" width="50%" height="50%">
                                             </div><br><br>
                                             <strong>CP:</strong><br>08** **** ****<br><br>
-                                            <strong>Lokasi:</strong><a href="https://www.google.com/maps/place/VV2F%2BQVX,+Karang+Joang,+Kec.+Balikpapan+Utara,+Kota+Balikpapan,+Kalimantan+Timur/@-1.1480877,116.874523,17z/data=!4m5!3m4!1s0x2df14b8cfdc3d5bd:0xffc82decab0089c1!8m2!3d-1.1480125!4d116.8747344?hl=id&entry=ttu"><br>Alamat Kos</a><br><br>
+                                            <strong>Lokasi:</strong><a href="https://maps.app.goo.gl/LfUcWgyuA8byDEHe9"><br>Alamat Kos</a><br><br>
                                         </div>
                                         <div class="modal-footer">
                                             <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
@@ -1510,8 +1510,8 @@
                                             <div class="text-center">
                                                 <img src="{{ asset('image/logo.png') }}" class="rounded" width="50%" height="50%">
                                             </div><br><br>
-                                            <strong>CP:</strong><br>08** **** ****<br><br>
-                                            <strong>Lokasi:</strong><a href="https://www.google.com/maps/place/VV2F%2BQVX,+Karang+Joang,+Kec.+Balikpapan+Utara,+Kota+Balikpapan,+Kalimantan+Timur/@-1.1480877,116.874523,17z/data=!4m5!3m4!1s0x2df14b8cfdc3d5bd:0xffc82decab0089c1!8m2!3d-1.1480125!4d116.8747344?hl=id&entry=ttu"><br>Alamat Kos</a><br><br>
+                                            <strong>CP:</strong><br>0812 5058 6459<br><br>
+                                            <strong>Lokasi:</strong><a href="https://goo.gl/maps/Xdbpiv6ZxMapgCyG9"><br>Alamat Kos</a><br><br>
                                         </div>
                                         <div class="modal-footer">
                                             <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
@@ -1544,8 +1544,8 @@
                                             <div class="text-center">
                                                 <img src="{{ asset('image/logo.png') }}" class="rounded" width="50%" height="50%">
                                             </div><br><br>
-                                            <strong>CP:</strong><br>08** **** ****<br><br>
-                                            <strong>Lokasi:</strong><a href="https://www.google.com/maps/place/VV2F%2BQVX,+Karang+Joang,+Kec.+Balikpapan+Utara,+Kota+Balikpapan,+Kalimantan+Timur/@-1.1480877,116.874523,17z/data=!4m5!3m4!1s0x2df14b8cfdc3d5bd:0xffc82decab0089c1!8m2!3d-1.1480125!4d116.8747344?hl=id&entry=ttu"><br>Alamat Kos</a><br><br>
+                                            <strong>CP:</strong><br>0853 4809 0754<br><br>
+                                            <strong>Lokasi:</strong><a href="https://maps.app.goo.gl/PtjEDmA6pYJaP1DM8"><br>Alamat Kos</a><br><br>
                                         </div>
                                         <div class="modal-footer">
                                             <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
@@ -1578,8 +1578,8 @@
                                             <div class="text-center">
                                                 <img src="{{ asset('image/logo.png') }}" class="rounded" width="50%" height="50%">
                                             </div><br><br>
-                                            <strong>CP:</strong><br>08** **** ****<br><br>
-                                            <strong>Lokasi:</strong><a href="https://www.google.com/maps/place/VV2F%2BQVX,+Karang+Joang,+Kec.+Balikpapan+Utara,+Kota+Balikpapan,+Kalimantan+Timur/@-1.1480877,116.874523,17z/data=!4m5!3m4!1s0x2df14b8cfdc3d5bd:0xffc82decab0089c1!8m2!3d-1.1480125!4d116.8747344?hl=id&entry=ttu"><br>Alamat Kos</a><br><br>
+                                            <strong>CP:</strong><br>0813 4652 8247<br><br>
+                                            <strong>Lokasi:</strong><a href="..."><br>Alamat Kos</a><br><br>
                                         </div>
                                         <div class="modal-footer">
                                             <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
@@ -1612,8 +1612,8 @@
                                             <div class="text-center">
                                                 <img src="{{ asset('image/logo.png') }}" class="rounded" width="50%" height="50%">
                                             </div><br><br>
-                                            <strong>CP:</strong><br>08** **** ****<br><br>
-                                            <strong>Lokasi:</strong><a href="https://www.google.com/maps/place/VV2F%2BQVX,+Karang+Joang,+Kec.+Balikpapan+Utara,+Kota+Balikpapan,+Kalimantan+Timur/@-1.1480877,116.874523,17z/data=!4m5!3m4!1s0x2df14b8cfdc3d5bd:0xffc82decab0089c1!8m2!3d-1.1480125!4d116.8747344?hl=id&entry=ttu"><br>Alamat Kos</a><br><br>
+                                            <strong>CP:</strong><br>0852 4746 1616<br><br>
+                                            <strong>Lokasi:</strong><a href="..."><br>Alamat Kos</a><br><br>
                                         </div>
                                         <div class="modal-footer">
                                             <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
@@ -1647,7 +1647,7 @@
                                                 <img src="{{ asset('image/logo.png') }}" class="rounded" width="50%" height="50%">
                                             </div><br><br>
                                             <strong>CP:</strong><br>08** **** ****<br><br>
-                                            <strong>Lokasi:</strong><a href="https://www.google.com/maps/place/VV2F%2BQVX,+Karang+Joang,+Kec.+Balikpapan+Utara,+Kota+Balikpapan,+Kalimantan+Timur/@-1.1480877,116.874523,17z/data=!4m5!3m4!1s0x2df14b8cfdc3d5bd:0xffc82decab0089c1!8m2!3d-1.1480125!4d116.8747344?hl=id&entry=ttu"><br>Alamat Kos</a><br><br>
+                                            <strong>Lokasi:</strong><a href="..."><br>Alamat Kos</a><br><br>
                                         </div>
                                         <div class="modal-footer">
                                             <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
@@ -1681,7 +1681,7 @@
                                                 <img src="{{ asset('image/logo.png') }}" class="rounded" width="50%" height="50%">
                                             </div><br><br>
                                             <strong>CP:</strong><br>08** **** ****<br><br>
-                                            <strong>Lokasi:</strong><a href="https://www.google.com/maps/place/VV2F%2BQVX,+Karang+Joang,+Kec.+Balikpapan+Utara,+Kota+Balikpapan,+Kalimantan+Timur/@-1.1480877,116.874523,17z/data=!4m5!3m4!1s0x2df14b8cfdc3d5bd:0xffc82decab0089c1!8m2!3d-1.1480125!4d116.8747344?hl=id&entry=ttu"><br>Alamat Kos</a><br><br>
+                                            <strong>Lokasi:</strong><a href="..."><br>Alamat Kos</a><br><br>
                                         </div>
                                         <div class="modal-footer">
                                             <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
@@ -1714,8 +1714,8 @@
                                             <div class="text-center">
                                                 <img src="{{ asset('image/logo.png') }}" class="rounded" width="50%" height="50%">
                                             </div><br><br>
-                                            <strong>CP:</strong><br>08** **** ****<br><br>
-                                            <strong>Lokasi:</strong><a href="https://www.google.com/maps/place/VV2F%2BQVX,+Karang+Joang,+Kec.+Balikpapan+Utara,+Kota+Balikpapan,+Kalimantan+Timur/@-1.1480877,116.874523,17z/data=!4m5!3m4!1s0x2df14b8cfdc3d5bd:0xffc82decab0089c1!8m2!3d-1.1480125!4d116.8747344?hl=id&entry=ttu"><br>Alamat Kos</a><br><br>
+                                            <strong>CP:</strong><br>0813 4652 8247<br><br>
+                                            <strong>Lokasi:</strong><a href="..."><br>Alamat Kos</a><br><br>
                                         </div>
                                         <div class="modal-footer">
                                             <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
@@ -1749,7 +1749,7 @@
                                                 <img src="{{ asset('image/logo.png') }}" class="rounded" width="50%" height="50%">
                                             </div><br><br>
                                             <strong>CP:</strong><br>08** **** ****<br><br>
-                                            <strong>Lokasi:</strong><a href="https://www.google.com/maps/place/VV2F%2BQVX,+Karang+Joang,+Kec.+Balikpapan+Utara,+Kota+Balikpapan,+Kalimantan+Timur/@-1.1480877,116.874523,17z/data=!4m5!3m4!1s0x2df14b8cfdc3d5bd:0xffc82decab0089c1!8m2!3d-1.1480125!4d116.8747344?hl=id&entry=ttu"><br>Alamat Kos</a><br><br>
+                                            <strong>Lokasi:</strong><a href="https://goo.gl/maps/S51K6CLfa9aWb11H7"><br>Alamat Kos</a><br><br>
                                         </div>
                                         <div class="modal-footer">
                                             <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
@@ -1782,8 +1782,8 @@
                                             <div class="text-center">
                                                 <img src="{{ asset('image/logo.png') }}" class="rounded" width="50%" height="50%">
                                             </div><br><br>
-                                            <strong>CP:</strong><br>08** **** ****<br><br>
-                                            <strong>Lokasi:</strong><a href="https://www.google.com/maps/place/VV2F%2BQVX,+Karang+Joang,+Kec.+Balikpapan+Utara,+Kota+Balikpapan,+Kalimantan+Timur/@-1.1480877,116.874523,17z/data=!4m5!3m4!1s0x2df14b8cfdc3d5bd:0xffc82decab0089c1!8m2!3d-1.1480125!4d116.8747344?hl=id&entry=ttu"><br>Alamat Kos</a><br><br>
+                                            <strong>CP:</strong><br>0857 5166 0387<br><br>
+                                            <strong>Lokasi:</strong><a href="https://goo.gl/maps/bTJDh34XqERDPRFq8"><br>Alamat Kos</a><br><br>
                                         </div>
                                         <div class="modal-footer">
                                             <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
@@ -1816,8 +1816,8 @@
                                             <div class="text-center">
                                                 <img src="{{ asset('image/logo.png') }}" class="rounded" width="50%" height="50%">
                                             </div><br><br>
-                                            <strong>CP:</strong><br>08** **** ****<br><br>
-                                            <strong>Lokasi:</strong><a href="https://www.google.com/maps/place/VV2F%2BQVX,+Karang+Joang,+Kec.+Balikpapan+Utara,+Kota+Balikpapan,+Kalimantan+Timur/@-1.1480877,116.874523,17z/data=!4m5!3m4!1s0x2df14b8cfdc3d5bd:0xffc82decab0089c1!8m2!3d-1.1480125!4d116.8747344?hl=id&entry=ttu"><br>Alamat Kos</a><br><br>
+                                            <strong>CP:</strong><br>0813 4620 2121<br><br>
+                                            <strong>Lokasi:</strong><a href="..."><br>Alamat Kos</a><br><br>
                                         </div>
                                         <div class="modal-footer">
                                             <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
