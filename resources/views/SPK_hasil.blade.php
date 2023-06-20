@@ -18,7 +18,7 @@
             <img src="/image/logo.png" alt="" width="200px" height="100px">
         </a>
         <span>
-            <h2>Kamu Ingin Mencari Kos?</h2><p>Dapatkan kos yang anda inginkan dengan memilih rincian kriteria pada "Filter SPK" di bawah ini:</p>
+            <h2>Kamu Ingin Mencari Kos?</h2><p>Dapatkan kos yang anda inginkan dengan memilih rincian kriteria dengan maksimal 3 kriteria pada "Filter SPK" di bawah ini:</p>
         </span>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
             aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
