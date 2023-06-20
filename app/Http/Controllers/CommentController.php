@@ -14,6 +14,7 @@ class CommentController extends Controller
         if ($request->ids) {
             $ids = $request->input('ids');
             $koss = Kos::whereIn('id', $ids)->get();
+            $pilih = true;
 
             foreach ($koss as $key => $kos) {
                 $kos->C1 = ($kos->C1 - Kos::min('C1')) / (Kos::max('C1') - Kos::min('C1')) * (1/1+1/2+1/3+1/4+1/5+1/6+1/7+1/8+1/9+1/10)/10;
@@ -39,9 +40,10 @@ class CommentController extends Controller
         else {
             $koss = [];
             $ids = [];
+            $pilih = false;
         }
 
         $komens = Comment::latest()->get();
-        return view('hasil', compact('koss', 'ids', 'komens'));
+        return view('SPK_hasil', compact('koss', 'ids', 'komens', 'pilih'));
     }
 }

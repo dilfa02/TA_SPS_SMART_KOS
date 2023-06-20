@@ -2,7 +2,6 @@
 
 use App\Http\Controllers\AlternatifController;
 use Illuminate\Support\Facades\Route;
-use App\Http\Controllers\PageController;
 use App\Http\Controllers\CommentController;
 
 
@@ -17,13 +16,7 @@ use App\Http\Controllers\CommentController;
 |
 */
 
-Route::get('/dashboard', [PageController::class, 'dashboard'])->name('dashboard');
-
-Route::get('/alternatif', [AlternatifController::class, 'tampil'])->name('alternatif');
-
-Route::post('/alternatif', [AlternatifController::class, 'pilih'])->name('pilih_alternatif');
-
-Route::get('/hasil', [PageController::class, 'hasil'])->name('hasil');
+Route::get('/SPK', [AlternatifController::class, 'hasil_all'])->name('SPK');
 
 Route::post('/hasil', [AlternatifController::class, 'hasil'])->name('hasil');
 
