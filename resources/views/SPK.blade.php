@@ -281,7 +281,7 @@
             <div style="justify-content: right" class="d-flex mb-3 py-2">
                 <div class="row w-100 align-items-center">
                     <div class="col text-left">
-                        <b>Alternatif / <span class="text-muted">Semua</span></b>
+                        <b>Alternatif / <span class="text-muted">{{ $keterangan }}</span></b>
                     </div>
                     <div class="col-auto text-right">
                         <button type="button" class="btn btn-sm btn-dark dropdown-toggle" data-bs-toggle="dropdown"
@@ -289,26 +289,33 @@
                             Filter
                         </button>
                         <ul class="dropdown-menu">
-                            <form action="{{ route('filter', 's') }}" method="POST">
+                            @if ($keterangan == 'Semua')
+                                <form action="{{ route('SPK') }}" method="GET">
+                            @else
+                                <form action="{{ route('filter', 's') }}" method="POST">
+                            @endif
                                 @csrf
                                 @foreach ($ids as $id)
                                     <input type="hidden" name="ids[]" value="{{ $id }}">
+                                    <input type="hidden" name="keterangan" value="{{ $keterangan }}">
                                 @endforeach
                                 <li><button type='submit' class="dropdown-item" href="">Semua</button></li>
                             </form>
-    
+
                             <form action="{{ route('filter', 'l') }}" method="POST">
                                 @csrf
                                 @foreach ($ids as $id)
                                     <input type="hidden" name="ids[]" value="{{ $id }}">
+                                    <input type="hidden" name="keterangan" value="{{ $keterangan }}">
                                 @endforeach
                                 <li><button type='submit' class="dropdown-item" href="">Laki-Laki</button></li>
                             </form>
-    
+
                             <form action="{{ route('filter', 'p') }}" method="POST">
                                 @csrf
                                 @foreach ($ids as $id)
                                     <input type="hidden" name="ids[]" value="{{ $id }}">
+                                    <input type="hidden" name="keterangan" value="{{ $keterangan }}">
                                 @endforeach
                                 <li><button type='submit' class="dropdown-item" href="">Perempuan</button></li>
                             </form>
@@ -322,8 +329,11 @@
                     <table class="table text-center">
                         <thead>
                             <tr>
-                                <th scope="col">No</th>
+                                <th scope="col">@if ($keterangan != 'Semua') Rank @else No @endif</th>
                                 <th scope="col">Alternatif</th>
+                                @if ($keterangan != 'Semua')
+                                    <th scope="col">Score</th>
+                                @endif
                                 <th scope="col">Data Real</th>
                             </tr>
                         </thead>
@@ -332,6 +342,9 @@
                                 <tr>
                                     <th scope="row">{{ $loop->iteration }}</th>
                                     <td>{{ $kos->alternatif }}</td>
+                                    @if ($keterangan != 'Semua')
+                                        <td>{{ $kos->hasil }}</td>
+                                    @endif
                                     <td><button type="button" class="btn btn-sm btn-dark" data-bs-toggle="modal"
                                             data-bs-target="#{{ str_replace(' ', '', $kos->alternatif) }}">
                                             Lihat
@@ -2077,9 +2090,11 @@
                     <h4 class="text-center py-5">Data Alternatif Kos Yang Anda Cari Belum Ada. Silahkan Pilih Rincian Kriteria Yang lain
                     </h4>
                 @endif
-                <div class="d-flex justify-content-end btn-dark">
-                    {{$koss->links()}}
-                </div>
+                @if ( Request::is('SPK') )
+                    <div class="d-flex justify-content-end">
+                        {{ $koss->links() }}
+                    </div>
+                @endif
             </div>
         </div>
     </div>

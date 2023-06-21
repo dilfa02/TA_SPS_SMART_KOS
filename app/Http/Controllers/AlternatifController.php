@@ -8,31 +8,19 @@ use App\Models\Comment;
 
 class AlternatifController extends Controller
 {
-    public function pilih(Request $request)
-    {
-        $pilihan1 = $request->pilihan1;
-        $pilihan2 = $request->pilihan2;
-        $pilihan3 = $request->pilihan3;
-        return view('mencari alternatif', compact('pilihan1', 'pilihan2', 'pilihan3'));
-    }
-
-    public function tampil()
-    {
-        [$pilihan1, $pilihan2, $pilihan3] = '';
-        return view('mencari alternatif', compact('pilihan1', 'pilihan2', 'pilihan3'));
-    }
-
     public function hasil_all()
     {
-        $koss = Kos::paginate(10);
+        $koss = Kos::paginate(11);
+        $kos_ids = Kos::all();
         $ids = [];
 
-        foreach ($koss as $key => $kos) {
+        foreach ($kos_ids as $key => $kos) {
             array_push($ids, $kos->id);
         }
 
         $komens = Comment::latest()->get();
-        return view('SPK', compact('koss', 'ids', 'komens'));
+        $keterangan = "Semua";
+        return view('SPK', compact('koss', 'ids', 'komens', 'keterangan'));
     }
 
     public function hasil(Request $request)
@@ -45,43 +33,43 @@ class AlternatifController extends Controller
         if ($request->kk_alternatif) {
             $query->where('C1', $request->kk_alternatif);
             $pilih = true;
-        }   
+        }
         if ($request->harga_alternatif) {
             $query->where('C2', $request->harga_alternatif);
             $pilih = true;
-        }   
+        }
         if ($request->fk_alternatif) {
             $query->where('C3', $request->fk_alternatif);
             $pilih = true;
-        }   
+        }
         if ($request->kkm_alternatif) {
             $query->where('C4', $request->kkm_alternatif);
             $pilih = true;
-        }   
+        }
         if ($request->keamanan_alternatif) {
             $query->where('C5', $request->keamanan_alternatif);
             $pilih = true;
-        }   
+        }
         if ($request->jarak_alternatif) {
             $query->where('C6', $request->jarak_alternatif);
             $pilih = true;
-        }   
+        }
         if ($request->lingkungan_alternatif) {
             $query->where('C7', $request->lingkungan_alternatif);
             $pilih = true;
-        }   
+        }
         if ($request->fu_alternatif) {
             $query->where('C8', $request->fu_alternatif);
             $pilih = true;
-        }   
+        }
         if ($request->lk_alternatif) {
             $query->where('C9', $request->lk_alternatif);
             $pilih = true;
-        }   
+        }
         if ($request->parkiran_alternatif) {
             $query->where('C10', $request->parkiran_alternatif);
             $pilih = true;
-        }   
+        }
 
         $koss = $query->get();
         foreach ($koss as $key => $kos) {
@@ -106,7 +94,9 @@ class AlternatifController extends Controller
         $koss = $koss->sortByDesc('hasil');
         $koss = $koss;
         $komens = Comment::latest()->get();
-        return view('SPK_hasil', compact('koss', 'ids', 'komens', 'pilih'));
+        $keterangan = "Hasil Rekomendasi";
+
+        return view('SPK', compact('koss', 'ids', 'komens', 'pilih', 'keterangan'));
     }
 
     public function filter(Request $request, $jenis) {
@@ -149,7 +139,8 @@ class AlternatifController extends Controller
         }
 
         $komens = Comment::latest()->get();
+        $keterangan = $request->keterangan;
 
-        return view('SPK_hasil', compact('koss', 'ids', 'komens', 'pilih'));
+        return view('SPK', compact('koss', 'ids', 'komens', 'pilih', 'keterangan'));
     }
 }
