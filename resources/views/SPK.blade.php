@@ -2103,7 +2103,7 @@
     <h6 class="pt-5 text-decoration-underline">Note:</h6>
     <p style="font-style: italic">
         #Jika kriteria dipilih hanya 1, maka kemungkinan rekomendasi alternatif yang tampil lebih banyak<br>
-        #Alternatif dengan score tertinggi adalah rekomendasi terbaik.<br>
+        #Alternatif dengan score tertinggi adalah rekomendasi terbaik<br>
         #Jika alternatif tidak muncul maka kos yang anda cari belum ada<br>
     </p>
 </div>
