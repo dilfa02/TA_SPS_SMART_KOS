@@ -2102,10 +2102,9 @@
 <div class="ms-3 mt-3">
     <h6 class="pt-5 text-decoration-underline">Note:</h6>
     <p style="font-style: italic">
-        #Semakin sedikit kriteria yang anda pilih akan semakin banyak pilihan alternatif yang akan tampil pada halaman hasil rekomendasi<br>
-        #Alternatif yang menghasilkan nilai score tertinggi akan menjadi ranking pertama dan alternatif atau rekomendasi terbaik.<br>
+        #Jika kriteria yang anda pilih hanya 1, maka alternatif yang akan tampil pada halaman hasil rekomendasi lebih banyak<br>
+        #Alternatif dengan score tertinggi adalah rekomendasi terbaik.<br>
         #Jika alternatif tidak muncul maka kos yang anda cari belum ada<br>
-        #Jika anda ingin melihat data real dari alternatif yang anda pilih, silahkan klik tombol "Lihat" pada kolom data real
     </p>
 </div>
 
