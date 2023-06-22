@@ -12,6 +12,7 @@ class AlternatifController extends Controller
     {
         $koss = Kos::paginate(11);
         $kos_ids = Kos::all();
+        $pilih = true;
         $ids = [];
 
         foreach ($kos_ids as $key => $kos) {
@@ -20,7 +21,7 @@ class AlternatifController extends Controller
 
         $komens = Comment::latest()->get();
         $keterangan = "Semua";
-        return view('SPK', compact('koss', 'ids', 'komens', 'keterangan'));
+        return view('SPK', compact('koss', 'ids', 'komens', 'keterangan', 'pilih'));
     }
 
     public function hasil(Request $request)

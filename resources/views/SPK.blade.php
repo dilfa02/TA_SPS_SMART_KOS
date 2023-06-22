@@ -325,7 +325,7 @@
             </div>
 
             <div class="mb-5">
-                @if (count($koss))
+                @if (count($koss) && $pilih == true)
                     <table class="table text-center">
                         <thead>
                             <tr>
@@ -2086,11 +2086,12 @@
                             @endforeach
                         </tbody>
                     </table>
+                @elseif ($pilih == false)
+                    <h4 class="text-center py-5">Silahkan pilih rincian kriteria terlebih dahulu</h4>
                 @else
-                    <h4 class="text-center py-5">Data Alternatif Kos Yang Anda Cari Belum Ada. Silahkan Pilih Rincian Kriteria Yang lain
-                    </h4>
+                    <h4 class="text-center py-5">Data Alternatif Kos Yang Anda Cari Belum Ada. Silahkan Pilih Rincian Kriteria Yang lain</h4>
                 @endif
-                @if ( Request::is('SPK') )
+                @if (Request::is('SPK') || Request::is('komen') && $keterangan == 'Semua')
                     <div class="d-flex justify-content-end">
                         {{ $koss->links() }}
                     </div>
@@ -2114,18 +2115,20 @@
         <input type="hidden" name="ids[]" value="{{ $id }}">
     @endforeach
 
+    <input type="hidden" name="keterangan" value="{{ $keterangan}}">
+
     <div class="d-flex pt-5 pb-3">
         <i class="fa-solid fa-comment fa-2xl ms-3"></i>
-            <input type="text" name="isi" placeholder="Add a comment" style="border-right: none; border-left: none; border-top: none; width:400px">
+            <input type="text" name="isi" placeholder="Add a comment" style="border-right: none; border-left: none; border-top: none; width:400px" required>
         <button type='submit' class="dropdown-item" href="">
             <i class="fa-solid fa-paper-plane fa-lg"></i>
         </button>
     </div>
 </form>
 
-<div class="card" style="width: 400px; height: 370px">
+<div class="card" style="width: 400px; height: 250px">
     <div class="card-body">
-      <div class="scrollable" style="overflow-y: auto; max-height: 300px;">
+      <div class="scrollable" style="overflow-y: auto; max-height: 200px;">
     @foreach ($komens as $komen)
         <div class="">
             <i class="fa-regular fa-user fa-lg ms-4"></i>
