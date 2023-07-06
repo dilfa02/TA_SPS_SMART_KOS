@@ -16,7 +16,9 @@ use App\Http\Controllers\CommentController;
 |
 */
 
-Route:: redirect('/', 'SPK');
+Route::redirect('/', 'SPK');
+
+Route::get('/home', function () {return view('main');});
 
 Route::get('/SPK', [AlternatifController::class, 'hasil_all'])->name('SPK');
 
